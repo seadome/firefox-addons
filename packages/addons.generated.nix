@@ -634,8 +634,8 @@
         platforms = platforms.all;
         };
       };
-    "tst-tab-search" = buildFirefoxXpiAddon {
-      pname = "tst-tab-search";
+    "tst-search" = buildFirefoxXpiAddon {
+      pname = "tst-search";
       version = "0.0.6";
       addonId = "@tst-search";
       url = "https://addons.mozilla.org/firefox/downloads/file/4009035/tst_search-0.0.6.xpi";
