@@ -17,12 +17,21 @@
     "slug": "add-custom-search-engine"
   },
   {
+    "slug": "anchors-reveal"
+  },
+  {
+    "slug": "auto-tab-discard"
+  },
+  {
     "slug": "bitwarden-password-manager",
     "pname": "bitwarden"
   },
   {
     "slug": "browserpass-ce",
     "pname": "browserpass"
+  },
+  {
+    "slug": "cookie-autodelete"
   },
   {
     "slug": "copy-selection-as-markdown"
@@ -53,10 +62,22 @@
     "slug": "laboratory-by-mozilla"
   },
   {
+    "slug": "libredirect"
+  },
+  {
+    "slug": "link-cleaner"
+  },
+  {
+    "slug": "linkhints"
+  },
+  {
     "slug": "multi-account-containers"
   },
   {
     "slug": "octolinker"
+  },
+  {
+    "slug": "offline-qr-code-generator"
   },
   {
     "slug": "old-reddit-redirect"
@@ -106,6 +127,9 @@
     }
   },
   {
+    "slug": "skip-redirect"
+  },
+  {
     "slug": "sourcegraph-for-firefox",
     "pname": "sourcegraph"
   },
@@ -115,6 +139,10 @@
       "tag": "predefined",
       "shortName": "bsd3"
     }
+  },
+  {
+    "pname": "surfingkeys",
+    "slug": "surfingkeys_ff"
   },
   {
     "slug": "tab-session-manager"
@@ -141,6 +169,11 @@
     }
   },
   {
+    "slug": "tst-search",
+    "pname": "tst-tab-search"
+  },
+
+  {
     "slug": "ublock-origin"
   },
   {
@@ -151,6 +184,10 @@
       "shortName": "agpl3"
     }
   },
+  {
+    "slug": "vim-vixen"
+  },
+
   {
     "slug": "violentmonkey"
   },

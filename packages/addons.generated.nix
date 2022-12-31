@@ -27,6 +27,34 @@
         platforms = platforms.all;
         };
       };
+    "anchors-reveal" = buildFirefoxXpiAddon {
+      pname = "anchors-reveal";
+      version = "1.1";
+      addonId = "jid1-XX0TcCGBa7GVGw@jetpack";
+      url = "https://addons.mozilla.org/firefox/downloads/file/1690998/anchors_reveal-1.1.xpi";
+      sha256 = "0412acabe742f7e78ff77aa95c4196150c240592a1bbbad75012b39a05352c36";
+      meta = with lib;
+      {
+        homepage = "http://dascritch.net/post/2014/06/24/Sniffeur-d-ancre";
+        description = "Reveal the anchors in a webpage";
+        license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "auto-tab-discard" = buildFirefoxXpiAddon {
+      pname = "auto-tab-discard";
+      version = "0.6.7";
+      addonId = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4045009/auto_tab_discard-0.6.7.xpi";
+      sha256 = "89e59b8603c444258c89a507d7126be52ad7a35e4f7b8cfbca039b746f70b5d5";
+      meta = with lib;
+      {
+        homepage = "https://webextension.org/listing/tab-discard.html";
+        description = "Increase browser speed and reduce memory load and when you have numerous open tabs.";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
       version = "2022.12.1";
@@ -52,6 +80,20 @@
         homepage = "https://github.com/browserpass/browserpass-extension";
         description = "Browserpass is a browser extension for Firefox and Chrome to retrieve login details from zx2c4's pass (<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fcd8dcb23434c51a78197a1c25d3e2277aa1bc764c827b4b4726ec5a5657eb64/http%3A//passwordstore.org\" rel=\"nofollow\">passwordstore.org</a>) straight from your browser. Tags: passwordstore, password store, password manager, passwordmanager, gpg";
         license = licenses.isc;
+        platforms = platforms.all;
+        };
+      };
+    "cookie-autodelete" = buildFirefoxXpiAddon {
+      pname = "cookie-autodelete";
+      version = "3.8.2";
+      addonId = "CookieAutoDelete@kennydo.com";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4040738/cookie_autodelete-3.8.2.xpi";
+      sha256 = "b02438aa5df2a79eb743da1b629b80d8c48114c9d030abb5538b591754e30f74";
+      meta = with lib;
+      {
+        homepage = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete";
+        description = "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Keep the ones you trust (forever/until restart) while deleting the rest. Containers Supported";
+        license = licenses.mit;
         platforms = platforms.all;
         };
       };
@@ -179,6 +221,48 @@
         platforms = platforms.all;
         };
       };
+    "libredirect" = buildFirefoxXpiAddon {
+      pname = "libredirect";
+      version = "2.3.4";
+      addonId = "7esoorv3@alefvanoon.anonaddy.me";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4020597/libredirect-2.3.4.xpi";
+      sha256 = "2e9e956a2ea123a4785999c9f18c352d3e2f6f6e152223b16dfaa73f291960b5";
+      meta = with lib;
+      {
+        homepage = "https://libredirect.codeberg.page";
+        description = "Redirects YouTube, Twitter, Instagram... requests to alternative privacy friendly frontends and backends.";
+        license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "link-cleaner" = buildFirefoxXpiAddon {
+      pname = "link-cleaner";
+      version = "1.5";
+      addonId = "{6d85dea2-0fb4-4de3-9f8c-264bce9a2296}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/671858/link_cleaner-1.5.xpi";
+      sha256 = "1ecec8cbe78b4166fc50da83213219f30575a8c183f7a13aabbff466c71ce560";
+      meta = with lib;
+      {
+        homepage = "https://github.com/idlewan/link_cleaner";
+        description = "Clean URLs that are about to be visited:\n- removes utm_* parameters\n- on item pages of aliexpress and amazon, removes tracking parameters\n- skip redirect pages of facebook, steam and reddit";
+        license = licenses.gpl3;
+        platforms = platforms.all;
+        };
+      };
+    "linkhints" = buildFirefoxXpiAddon {
+      pname = "linkhints";
+      version = "1.3.1";
+      addonId = "linkhints@lydell.github.io";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3985677/linkhints-1.3.1.xpi";
+      sha256 = "ca0d9ed8d52e3ab62a9d3d7c2be29ae30d22f2ecd37eff5b38e34c130d96711b";
+      meta = with lib;
+      {
+        homepage = "https://lydell.github.io/LinkHints";
+        description = "Click with your keyboard.";
+        license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
     "multi-account-containers" = buildFirefoxXpiAddon {
       pname = "multi-account-containers";
       version = "8.0.9";
@@ -203,6 +287,20 @@
       {
         homepage = "https://octolinker.vercel.app";
         description = "It turns language-specific module-loading statements like include, require or import into links. Depending on the language it will either redirect you to the referenced file or to an external website like a manual page or another service.";
+        license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
+    "offline-qr-code-generator" = buildFirefoxXpiAddon {
+      pname = "offline-qr-code-generator";
+      version = "1.8";
+      addonId = "offline-qr-code@rugk.github.io";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3870992/offline_qr_code_generator-1.8.xpi";
+      sha256 = "449c236b88cf3fea2da31bdc004fdf6379face841b77ccc5096cba3afbd983de";
+      meta = with lib;
+      {
+        homepage = "https://github.com/rugk/offline-qr-code";
+        description = "This add-on allows you to quickly generate a QR code offline with the URL of the open tab or any (selected) other text! 👍\n\nIt works completely offline protecting your privacy and has a big range of features like colored QR codes!";
         license = licenses.mit;
         platforms = platforms.all;
         };
@@ -422,6 +520,19 @@
         platforms = platforms.all;
         };
       };
+    "skip-redirect" = buildFirefoxXpiAddon {
+      pname = "skip-redirect";
+      version = "2.3.6";
+      addonId = "skipredirect@sblask";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3920533/skip_redirect-2.3.6.xpi";
+      sha256 = "dbe8950245c1f475c5c1c6daab89c79b83ba4680621c91e80f15be7b09b618ae";
+      meta = with lib;
+      {
+        description = "Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful.";
+        license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
       version = "22.11.24.1820";
@@ -445,6 +556,20 @@
         homepage = "https://steamdb.info/";
         description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
         license = licenses.bsd3;
+        platforms = platforms.all;
+        };
+      };
+    "surfingkeys" = buildFirefoxXpiAddon {
+      pname = "surfingkeys";
+      version = "1.12";
+      addonId = "{a8332c60-5b6d-41ee-bfc8-e9bb331d34ad}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4030019/surfingkeys_ff-1.12.xpi";
+      sha256 = "f4cb16c84ab104d93cb6ae2b3a6dcd7b3ce658b1c35e54fcce9d78f724238b44";
+      meta = with lib;
+      {
+        homepage = "https://github.com/brookhong/Surfingkeys";
+        description = "Rich shortcuts for you to click links / switch tabs / scroll pages or DIVs / capture full page or DIV etc, let you use the browser like vim, plus an embed vim editor.\n\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/353ad9268cb5cdeb3fa107ea4d154273229fe2ffe8a28e3fda510de7f6ddd75f/https%3A//github.com/brookhong/Surfingkeys\" rel=\"nofollow\">https://github.com/brookhong/Surfingkeys</a>";
+        license = licenses.mit;
         platforms = platforms.all;
         };
       };
@@ -509,6 +634,20 @@
         platforms = platforms.all;
         };
       };
+    "tst-tab-search" = buildFirefoxXpiAddon {
+      pname = "tst-tab-search";
+      version = "0.0.6";
+      addonId = "@tst-search";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4009035/tst_search-0.0.6.xpi";
+      sha256 = "1c4ebfaadb2af712684acc96d12da69e86d4bcff9db84c97c20d3576722a4981";
+      meta = with lib;
+      {
+        homepage = "https://github.com/NiklasGollenstede/tst-search#readme";
+        description = "Search for or filter the Tabs in TST's sidebar, and quickly find and activate them.";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
       version = "1.46.0";
@@ -534,6 +673,20 @@
         homepage = "https://github.com/lindylearn/unclutter";
         description = "Read, collect, and highlight articles with style.";
         license = licenses.agpl3;
+        platforms = platforms.all;
+        };
+      };
+    "vim-vixen" = buildFirefoxXpiAddon {
+      pname = "vim-vixen";
+      version = "1.2.3";
+      addonId = "vim-vixen@i-beam.org";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3845233/vim_vixen-1.2.3.xpi";
+      sha256 = "8f86c77ac8e65dfd3f1a32690b56ce9231ac7686d5a86bf85e3d5cc5a3a9e9b5";
+      meta = with lib;
+      {
+        homepage = "https://github.com/ueokande/vim-vixen";
+        description = "Accelerates your web browsing with Vim power!!";
+        license = licenses.mit;
         platforms = platforms.all;
         };
       };
