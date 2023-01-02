@@ -664,10 +664,10 @@
       };
     "unclutter" = buildFirefoxXpiAddon {
       pname = "unclutter";
-      version = "1.4.0";
+      version = "1.5.0";
       addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4046836/lindylearn-1.4.0.xpi";
-      sha256 = "ef865a711a0f706b8f2f056c0833b748c7a60a5c1a141ac633cc581ac0fb17a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4050842/lindylearn-1.5.0.xpi";
+      sha256 = "8900aae8953e2006af358d5eef1f298617e70f13f87944a237b8b7dc07532317";
       meta = with lib;
       {
         homepage = "https://github.com/lindylearn/unclutter";
