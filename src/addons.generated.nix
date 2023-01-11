@@ -113,10 +113,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.60";
+      version = "4.9.62";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4021899/darkreader-4.9.60.xpi";
-      sha256 = "202eccf8088bd2842158f5fe4f4b751217a05b2f0ada02057c16314c174df01b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4053589/darkreader-4.9.62.xpi";
+      sha256 = "e537a2cee45ed7c26f79ecd3ed362620e3f00d24c158532a58e163a63a3d60cc";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -307,10 +307,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.6.0";
+      version = "1.6.1";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3864522/old_reddit_redirect-1.6.0.xpi";
-      sha256 = "591420f13d2fed7802d71ab95a645ba0813741ee963428c4a548472a2efe48c2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4051311/old_reddit_redirect-1.6.1.xpi";
+      sha256 = "17f18ce82f060d7847cce9b6052631a9f2ec207d4500944ebc60b9d06a348aad";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -508,10 +508,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.32";
+      version = "1.21.33";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4049148/single_file-1.21.32.xpi";
-      sha256 = "f4b2d4efd7d7722ba5e6bba6b9b0f5f8e0d468787b916ba69a73d4890893274a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4052735/single_file-1.21.33.xpi";
+      sha256 = "a960f08d5e8d9fb2f97526136f2aefc715963f7a9f41d90aad261ac0f7e93481";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -603,10 +603,10 @@
       };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.11";
+      version = "3.9.12";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4039584/tree_style_tab-3.9.11.xpi";
-      sha256 = "3b0e7fc54f51dfe2f52a419e7f2c89dd721d6661ceddba2d736f2477c5456ca3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4053198/tree_style_tab-3.9.12.xpi";
+      sha256 = "8a2e3b223756c0ba90960ecddc64d282b4dc8293a1c18c9a1b0c77929dcaa5b8";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -664,10 +664,10 @@
       };
     "unclutter" = buildFirefoxXpiAddon {
       pname = "unclutter";
-      version = "1.5.0";
+      version = "1.5.1";
       addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4050842/lindylearn-1.5.0.xpi";
-      sha256 = "8900aae8953e2006af358d5eef1f298617e70f13f87944a237b8b7dc07532317";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4053262/lindylearn-1.5.1.xpi";
+      sha256 = "c49992f1935bf5e819157c781b92d3a3a778006e8aaef6c3aa199370726d81d9";
       meta = with lib;
       {
         homepage = "https://github.com/lindylearn/unclutter";
@@ -692,24 +692,24 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.13.3";
+      version = "2.13.7";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4015933/violentmonkey-2.13.3.xpi";
-      sha256 = "1dbbf2ebbddd13d27acc0248a5bcc8b7e3e4a52988a85b0c26a317fd230cea81";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4053300/violentmonkey-2.13.7.xpi";
+      sha256 = "38bc3949f40141bc671a4880d8976400489c9afa5c24fe290a732015d727d768";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
-        description = "Violentmonkey provides userscripts support for browsers.\nIt's open source! <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/c8bcebd9a0e76f20c888274e94578ab5957439e46d59a046ff9e1a9ef55c282c/https%3A//github.com/violentmonkey/violentmonkey\">https://github.com/violentmonkey/violentmonkey</a>";
+        description = "Violentmonkey provides userscripts support for browsers.\nIt's open source! <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/c8bcebd9a0e76f20c888274e94578ab5957439e46d59a046ff9e1a9ef55c282c/https%3A//github.com/violentmonkey/violentmonkey\" rel=\"nofollow\">https://github.com/violentmonkey/violentmonkey</a>";
         license = licenses.mit;
         platforms = platforms.all;
         };
       };
     "wayback-machine" = buildFirefoxXpiAddon {
       pname = "wayback-machine";
-      version = "3.1";
+      version = "3.2";
       addonId = "wayback_machine@mozilla.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3936135/wayback_machine_new-3.1.xpi";
-      sha256 = "69df7d023f7afb477f6ac9b5572a31adacf6b6f6c9148ce272911cfd69189cdb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4047136/wayback_machine_new-3.2.xpi";
+      sha256 = "75da413fee7c28e22ed61380f959888ec80c14e2a38f7b6f9d622f8a4ea853e4";
       meta = with lib;
       {
         homepage = "https://archive.org";
@@ -720,10 +720,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.37";
+      version = "2.1.38";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4048126/zoom_new_scheduler-2.1.37.xpi";
-      sha256 = "4e3f035397f12c8a775201d97c3e213213bfc8a890365cc26b553a74e5635406";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4053838/zoom_new_scheduler-2.1.38.xpi";
+      sha256 = "52c6a4a7c8978605203a9c2d37ce4e1596aeebc6f0ea4e926070ab565846bc34";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
