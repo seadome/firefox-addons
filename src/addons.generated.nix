@@ -547,10 +547,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.3";
+      version = "3.6.4";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4047777/steam_database-3.6.3.xpi";
-      sha256 = "b2b3c316e02eb24a4f911f7af1e060a31274c61518b4a3619d22aa50787e63d3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4056899/steam_database-3.6.4.xpi";
+      sha256 = "074d3abfb652c18113a82fe603f46db44b0c4f12012fb2d8fe336688abe82d88";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -664,10 +664,10 @@
       };
     "unclutter" = buildFirefoxXpiAddon {
       pname = "unclutter";
-      version = "1.5.1";
+      version = "1.6.1";
       addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4053262/lindylearn-1.5.1.xpi";
-      sha256 = "c49992f1935bf5e819157c781b92d3a3a778006e8aaef6c3aa199370726d81d9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4059669/lindylearn-1.6.1.xpi";
+      sha256 = "c64458a0bf754d8c0c4afb66141f7721a6b2ff3cb1014c1b10f6525d219e31a0";
       meta = with lib;
       {
         homepage = "https://github.com/lindylearn/unclutter";
