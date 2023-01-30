@@ -223,14 +223,14 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.3.4";
+      version = "2.5.0";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4020597/libredirect-2.3.4.xpi";
-      sha256 = "2e9e956a2ea123a4785999c9f18c352d3e2f6f6e152223b16dfaa73f291960b5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4063658/libredirect-2.5.0.xpi";
+      sha256 = "d9fe457716cd63b048255b00c79acc8e0fdbd89c5872e59ac0fd4ecc6f2307ed";
       meta = with lib;
       {
-        homepage = "https://libredirect.codeberg.page";
-        description = "Redirects YouTube, Twitter, Instagram... requests to alternative privacy friendly frontends and backends.";
+        homepage = "https://libredirect.github.io";
+        description = "Redirects YouTube, Twitter, TikTok... requests to alternative privacy friendly frontends and backends.";
         license = licenses.gpl3;
         platforms = platforms.all;
         };
@@ -265,10 +265,10 @@
       };
     "multi-account-containers" = buildFirefoxXpiAddon {
       pname = "multi-account-containers";
-      version = "8.0.9";
+      version = "8.1.2";
       addonId = "@testpilot-containers";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4038684/multi_account_containers-8.0.9.xpi";
-      sha256 = "1e68ef3bf65d6c309a7d5666da2295987beb7832a211117d41a3ebeb71d16f95";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4058426/multi_account_containers-8.1.2.xpi";
+      sha256 = "0ab8f0222853fb68bc05fcf96401110910dfeb507aaea2cf88c5cd7084d167fc";
       meta = with lib;
       {
         homepage = "https://github.com/mozilla/multi-account-containers/#readme";
@@ -424,10 +424,10 @@
       };
     "reduxdevtools" = buildFirefoxXpiAddon {
       pname = "reduxdevtools";
-      version = "3.0.11";
+      version = "2.17.1";
       addonId = "extension@redux.devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3932897/reduxdevtools-3.0.11.xpi";
-      sha256 = "97b2d14543a2f42c02948c05eef8d6dda24eba6eca559fd967e2638adc2da352";
+      url = "https://addons.mozilla.org/firefox/downloads/file/1509811/reduxdevtools-2.17.1.xpi";
+      sha256 = "649d780d19201b2607347c4f57b5b57b237624b2c0ed322af9575cf791cce326";
       meta = with lib;
       {
         homepage = "https://github.com/reduxjs/redux-devtools";
@@ -508,10 +508,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.33";
+      version = "1.21.36";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4052735/single_file-1.21.33.xpi";
-      sha256 = "a960f08d5e8d9fb2f97526136f2aefc715963f7a9f41d90aad261ac0f7e93481";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4062282/single_file-1.21.36.xpi";
+      sha256 = "e6bad5033eaf4c5e84d76359461d67fbe6c6cb8690faab834acc3e18219044a1";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -664,10 +664,10 @@
       };
     "unclutter" = buildFirefoxXpiAddon {
       pname = "unclutter";
-      version = "1.6.1";
+      version = "1.6.5";
       addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4059669/lindylearn-1.6.1.xpi";
-      sha256 = "c64458a0bf754d8c0c4afb66141f7721a6b2ff3cb1014c1b10f6525d219e31a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4062850/lindylearn-1.6.5.xpi";
+      sha256 = "fcb5c8b7d5b0b3991820fd5a4ac8635fc735b48ce2f3367f22c9a89d42474ac4";
       meta = with lib;
       {
         homepage = "https://github.com/lindylearn/unclutter";
@@ -692,10 +692,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.13.7";
+      version = "2.13.9";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4053300/violentmonkey-2.13.7.xpi";
-      sha256 = "38bc3949f40141bc671a4880d8976400489c9afa5c24fe290a732015d727d768";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4059651/violentmonkey-2.13.9.xpi";
+      sha256 = "5db2c6fabdae17c2d73163f4852ef6586123b8fca1c9fccc4555ba829dcc7da9";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
