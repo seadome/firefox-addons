@@ -1,0 +1,27 @@
+name: Update flake inputs
+
+on:
+  workflow_dispatch: # allows manual triggering
+  schedule:
+    # Run weekly on Sunday at 00:00
+    - cron: '0 0 * * 0'
+
+jobs:
+  lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install Nix
+        uses: cachix/install-nix-action@v18
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+      - name: Update flake.lock
+        uses: DeterminateSystems/update-flake-lock@v16
+        with:
+          pr-title: "Update flake inputs"
+          pr-labels: |                  
+            automated
+            scope:deps
+            scope:deps:flake
