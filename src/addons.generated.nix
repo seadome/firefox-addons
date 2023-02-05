@@ -223,10 +223,10 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.5.0";
+      version = "2.5.1";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4063658/libredirect-2.5.0.xpi";
-      sha256 = "d9fe457716cd63b048255b00c79acc8e0fdbd89c5872e59ac0fd4ecc6f2307ed";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4066883/libredirect-2.5.1.xpi";
+      sha256 = "6a1a67bd8be55ce79aeb7f35b11b2d433230ceffed1a6298bad67bb01737d00f";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -321,10 +321,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.5.1";
+      version = "2.6.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4040641/1password_x_password_manager-2.5.1.xpi";
-      sha256 = "ad8fd2ab9e561b70813f98d19c946a6ffb808746779783f0048a96f1e52f0f04";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4061902/1password_x_password_manager-2.6.0.xpi";
+      sha256 = "8b41f3b5edf767fd8826e7bfd813de9225ab2ea851099eea224346e0a266161c";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -438,10 +438,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "22.12.15";
+      version = "23.2.5";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4044034/refined_github-22.12.15.xpi";
-      sha256 = "fb3b3fce7a292daeb2fb8979ca86abeb7b4f03bc4ab915a5257a9144f3c405d1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4066788/refined_github-23.2.5.xpi";
+      sha256 = "67f1fde8765e1a0038fb677325f00ce79cab5ab3c01637792625cc059e0bacb8";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -508,10 +508,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.36";
+      version = "1.21.37";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4062282/single_file-1.21.36.xpi";
-      sha256 = "e6bad5033eaf4c5e84d76359461d67fbe6c6cb8690faab834acc3e18219044a1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4063273/single_file-1.21.37.xpi";
+      sha256 = "2c9d9bd8af4a959c35f67886c8e036539cc6c65605e7af61b8b4392c133d8b45";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
