@@ -38,3 +38,6 @@ jobs:
             [1]: https://github.com/peter-evans/create-pull-request
           delete-branch: true
           assignees: montchr
+          labels: |
+            automated
+            scope:deps
