@@ -1,5 +1,24 @@
 {
   "nodes": {
+    "devshell": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1675340818,
+        "narHash": "sha256-GAzTgOvonq4K3CVyyKZGbCnqdLi6nRe78t8ko/mLxL0=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "2e19b92980a79118351ec12496a81c49bd674d8a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": "nixpkgs-lib"
@@ -18,22 +37,22 @@
         "type": "github"
       }
     },
-    "flake-root": {
+    "flake-utils": {
       "locked": {
-        "lastModified": 1671378805,
-        "narHash": "sha256-yqGxyzMN2GuppwG3dTWD1oiKxi+jGYP7D1qUSc5vKhI=",
-        "owner": "srid",
-        "repo": "flake-root",
-        "rev": "dc7ba6166e478804a9da6881aa48c45d300075cf",
+        "lastModified": 1642700792,
+        "narHash": "sha256-XqHrk7hFb+zBvRg6Ghl+AZDq03ov6OshJLiSWOoX5es=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "846b2ae0fc4cc943637d3d1def4454213e203cba",
         "type": "github"
       },
       "original": {
-        "owner": "srid",
-        "repo": "flake-root",
+        "owner": "numtide",
+        "repo": "flake-utils",
         "type": "github"
       }
     },
-    "flake-utils": {
+    "flake-utils_2": {
       "locked": {
         "lastModified": 1656928814,
         "narHash": "sha256-RIFfgBuKz6Hp89yRr7+NR5tzIAbn52h8vT6vXkYjZoM=",
@@ -48,27 +67,9 @@
         "type": "github"
       }
     },
-    "mission-control": {
-      "inputs": {
-        "nixpkgs": "nixpkgs"
-      },
-      "locked": {
-        "lastModified": 1671493916,
-        "narHash": "sha256-7uvy37mfprmI3fbBw9E+baV1KZHR5zKfSNfPlSiliqo=",
-        "owner": "Platonic-Systems",
-        "repo": "mission-control",
-        "rev": "9acdaa469ebd3c2d6816f8a30c0c217a0da59fe2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Platonic-Systems",
-        "repo": "mission-control",
-        "type": "github"
-      }
-    },
     "mozilla-addons-to-nix": {
       "inputs": {
-        "flake-utils": "flake-utils",
+        "flake-utils": "flake-utils_2",
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
@@ -103,15 +104,15 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1671249438,
-        "narHash": "sha256-5e+CcnbZA3/i2BRXbnzRS52Ly67MUNdZR+Zpbb2C65k=",
-        "owner": "nixos",
+        "lastModified": 1643381941,
+        "narHash": "sha256-pHTwvnN4tTsEKkWlXQ8JMY423epos8wUOhthpwJjtpc=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "067bfc6c90a301572cec7da48f09c447a9a8eae0",
+        "rev": "5efc8ca954272c4376ac929f4c5ffefcc20551d5",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
+        "owner": "NixOS",
         "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
@@ -173,9 +174,8 @@
     },
     "root": {
       "inputs": {
+        "devshell": "devshell",
         "flake-parts": "flake-parts",
-        "flake-root": "flake-root",
-        "mission-control": "mission-control",
         "mozilla-addons-to-nix": "mozilla-addons-to-nix",
         "nixos-unstable": "nixos-unstable",
         "nixpkgs": "nixpkgs_3"
