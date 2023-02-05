@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:numtide/nixpkgs-unfree";
-    nixpkgs.inputs.nixpkgs.url = "nixos-unstable";
+    nixpkgs.inputs.nixpkgs.follows = "nixos-unstable";
     nixos-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     flake-parts.url = "github:hercules-ci/flake-parts";

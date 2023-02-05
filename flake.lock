@@ -153,7 +153,9 @@
     },
     "nixpkgs_3": {
       "inputs": {
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": [
+          "nixos-unstable"
+        ]
       },
       "locked": {
         "lastModified": 1673793037,
@@ -167,18 +169,6 @@
         "owner": "numtide",
         "repo": "nixpkgs-unfree",
         "type": "github"
-      }
-    },
-    "nixpkgs_4": {
-      "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-xU6Rv9sgnwaWK7tgCPadV6HhI2Y/fl4lKxJoG2+m9qs=",
-        "path": "/nix/store/hap5a6iw5rccl21adfxh5b3lk2c8qnmj-source",
-        "type": "path"
-      },
-      "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
       }
     },
     "root": {
