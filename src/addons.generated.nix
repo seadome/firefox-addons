@@ -57,10 +57,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.1.0";
+      version = "2023.2.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4054938/bitwarden_password_manager-2023.1.0.xpi";
-      sha256 = "b107930fdd005aac6946222ab8b80c789f17bd8e6ccd69c4f4a1cfe102b1c964";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4071765/bitwarden_password_manager-2023.2.1.xpi";
+      sha256 = "282e6e5f1f39c1adcf3ee124e7448d6a95c152a8b38ac3807fe8f562cc8fd026";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -382,10 +382,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.13";
+      version = "6.5.17";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4040837/raindropio-6.5.13.xpi";
-      sha256 = "bc54c86154f2dd85d16d32cccebd2324e1e1997547a112572d0d1c6233b00e7d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073896/raindropio-6.5.17.xpi";
+      sha256 = "7934388e786272b7e0308535cb6fa9ad2d453a71b1a8c0e820e4e15a4dcbab23";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -438,10 +438,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.2.11";
+      version = "23.2.20";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4069254/refined_github-23.2.11.xpi";
-      sha256 = "c5bf1344a6d342bb1ff2930fddfde6c72a4f8dc91482129a2b59085a8eb84693";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073417/refined_github-23.2.20.xpi";
+      sha256 = "ff6ea9d8229213006ae6f21ab7524da66445318ea0f4f57d213d4db95db25fd2";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -508,10 +508,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.37";
+      version = "1.21.39";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4063273/single_file-1.21.37.xpi";
-      sha256 = "2c9d9bd8af4a959c35f67886c8e036539cc6c65605e7af61b8b4392c133d8b45";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4067736/single_file-1.21.39.xpi";
+      sha256 = "638c44e18ca6550ada646e77a11d0646eb548352ad33165cab59a09e7a2031ef";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -535,10 +535,10 @@
       };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
-      version = "22.11.24.1820";
+      version = "23.2.17.1612";
       addonId = "sourcegraph-for-firefox@sourcegraph.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4034959/sourcegraph_for_firefox-22.11.24.1820.xpi";
-      sha256 = "143177cdbae5cda807edccb309bccaa27c76e06c34ff2985b5c0a43517a481a4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4072346/sourcegraph_for_firefox-23.2.17.1612.xpi";
+      sha256 = "d37b0c7c2575ea2e707d320adb8627c00026321fa40f065926f0040dc1d5e9bd";
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
@@ -650,10 +650,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.46.0";
+      version = "1.47.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4047353/ublock_origin-1.46.0.xpi";
-      sha256 = "6bf8af5266353fab5eabdc7476de026e01edfb7901b0430c5e539f6791f1edc8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073921/ublock_origin-1.47.2.xpi";
+      sha256 = "2ae62bf1e5632f793c734e36ef9dabfc16c8865516adaf8e90e5a4d1852170f6";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -664,10 +664,10 @@
       };
     "unclutter" = buildFirefoxXpiAddon {
       pname = "unclutter";
-      version = "1.6.5";
+      version = "1.7.5";
       addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4062850/lindylearn-1.6.5.xpi";
-      sha256 = "fcb5c8b7d5b0b3991820fd5a4ac8635fc735b48ce2f3367f22c9a89d42474ac4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4076859/lindylearn-1.7.5.xpi";
+      sha256 = "15221dfb4bb93e70814bf726df32cd386744dd7156831ac3c809a20b34884079";
       meta = with lib;
       {
         homepage = "https://github.com/lindylearn/unclutter";
@@ -692,10 +692,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.13.9";
+      version = "2.13.11";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4059651/violentmonkey-2.13.9.xpi";
-      sha256 = "5db2c6fabdae17c2d73163f4852ef6586123b8fca1c9fccc4555ba829dcc7da9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4072794/violentmonkey-2.13.11.xpi";
+      sha256 = "095d6acdee9ce46ad334d108eefb50d4dffb661effe8290137238933c4b40568";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
