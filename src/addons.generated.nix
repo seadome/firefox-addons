@@ -14,19 +14,6 @@
         platforms = platforms.all;
         };
       };
-    "add-custom-search-engine" = buildFirefoxXpiAddon {
-      pname = "add-custom-search-engine";
-      version = "4.2";
-      addonId = "{af37054b-3ace-46a2-ac59-709e4412bec6}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3812756/add_custom_search_engine-4.2.xpi";
-      sha256 = "86aaf173514ec2da55556eb339a9d7c115c6e070c5433ebff8db31baa8e165d5";
-      meta = with lib;
-      {
-        description = "Add a custom search engine to the list of available search engines in the search bar and URL bar.";
-        license = licenses.mpl20;
-        platforms = platforms.all;
-        };
-      };
     "anchors-reveal" = buildFirefoxXpiAddon {
       pname = "anchors-reveal";
       version = "1.1";
@@ -57,10 +44,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.1.0";
+      version = "2023.2.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4054938/bitwarden_password_manager-2023.1.0.xpi";
-      sha256 = "b107930fdd005aac6946222ab8b80c789f17bd8e6ccd69c4f4a1cfe102b1c964";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4071765/bitwarden_password_manager-2023.2.1.xpi";
+      sha256 = "282e6e5f1f39c1adcf3ee124e7448d6a95c152a8b38ac3807fe8f562cc8fd026";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -121,20 +108,6 @@
       {
         homepage = "https://darkreader.org/";
         description = "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.";
-        license = licenses.mit;
-        platforms = platforms.all;
-        };
-      };
-    "display-_anchors" = buildFirefoxXpiAddon {
-      pname = "display-_anchors";
-      version = "1.3";
-      addonId = "display-anchors@robwu.nl";
-      url = "https://addons.mozilla.org/firefox/downloads/file/584272/display__anchors-1.3.xpi";
-      sha256 = "3cd2143e39d195225b8cf3432d0cf87b366ac6f31f3a7242c35cd0ce980ee6b8";
-      meta = with lib;
-      {
-        homepage = "https://github.com/Rob--W/display-anchors";
-        description = "Displays anchors for all content in the current web page without breaking the layout.";
         license = licenses.mit;
         platforms = platforms.all;
         };
@@ -366,26 +339,12 @@
         platforms = platforms.all;
         };
       };
-    "protondb-for-steam" = buildFirefoxXpiAddon {
-      pname = "protondb-for-steam";
-      version = "1.8.1";
-      addonId = "{30280527-c46c-4e03-bb16-2e3ed94fa57c}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3736312/protondb_for_steam-1.8.1.xpi";
-      sha256 = "879a5d1a2b757d54089d07a325340656ba2968f57408fe53259dc31d72a687a9";
-      meta = with lib;
-      {
-        homepage = "https://github.com/tryton-vanmeer/ProtonDB-for-Steam#protondb-for-steam";
-        description = "Shows ratings from <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/f8db0358d96c1a46b9a77aa02190de811e40819051b1d42dd013c17276046ffd/http%3A//protondb.com\" rel=\"nofollow\">protondb.com</a> on Steam";
-        license = licenses.lgpl3;
-        platforms = platforms.all;
-        };
-      };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.13";
+      version = "6.5.17";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4040837/raindropio-6.5.13.xpi";
-      sha256 = "bc54c86154f2dd85d16d32cccebd2324e1e1997547a112572d0d1c6233b00e7d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073896/raindropio-6.5.17.xpi";
+      sha256 = "7934388e786272b7e0308535cb6fa9ad2d453a71b1a8c0e820e4e15a4dcbab23";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -438,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.2.11";
+      version = "23.2.20";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4069254/refined_github-23.2.11.xpi";
-      sha256 = "c5bf1344a6d342bb1ff2930fddfde6c72a4f8dc91482129a2b59085a8eb84693";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073417/refined_github-23.2.20.xpi";
+      sha256 = "ff6ea9d8229213006ae6f21ab7524da66445318ea0f4f57d213d4db95db25fd2";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -464,34 +423,6 @@
         platforms = platforms.all;
         };
       };
-    "search-engines-helper" = buildFirefoxXpiAddon {
-      pname = "search-engines-helper";
-      version = "3.3.0";
-      addonId = "{65a2d764-7358-455b-930d-5afa86fb5ed0}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4041949/search_engines_helper-3.3.0.xpi";
-      sha256 = "0e6f49394b7798d27dd507b0de2b27ad4cc888949a0ec9ac02294eb27f1a6382";
-      meta = with lib;
-      {
-        homepage = "https://github.com/soufianesakhi/firefox-search-engines-helper";
-        description = "Add a custom search engine and export/import all the search urls and icon urls for all search engines added to Firefox.";
-        license = licenses.mit;
-        platforms = platforms.all;
-        };
-      };
-    "sidebery" = buildFirefoxXpiAddon {
-      pname = "sidebery";
-      version = "4.10.2";
-      addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3994928/sidebery-4.10.2.xpi";
-      sha256 = "60e35f2bfac88e5b2b4e044722dde49b4ed0eca9e9216f3d67dafdd9948273ac";
-      meta = with lib;
-      {
-        homepage = "https://github.com/mbnuqw/sidebery";
-        description = "Tabs tree and bookmarks in sidebar with advanced containers configuration.";
-        license = licenses.mit;
-        platforms = platforms.all;
-        };
-      };
     "simple-tab-groups" = buildFirefoxXpiAddon {
       pname = "simple-tab-groups";
       version = "4.7.2.1";
@@ -508,10 +439,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.37";
+      version = "1.21.39";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4063273/single_file-1.21.37.xpi";
-      sha256 = "2c9d9bd8af4a959c35f67886c8e036539cc6c65605e7af61b8b4392c133d8b45";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4067736/single_file-1.21.39.xpi";
+      sha256 = "638c44e18ca6550ada646e77a11d0646eb548352ad33165cab59a09e7a2031ef";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -520,25 +451,12 @@
         platforms = platforms.all;
         };
       };
-    "skip-redirect" = buildFirefoxXpiAddon {
-      pname = "skip-redirect";
-      version = "2.3.6";
-      addonId = "skipredirect@sblask";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3920533/skip_redirect-2.3.6.xpi";
-      sha256 = "dbe8950245c1f475c5c1c6daab89c79b83ba4680621c91e80f15be7b09b618ae";
-      meta = with lib;
-      {
-        description = "Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful.";
-        license = licenses.mit;
-        platforms = platforms.all;
-        };
-      };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
-      version = "22.11.24.1820";
+      version = "23.3.1.1623";
       addonId = "sourcegraph-for-firefox@sourcegraph.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4034959/sourcegraph_for_firefox-22.11.24.1820.xpi";
-      sha256 = "143177cdbae5cda807edccb309bccaa27c76e06c34ff2985b5c0a43517a481a4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4077957/sourcegraph_for_firefox-23.3.1.1623.xpi";
+      sha256 = "492f6dfe3a9dabeeafaa84a3f85edc497e4a6d38eb252b6e0bb3cd5c186b62ca";
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
@@ -556,20 +474,6 @@
         homepage = "https://steamdb.info/";
         description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
         license = licenses.bsd3;
-        platforms = platforms.all;
-        };
-      };
-    "surfingkeys" = buildFirefoxXpiAddon {
-      pname = "surfingkeys";
-      version = "1.12";
-      addonId = "{a8332c60-5b6d-41ee-bfc8-e9bb331d34ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4030019/surfingkeys_ff-1.12.xpi";
-      sha256 = "f4cb16c84ab104d93cb6ae2b3a6dcd7b3ce658b1c35e54fcce9d78f724238b44";
-      meta = with lib;
-      {
-        homepage = "https://github.com/brookhong/Surfingkeys";
-        description = "Rich shortcuts for you to click links / switch tabs / scroll pages or DIVs / capture full page or DIV etc, let you use the browser like vim, plus an embed vim editor.\n\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/353ad9268cb5cdeb3fa107ea4d154273229fe2ffe8a28e3fda510de7f6ddd75f/https%3A//github.com/brookhong/Surfingkeys\" rel=\"nofollow\">https://github.com/brookhong/Surfingkeys</a>";
-        license = licenses.mit;
         platforms = platforms.all;
         };
       };
@@ -650,29 +554,15 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.46.0";
+      version = "1.47.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4047353/ublock_origin-1.46.0.xpi";
-      sha256 = "6bf8af5266353fab5eabdc7476de026e01edfb7901b0430c5e539f6791f1edc8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4073921/ublock_origin-1.47.2.xpi";
+      sha256 = "2ae62bf1e5632f793c734e36ef9dabfc16c8865516adaf8e90e5a4d1852170f6";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
         description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
         license = licenses.gpl3;
-        platforms = platforms.all;
-        };
-      };
-    "unclutter" = buildFirefoxXpiAddon {
-      pname = "unclutter";
-      version = "1.6.5";
-      addonId = "{8f8c4c52-216c-4c6f-aae0-c214a870d9d9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4062850/lindylearn-1.6.5.xpi";
-      sha256 = "fcb5c8b7d5b0b3991820fd5a4ac8635fc735b48ce2f3367f22c9a89d42474ac4";
-      meta = with lib;
-      {
-        homepage = "https://github.com/lindylearn/unclutter";
-        description = "Read, collect, and highlight articles with style.";
-        license = licenses.agpl3;
         platforms = platforms.all;
         };
       };
@@ -690,12 +580,26 @@
         platforms = platforms.all;
         };
       };
+    "vimium-ff" = buildFirefoxXpiAddon {
+      pname = "vimium-ff";
+      version = "1.67.6";
+      addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4046008/vimium_ff-1.67.6.xpi";
+      sha256 = "e8d6c98842bd7221d62d1079e4153e3e0d20c5ca5412316dd71cb5c3bdb7d457";
+      meta = with lib;
+      {
+        homepage = "https://github.com/philc/vimium";
+        description = "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.This is a port of the popular Chrome extension to Firefox.Most stuff works, but the port to Firefox remains a work in progress.";
+        license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.13.9";
+      version = "2.13.11";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4059651/violentmonkey-2.13.9.xpi";
-      sha256 = "5db2c6fabdae17c2d73163f4852ef6586123b8fca1c9fccc4555ba829dcc7da9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4072794/violentmonkey-2.13.11.xpi";
+      sha256 = "095d6acdee9ce46ad334d108eefb50d4dffb661effe8290137238933c4b40568";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";

@@ -14,9 +14,6 @@
     "slug": "a11ycss"
   },
   {
-    "slug": "add-custom-search-engine"
-  },
-  {
     "slug": "anchors-reveal"
   },
   {
@@ -38,9 +35,6 @@
   },
   {
     "slug": "darkreader"
-  },
-  {
-    "slug": "display-_anchors"
   },
   {
     "slug": "firefox-color"
@@ -89,9 +83,6 @@
     "slug": "plasma-integration"
   },
   {
-    "slug": "protondb-for-steam"
-  },
-  {
     "slug": "raindropio"
   },
   {
@@ -111,12 +102,6 @@
     "slug": "rust-search-extension"
   },
   {
-    "slug": "search-engines-helper"
-  },
-  {
-    "slug": "sidebery"
-  },
-  {
     "slug": "simple-tab-groups"
   },
   {
@@ -125,9 +110,6 @@
       "tag": "predefined",
       "shortName": "agpl3Plus"
     }
-  },
-  {
-    "slug": "skip-redirect"
   },
   {
     "slug": "sourcegraph-for-firefox",
@@ -139,10 +121,6 @@
       "tag": "predefined",
       "shortName": "bsd3"
     }
-  },
-  {
-    "pname": "surfingkeys",
-    "slug": "surfingkeys_ff"
   },
   {
     "slug": "tab-session-manager"
@@ -171,22 +149,15 @@
   {
     "slug": "tst-search"
   },
-
   {
     "slug": "ublock-origin"
   },
   {
-    "slug": "lindylearn",
-    "pname": "unclutter",
-    "license": {
-      "tag": "predefined",
-      "shortName": "agpl3"
-    }
-  },
-  {
     "slug": "vim-vixen"
   },
-
+  {
+    "slug": "vimium-ff"
+  },
   {
     "slug": "violentmonkey"
   },
