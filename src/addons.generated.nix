@@ -196,14 +196,14 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.5.2";
+      version = "2.5.4";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4067837/libredirect-2.5.2.xpi";
-      sha256 = "7f49fb0b253347dc7d8b286a0d24d0552a0c96f69811c157cc877488313f0d83";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4079849/libredirect-2.5.4.xpi";
+      sha256 = "57d6adbaabf74f386be88d63906992be46cf77c485c1c00afa27161ef3bbb8d4";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
-        description = "Redirects YouTube, Twitter, TikTok... requests to alternative privacy friendly frontends and backends.";
+        description = "Redirects YouTube, Twitter, TikTok... requests to alternative privacy friendly frontends.";
         license = licenses.gpl3;
         platforms = platforms.all;
         };
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.2.20";
+      version = "23.3.2";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4073417/refined_github-23.2.20.xpi";
-      sha256 = "ff6ea9d8229213006ae6f21ab7524da66445318ea0f4f57d213d4db95db25fd2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4078156/refined_github-23.3.2.xpi";
+      sha256 = "709da54d45d9d0aaffa3dca47ee178564c17f7991f55cc4f311e3af01ec44a58";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -425,10 +425,10 @@
       };
     "simple-tab-groups" = buildFirefoxXpiAddon {
       pname = "simple-tab-groups";
-      version = "4.7.2.1";
+      version = "4.8";
       addonId = "simple-tab-groups@drive4ik";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3873608/simple_tab_groups-4.7.2.1.xpi";
-      sha256 = "75077589098ca62c00b86cf9554c6120bf8dc04c5f916fe26f84915f5147b2a4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4077659/simple_tab_groups-4.8.xpi";
+      sha256 = "0a51426c85fd05b5aaf10e5c308a65ef2a5b07a8cb2131bb6d5a72eb1bb8af85";
       meta = with lib;
       {
         homepage = "https://github.com/drive4ik/simple-tab-groups";
@@ -453,10 +453,10 @@
       };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
-      version = "23.3.1.1623";
+      version = "23.3.10.1712";
       addonId = "sourcegraph-for-firefox@sourcegraph.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4077957/sourcegraph_for_firefox-23.3.1.1623.xpi";
-      sha256 = "492f6dfe3a9dabeeafaa84a3f85edc497e4a6d38eb252b6e0bb3cd5c186b62ca";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4081943/sourcegraph_for_firefox-23.3.10.1712.xpi";
+      sha256 = "21aa9f4c889c8f435e6f379bd7e7ca6c68f50c33c506c1fc97025a019a99d4ea";
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
@@ -554,10 +554,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.47.2";
+      version = "1.47.4";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4073921/ublock_origin-1.47.2.xpi";
-      sha256 = "2ae62bf1e5632f793c734e36ef9dabfc16c8865516adaf8e90e5a4d1852170f6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4079064/ublock_origin-1.47.4.xpi";
+      sha256 = "a35a6c8758ba74616afc09648c96d74ec2e7d27fe30f311d1db6e9a4966e7858";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -596,10 +596,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.13.11";
+      version = "2.14.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4072794/violentmonkey-2.13.11.xpi";
-      sha256 = "095d6acdee9ce46ad334d108eefb50d4dffb661effe8290137238933c4b40568";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4076005/violentmonkey-2.14.0.xpi";
+      sha256 = "6c25cfb7d464c22ea4c560e5271a0cacd49b8fe0c404420fb5b4fd2c78880b2d";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
@@ -624,10 +624,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.38";
+      version = "2.1.39";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4053838/zoom_new_scheduler-2.1.38.xpi";
-      sha256 = "52c6a4a7c8978605203a9c2d37ce4e1596aeebc6f0ea4e926070ab565846bc34";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4079676/zoom_new_scheduler-2.1.39.xpi";
+      sha256 = "34adffe26171373b6b79218be631108e50c9cb5b1be6daf0f0db107f8abf4134";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
