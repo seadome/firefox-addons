@@ -294,10 +294,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.6.0";
+      version = "2.8.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4061902/1password_x_password_manager-2.6.0.xpi";
-      sha256 = "8b41f3b5edf767fd8826e7bfd813de9225ab2ea851099eea224346e0a266161c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4082096/1password_x_password_manager-2.8.1.xpi";
+      sha256 = "f412a1a71ac9a6a3d9bc97e3a961b2548206d08029273c36d9654cfed1cdad6d";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -383,10 +383,10 @@
       };
     "reduxdevtools" = buildFirefoxXpiAddon {
       pname = "reduxdevtools";
-      version = "2.17.1";
+      version = "3.0.19";
       addonId = "extension@redux.devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/1509811/reduxdevtools-2.17.1.xpi";
-      sha256 = "649d780d19201b2607347c4f57b5b57b237624b2c0ed322af9575cf791cce326";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4079806/reduxdevtools-3.0.19.xpi";
+      sha256 = "f4da621d3d226cd3dcd817230e4214ddbc2423221dc3ef4428341fd393d1f66f";
       meta = with lib;
       {
         homepage = "https://github.com/reduxjs/redux-devtools";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.3.2";
+      version = "23.3.20";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4078156/refined_github-23.3.2.xpi";
-      sha256 = "709da54d45d9d0aaffa3dca47ee178564c17f7991f55cc4f311e3af01ec44a58";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4086134/refined_github-23.3.20.xpi";
+      sha256 = "4d470940bc27a26ffb3611c94cb7855fd147e9e51ac085702c691f23b69c8a06";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -425,10 +425,10 @@
       };
     "simple-tab-groups" = buildFirefoxXpiAddon {
       pname = "simple-tab-groups";
-      version = "4.8";
+      version = "4.8.1";
       addonId = "simple-tab-groups@drive4ik";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4077659/simple_tab_groups-4.8.xpi";
-      sha256 = "0a51426c85fd05b5aaf10e5c308a65ef2a5b07a8cb2131bb6d5a72eb1bb8af85";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4081018/simple_tab_groups-4.8.1.xpi";
+      sha256 = "75b3d76608e20157e09d56d1912eb793abbfea13d170648208f05f238dd2c1a6";
       meta = with lib;
       {
         homepage = "https://github.com/drive4ik/simple-tab-groups";
@@ -507,10 +507,10 @@
       };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.12";
+      version = "3.9.14";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4053198/tree_style_tab-3.9.12.xpi";
-      sha256 = "8a2e3b223756c0ba90960ecddc64d282b4dc8293a1c18c9a1b0c77929dcaa5b8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4082602/tree_style_tab-3.9.14.xpi";
+      sha256 = "57827706633941567f27e452bf51ded614c9ac7ee839ab45b3e42cebd9f61d82";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
