@@ -294,10 +294,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.8.1";
+      version = "2.9.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4082096/1password_x_password_manager-2.8.1.xpi";
-      sha256 = "f412a1a71ac9a6a3d9bc97e3a961b2548206d08029273c36d9654cfed1cdad6d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4091893/1password_x_password_manager-2.9.0.xpi";
+      sha256 = "f26bf329836d2947d98e62b33ddd0d52ded8dd13f2bb56e89e887babd587f212";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -532,7 +532,7 @@
       sha256 = "08b7af97bef05300ab3ac3ad721322ff00505631233482568fc4489c16d51b71";
       meta = with lib;
       {
-        homepage = "https://github.com/cmcaine/tridactyl";
+        homepage = "https://tridactyl.xyz";
         description = "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.";
         license = licenses.asl20;
         platforms = platforms.all;
@@ -554,10 +554,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.48.2";
+      version = "1.48.4";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4090059/ublock_origin-1.48.2.xpi";
-      sha256 = "3b0bff2192e5f86be6411daa9199bfdbeb87d6ce6aff66f33a8501c97f1df1af";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4092158/ublock_origin-1.48.4.xpi";
+      sha256 = "d7666b963c2969b0014937aae55472eea5098ff21ed3bea8a2e1f595f62856c1";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
