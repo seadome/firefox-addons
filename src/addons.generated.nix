@@ -369,10 +369,10 @@
       };
     "reddit-enhancement-suite" = buildFirefoxXpiAddon {
       pname = "reddit-enhancement-suite";
-      version = "5.22.15";
+      version = "5.22.17";
       addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4047244/reddit_enhancement_suite-5.22.15.xpi";
-      sha256 = "12cc1b5ca2224780e73cb43a17603ad03e42866e9d143aa23f662d14f59a8428";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4092764/reddit_enhancement_suite-5.22.17.xpi";
+      sha256 = "f49827c7684076dbf6890741dbbc31e82c180f87cb3fd745216ba2432398b1d9";
       meta = with lib;
       {
         homepage = "https://redditenhancementsuite.com/";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.3.31";
+      version = "23.4.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4091550/refined_github-23.3.31.xpi";
-      sha256 = "0127a798c97ff0b24dac61325912069d0b9a215143abada91db0497dd5a1ac70";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4095054/refined_github-23.4.10.xpi";
+      sha256 = "97be7356c27ad0603eb001c4957f550b03441721aa2e29d08248154b7e977f26";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -439,10 +439,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.39";
+      version = "1.21.40";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4067736/single_file-1.21.39.xpi";
-      sha256 = "638c44e18ca6550ada646e77a11d0646eb548352ad33165cab59a09e7a2031ef";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093783/single_file-1.21.40.xpi";
+      sha256 = "5c8dea4521e82dce41d04d82e5a5f95bd07ab09b344e1c10edbab6bbb5ad9d21";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
