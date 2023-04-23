@@ -73,11 +73,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1670258361,
-        "narHash": "sha256-mZsGeV6j5gNmZn6J5Bsg6mAcNqvGIcMJSEocAGWySek=",
+        "lastModified": 1681767802,
+        "narHash": "sha256-YiGgaBK/TaZzbKW1o4Cj3HeODUHltLaupZk67q19/0A=",
         "owner": "~rycee",
         "repo": "mozilla-addons-to-nix",
-        "rev": "fa5fbb2bb3e0d16fce65219a7741898723b2f220",
+        "rev": "ee2c5ef5ea5aa99ab99cc73b24672bb75dac6e31",
         "type": "sourcehut"
       },
       "original": {
@@ -88,11 +88,11 @@
     },
     "nixos-unstable": {
       "locked": {
-        "lastModified": 1681465517,
-        "narHash": "sha256-EasJh15/jcJNAHtq2SGbiADRXteURAnQbj1NqBoKkzU=",
+        "lastModified": 1681920287,
+        "narHash": "sha256-+/d6XQQfhhXVfqfLROJoqj3TuG38CAeoT6jO1g9r1k0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "abe7316dd51a313ce528972b104f4f04f56eefc4",
+        "rev": "645bc49f34fa8eff95479f0345ff57e55b53437e",
         "type": "github"
       },
       "original": {
