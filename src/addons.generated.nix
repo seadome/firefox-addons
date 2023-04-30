@@ -294,10 +294,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.9.0";
+      version = "2.10.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4091893/1password_x_password_manager-2.9.0.xpi";
-      sha256 = "f26bf329836d2947d98e62b33ddd0d52ded8dd13f2bb56e89e887babd587f212";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4099241/1password_x_password_manager-2.10.0.xpi";
+      sha256 = "739487dbc460983c752251daeb6d0d9a30f1d32af2bc65e1109968726709319f";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.23";
+      version = "6.5.25";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4098952/raindropio-6.5.23.xpi";
-      sha256 = "655160a1361c61585d3ba9a064b9c8e6cfcafee0171543b80cb183bdc2fcb045";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4100640/raindropio-6.5.25.xpi";
+      sha256 = "070e19baaf5859c0552b687fc08ab6eac7970a23b442ffed90622b1ffa8e888f";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.4.15";
+      version = "23.4.26";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4097949/refined_github-23.4.15.xpi";
-      sha256 = "022592b8a7c31858c90334d4decfb22ce61dd80ee9b4daafe54d2750210b2ab4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4103020/refined_github-23.4.26.xpi";
+      sha256 = "617802388da1098c82e26dd185e48f3c7e4ea739262bc3172217b7467b976234";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -425,10 +425,10 @@
       };
     "simple-tab-groups" = buildFirefoxXpiAddon {
       pname = "simple-tab-groups";
-      version = "5.1";
+      version = "5.2";
       addonId = "simple-tab-groups@drive4ik";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4098262/simple_tab_groups-5.1.xpi";
-      sha256 = "2e955a41bafc01315ad435160e5be25a3b91d06555fba8097acc8b396b4df69c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4103800/simple_tab_groups-5.2.xpi";
+      sha256 = "b56f30cea753a9c4d1c0e078c0e5e635f1885ea7e40305cee59b9e145fad0a6c";
       meta = with lib;
       {
         homepage = "https://github.com/drive4ik/simple-tab-groups";
@@ -554,10 +554,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.48.4";
+      version = "1.49.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4092158/ublock_origin-1.48.4.xpi";
-      sha256 = "d7666b963c2969b0014937aae55472eea5098ff21ed3bea8a2e1f595f62856c1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4099143/ublock_origin-1.49.0.xpi";
+      sha256 = "7c32a32fc6ad2ee76d6c097a7562799b3765c8200ca27f77436f9771d3fd6c64";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -624,10 +624,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.41";
+      version = "2.1.42";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4094925/zoom_new_scheduler-2.1.41.xpi";
-      sha256 = "3a3aae1df3a2640106e9b32be689fa4c82cb04a1a3e08700d3c1d308ba3b579f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4101383/zoom_new_scheduler-2.1.42.xpi";
+      sha256 = "c4904787a67238f3247f518e6bb742e355818b5e71e2aade789c54c9d7e096a4";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
