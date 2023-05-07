@@ -44,10 +44,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.3.1";
+      version = "2023.4.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4093799/bitwarden_password_manager-2023.3.1.xpi";
-      sha256 = "d4ea270874c013daf0aa8b46686766481464db0b3eaa271dc1a2e579751f36f7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4103016/bitwarden_password_manager-2023.4.0.xpi";
+      sha256 = "484eb6a64d36ed5ee3c7e5d62d09367cc3a6477ff80dabd13e1dc1e92ca87b28";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.25";
+      version = "6.5.26";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4100640/raindropio-6.5.25.xpi";
-      sha256 = "070e19baaf5859c0552b687fc08ab6eac7970a23b442ffed90622b1ffa8e888f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4103912/raindropio-6.5.26.xpi";
+      sha256 = "e74e9bc397880d9dd01df9faba90e737e943ea7bb53486460794371105d3cd40";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.4.26";
+      version = "23.5.6";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4103020/refined_github-23.4.26.xpi";
-      sha256 = "617802388da1098c82e26dd185e48f3c7e4ea739262bc3172217b7467b976234";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4107151/refined_github-23.5.6.xpi";
+      sha256 = "952f1fe4623f555b16cf9b16a58fc61bed438edb08014d66ca8c5a928f5227f4";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -554,10 +554,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.49.0";
+      version = "1.49.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4099143/ublock_origin-1.49.0.xpi";
-      sha256 = "7c32a32fc6ad2ee76d6c097a7562799b3765c8200ca27f77436f9771d3fd6c64";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4103048/ublock_origin-1.49.2.xpi";
+      sha256 = "39266486f720cd31d291d2fdad78625b079782a05517e1936eec7e780bc2a84d";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
