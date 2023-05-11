@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.26";
+      version = "6.5.27";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4103912/raindropio-6.5.26.xpi";
-      sha256 = "e74e9bc397880d9dd01df9faba90e737e943ea7bb53486460794371105d3cd40";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4106770/raindropio-6.5.27.xpi";
+      sha256 = "29aa42de20e3834a2190ebd30777e1ca6774da2e7e57111e9ba9d61b91112966";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.5.6";
+      version = "23.5.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4107151/refined_github-23.5.6.xpi";
-      sha256 = "952f1fe4623f555b16cf9b16a58fc61bed438edb08014d66ca8c5a928f5227f4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4109084/refined_github-23.5.10.xpi";
+      sha256 = "69913cc67af9fc0953e62d909af73473a066d813a5b572c84586df654c6b90b9";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -465,10 +465,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.4";
+      version = "3.6.6";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4056899/steam_database-3.6.4.xpi";
-      sha256 = "074d3abfb652c18113a82fe603f46db44b0c4f12012fb2d8fe336688abe82d88";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4106867/steam_database-3.6.6.xpi";
+      sha256 = "1042f5a1b61ee4083e8999405da601bc6fa43cf9069f078b5da45261f40bce2b";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
