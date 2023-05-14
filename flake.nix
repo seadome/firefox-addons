@@ -31,11 +31,22 @@
         #   };
         devShells.default = config.devShells.ci;
         devShells.ci = inputs'.devshell.legacyPackages.mkShell {
+          name = "seadome/firefox-addons";
           packages = [pkgs.alejandra inputs'.mozilla-addons-to-nix.packages.default];
-          env = [
+          commands = [
             {
-              name = "DEVSHELL_NO_MOTD";
-              value = 1;
+              name = "update-addons";
+              category = "maintenance";
+              help = "Update the addons listed in the manifest";
+              command = ''
+                mozilla-addons-to-nix $PRJ_ROOT/src/addons.json $PRJ_ROOT/src/addons.generated.nix
+              '';
+            }
+            {
+              name = "update-flake";
+              category = "maintenance";
+              help = "Update the flake dependencies";
+              command = "nix flake update";
             }
           ];
         };

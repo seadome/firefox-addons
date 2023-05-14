@@ -24,10 +24,8 @@ jobs:
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
       - name: Enter Nix devshell
         run: nix develop .#ci -Lv
-      - name: Update Firefox addons manifest
-        run: |
-          nix develop .#ci --command mozilla-addons-to-nix \
-            ./src/addons.json ./src/addons.generated.nix
+      - name: Update Firefox addons from manifest
+        run: update-addons
       # TODO: build all <https://github.com/NixOS/nix/issues/7165>
       # - name: 'Build addons packages'
       #   run: mozilla-addons-to-nix ./src/addons.json ./src/addons.generated.nix
