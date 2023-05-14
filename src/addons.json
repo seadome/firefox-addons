@@ -27,9 +27,7 @@
     "slug": "browserpass-ce",
     "pname": "browserpass"
   },
-  {
-    "slug": "cookie-autodelete"
-  },
+  {"slug": "consent-o-matic"},
   {
     "slug": "copy-selection-as-markdown"
   },
@@ -102,6 +100,13 @@
     "slug": "rust-search-extension"
   },
   {
+    "slug": "saml-tracer",
+    "license": {
+      "tag": "predefined",
+      "shortName": "bsd2"
+    }
+  },
+  {
     "slug": "simple-tab-groups"
   },
   {
@@ -160,6 +165,17 @@
   },
   {
     "slug": "violentmonkey"
+  },
+  {
+    "slug": "wave-accessibility-tool",
+    "pname": "wave",
+    "license": {
+      "tag": "custom",
+      "shortName": "wave",
+      "fullName": "Terms of Use and Privacy Notice for WAVE users",
+      "url": "https://wave.webaim.org/terms",
+      "free": false
+    }
   },
   {
     "slug": "wayback-machine_new",

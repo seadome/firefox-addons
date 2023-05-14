@@ -70,16 +70,16 @@
         platforms = platforms.all;
         };
       };
-    "cookie-autodelete" = buildFirefoxXpiAddon {
-      pname = "cookie-autodelete";
-      version = "3.8.2";
-      addonId = "CookieAutoDelete@kennydo.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4040738/cookie_autodelete-3.8.2.xpi";
-      sha256 = "b02438aa5df2a79eb743da1b629b80d8c48114c9d030abb5538b591754e30f74";
+    "consent-o-matic" = buildFirefoxXpiAddon {
+      pname = "consent-o-matic";
+      version = "1.0.12";
+      addonId = "gdpr@cavi.au.dk";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4074847/consent_o_matic-1.0.12.xpi";
+      sha256 = "013ea48757b8a4d84a2a0d944bc49b5612d62bae1d337f9569f425f2b8310e0f";
       meta = with lib;
       {
-        homepage = "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete";
-        description = "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Keep the ones you trust (forever/until restart) while deleting the rest. Containers Supported";
+        homepage = "https://consentomatic.au.dk/";
+        description = "Automatic handling of GDPR consent forms";
         license = licenses.mit;
         platforms = platforms.all;
         };
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.26";
+      version = "6.5.27";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4103912/raindropio-6.5.26.xpi";
-      sha256 = "e74e9bc397880d9dd01df9faba90e737e943ea7bb53486460794371105d3cd40";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4106770/raindropio-6.5.27.xpi";
+      sha256 = "29aa42de20e3834a2190ebd30777e1ca6774da2e7e57111e9ba9d61b91112966";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.5.6";
+      version = "23.5.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4107151/refined_github-23.5.6.xpi";
-      sha256 = "952f1fe4623f555b16cf9b16a58fc61bed438edb08014d66ca8c5a928f5227f4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4109084/refined_github-23.5.10.xpi";
+      sha256 = "69913cc67af9fc0953e62d909af73473a066d813a5b572c84586df654c6b90b9";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -420,6 +420,20 @@
         homepage = "https://rust.extension.sh";
         description = "The ultimate search extension for Rust\n\nSearch std docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4af48e3229ba03b454fb9b352a7e5a4c038e1bcc6721bf744b781a5e96b9e798/https%3A//rust.extension.sh\" rel=\"nofollow\">https://rust.extension.sh</a>";
         license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "saml-tracer" = buildFirefoxXpiAddon {
+      pname = "saml-tracer";
+      version = "1.7.1";
+      addonId = "{d3e01ff2-9a3a-4007-8f6e-7acd9a5de263}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3884953/saml_tracer-1.7.1.xpi";
+      sha256 = "8fa02c1b4e55f9d4b2fd3cd038403861ba850f9e6b194bd18ab3a38430f286a0";
+      meta = with lib;
+      {
+        homepage = "https://github.com/SimpleSAMLphp/SAML-tracer/";
+        description = "A tool for viewing SAML and WS-Federation messages sent through the browser during single sign-on and single logout.";
+        license = licenses.bsd2;
         platforms = platforms.all;
         };
       };
@@ -465,10 +479,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.4";
+      version = "3.6.6";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4056899/steam_database-3.6.4.xpi";
-      sha256 = "074d3abfb652c18113a82fe603f46db44b0c4f12012fb2d8fe336688abe82d88";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4106867/steam_database-3.6.6.xpi";
+      sha256 = "1042f5a1b61ee4083e8999405da601bc6fa43cf9069f078b5da45261f40bce2b";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -605,6 +619,24 @@
         homepage = "https://violentmonkey.github.io/";
         description = "Violentmonkey provides userscripts support for browsers.\nIt's open source! <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/c8bcebd9a0e76f20c888274e94578ab5957439e46d59a046ff9e1a9ef55c282c/https%3A//github.com/violentmonkey/violentmonkey\" rel=\"nofollow\">https://github.com/violentmonkey/violentmonkey</a>";
         license = licenses.mit;
+        platforms = platforms.all;
+        };
+      };
+    "wave" = buildFirefoxXpiAddon {
+      pname = "wave";
+      version = "3.2.2.0";
+      addonId = "{9bbf6724-d709-492e-a313-bfed0415a224}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4041128/wave_accessibility_tool-3.2.2.0_1KT3nNP.xpi";
+      sha256 = "ba4aefa44b4b4eb9d81b533b15219129296c331cba5de68d647fe56b917ab5b7";
+      meta = with lib;
+      {
+        description = "Evaluate web accessibility within the Firefox browser. When activated, the WAVE extension injects icons and indicators into your page to give feedback about accessibility and to facilitate manual evaluation.";
+        license = {
+          shortName = "wave";
+          fullName = "Terms of Use and Privacy Notice for WAVE users";
+          url = "https://wave.webaim.org/terms";
+          free = false;
+          };
         platforms = platforms.all;
         };
       };
