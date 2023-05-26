@@ -196,10 +196,10 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.5.4";
+      version = "2.6.2";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4079849/libredirect-2.5.4.xpi";
-      sha256 = "57d6adbaabf74f386be88d63906992be46cf77c485c1c00afa27161ef3bbb8d4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4116106/libredirect-2.6.2.xpi";
+      sha256 = "e813e907abd4bc5871cb23bd95305221eee4f99d6ca8f82f1d696f6bd8dcaa41";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.5.27";
+      version = "6.6.0";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4106770/raindropio-6.5.27.xpi";
-      sha256 = "29aa42de20e3834a2190ebd30777e1ca6774da2e7e57111e9ba9d61b91112966";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4114395/raindropio-6.6.0.xpi";
+      sha256 = "9d03f18404e65e25162c740f8b91b26ecc063ff278a63cbe866206763a9e44d1";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -355,10 +355,10 @@
       };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "4.27.1";
+      version = "4.27.8";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4040280/react_devtools-4.27.1.xpi";
-      sha256 = "c0cf290a4dab2d18f840d7267da68033779bb3a001986aed2a78ed5e92432a1e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4113335/react_devtools-4.27.8.xpi";
+      sha256 = "fae1c35e731984e4375300df0c4d8ee233ec10cdabe4cafe5cfaca080e063446";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.5.10";
+      version = "23.5.20";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4109084/refined_github-23.5.10.xpi";
-      sha256 = "69913cc67af9fc0953e62d909af73473a066d813a5b572c84586df654c6b90b9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4113750/refined_github-23.5.20.xpi";
+      sha256 = "690ddbca1fedd22adcc9a3bd437fcab6baed3d3985bdeb3d388d740937ef72c3";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -453,10 +453,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.41";
+      version = "1.21.42";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4097728/single_file-1.21.41.xpi";
-      sha256 = "a9104fad24a8e0356d2beb3e3ba505ca9021b2191c54c6684a01c10013d2a0b2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4112597/single_file-1.21.42.xpi";
+      sha256 = "28451f6c86cdbc70c37ef1338152f24afc17900856a287d58afcb95302030bd6";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
