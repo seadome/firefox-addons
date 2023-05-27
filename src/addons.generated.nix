@@ -491,6 +491,20 @@
         platforms = platforms.all;
         };
       };
+    "stylus" = buildFirefoxXpiAddon {
+      pname = "stylus";
+      version = "1.5.33";
+      addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4114817/styl_us-1.5.33.xpi";
+      sha256 = "d6b8cc1f4d0986ffa117999065eb5bb8b5596136aa60cb9ff746073656704822";
+      meta = with lib;
+      {
+        homepage = "https://add0n.com/stylus.html";
+        description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
+        license = licenses.gpl3Plus;
+        platforms = platforms.all;
+        };
+      };
     "tab-session-manager" = buildFirefoxXpiAddon {
       pname = "tab-session-manager";
       version = "6.12.1";
