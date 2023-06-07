@@ -44,10 +44,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.4.0";
+      version = "2023.5.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4103016/bitwarden_password_manager-2023.4.0.xpi";
-      sha256 = "484eb6a64d36ed5ee3c7e5d62d09367cc3a6477ff80dabd13e1dc1e92ca87b28";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4118580/bitwarden_password_manager-2023.5.0.xpi";
+      sha256 = "e36405e8e6d0503102d627bb5fcc43a5bd8b07eb40c4a100f03dfc17d0e60f81";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.0";
+      version = "6.6.5";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4114395/raindropio-6.6.0.xpi";
-      sha256 = "9d03f18404e65e25162c740f8b91b26ecc063ff278a63cbe866206763a9e44d1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4118639/raindropio-6.6.5.xpi";
+      sha256 = "12dc76b73262465c13a00f5988862083a8f8bdceff32aadf3226c8244314bfc2";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.5.30";
+      version = "23.6.2";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4118202/refined_github-23.5.30.xpi";
-      sha256 = "a39ad13089b143723516aa51d0de2c59918f0b0db7e3fe489893f749c26b2685";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4119553/refined_github-23.6.2.xpi";
+      sha256 = "218470b74c1e89c51cdca7f04bb5c66638bc243a5bc4b0b01b2feca9a2fc7c58";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
