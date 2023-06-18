@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.6.2";
+      version = "23.6.17";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4119553/refined_github-23.6.2.xpi";
-      sha256 = "218470b74c1e89c51cdca7f04bb5c66638bc243a5bc4b0b01b2feca9a2fc7c58";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4126274/refined_github-23.6.17.xpi";
+      sha256 = "5297353e020ae72b72c195388a08d74a99f3f735468f391633296898f0159686";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -582,10 +582,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.49.2";
+      version = "1.50.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4103048/ublock_origin-1.49.2.xpi";
-      sha256 = "39266486f720cd31d291d2fdad78625b079782a05517e1936eec7e780bc2a84d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4121906/ublock_origin-1.50.0.xpi";
+      sha256 = "10618003e70b528c3f17996e373146d39e6b15f777ac4ca1f214da2ffdb7a5b3";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -670,10 +670,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.42";
+      version = "2.1.43";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4101383/zoom_new_scheduler-2.1.42.xpi";
-      sha256 = "c4904787a67238f3247f518e6bb742e355818b5e71e2aade789c54c9d7e096a4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4120961/zoom_new_scheduler-2.1.43.xpi";
+      sha256 = "0f8cfc1d53d1c67755eb1ccc36290603fe94a68fc719328eadfb0187f2387744";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
