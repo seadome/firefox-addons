@@ -280,10 +280,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.6.1";
+      version = "1.7.0";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4051311/old_reddit_redirect-1.6.1.xpi";
-      sha256 = "17f18ce82f060d7847cce9b6052631a9f2ec207d4500944ebc60b9d06a348aad";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4126417/old_reddit_redirect-1.7.0.xpi";
+      sha256 = "6b70b536b5a14ac8c49f73e8b5f751d36b1e3837f079a3b76d302392bf91de5f";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -294,10 +294,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.10.0";
+      version = "2.11.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4099241/1password_x_password_manager-2.10.0.xpi";
-      sha256 = "739487dbc460983c752251daeb6d0d9a30f1d32af2bc65e1109968726709319f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4118285/1password_x_password_manager-2.11.0.xpi";
+      sha256 = "c02b78db3f4847553239a44d3ccb8453dbac1c8145ddabf00a8fe5dcd8c8e068";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.5";
+      version = "6.6.9";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4118639/raindropio-6.6.5.xpi";
-      sha256 = "12dc76b73262465c13a00f5988862083a8f8bdceff32aadf3226c8244314bfc2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128536/raindropio-6.6.9.xpi";
+      sha256 = "c35fe9ee6bc36fb36b7eaa4f08a416eaab200d944b51d096b529a8530a476f30";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -670,10 +670,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.43";
+      version = "2.1.44";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4120961/zoom_new_scheduler-2.1.43.xpi";
-      sha256 = "0f8cfc1d53d1c67755eb1ccc36290603fe94a68fc719328eadfb0187f2387744";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4127478/zoom_new_scheduler-2.1.44.xpi";
+      sha256 = "245ab906211021b78d7bd6583977cc57d492da754f57dbefed55f690b4a2952c";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
