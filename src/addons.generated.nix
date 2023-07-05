@@ -2,10 +2,10 @@
   {
     "a11ycss" = buildFirefoxXpiAddon {
       pname = "a11ycss";
-      version = "1.3.0";
+      version = "2.0.0";
       addonId = "a11y.css@ffoodd";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3997242/a11ycss-1.3.0.xpi";
-      sha256 = "33ed6c73adcd6a3501b3b9320a4e3adcd7ea50820a0e16e97b57efe22fcb4132";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4132650/a11ycss-2.0.0.xpi";
+      sha256 = "b42f351fec4d69b65f3d6e0ea23de01bbe0e903ca790db8356cb970eba06fd9b";
       meta = with lib;
       {
         homepage = "https://ffoodd.github.io/a11y.css/";
@@ -44,10 +44,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.5.0";
+      version = "2023.5.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4118580/bitwarden_password_manager-2023.5.0.xpi";
-      sha256 = "e36405e8e6d0503102d627bb5fcc43a5bd8b07eb40c4a100f03dfc17d0e60f81";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128403/bitwarden_password_manager-2023.5.1.xpi";
+      sha256 = "92f491cf260e4018192e94e866e5b2c5cd00102873d032331e28fe6ae308c010";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -100,10 +100,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.63";
+      version = "4.9.64";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4095037/darkreader-4.9.63.xpi";
-      sha256 = "16ba6337fcff7ad85e08ad51b384ba26ff751b2b2ded12309f75e8337ace925a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128489/darkreader-4.9.64.xpi";
+      sha256 = "c09ed43a96dccab1de3445aac263de0569e3333da330d645094e3f938f13b30e";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -453,10 +453,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.42";
+      version = "1.21.43";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4112597/single_file-1.21.42.xpi";
-      sha256 = "28451f6c86cdbc70c37ef1338152f24afc17900856a287d58afcb95302030bd6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128372/single_file-1.21.43.xpi";
+      sha256 = "96ca441d989867e67c235f92c5601d77ead20552a5bdafb7615c04364911cc05";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -479,10 +479,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.6";
+      version = "3.6.7";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4106867/steam_database-3.6.6.xpi";
-      sha256 = "1042f5a1b61ee4083e8999405da601bc6fa43cf9069f078b5da45261f40bce2b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128503/steam_database-3.6.7.xpi";
+      sha256 = "44a2d00113c7523e08f03445e4983e9fd3e5f295ba096c7e5946a934c322450f";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -670,10 +670,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.44";
+      version = "2.1.45";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4127478/zoom_new_scheduler-2.1.44.xpi";
-      sha256 = "245ab906211021b78d7bd6583977cc57d492da754f57dbefed55f690b4a2952c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4129840/zoom_new_scheduler-2.1.45.xpi";
+      sha256 = "00237101a59a0d94f54ffc4eb3f5f1663195bcb41b350531cecf42dc9f931acf";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
