@@ -491,6 +491,104 @@
         platforms = platforms.all;
         };
       };
+    "stg-plugin-create-new-group" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-create-new-group";
+      version = "2.1";
+      addonId = "stg-plugin-create-new-group@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093910/stg_plugin_create_new_group-2.1.xpi";
+      sha256 = "a138715c58e482a54c9c54123a60c9a66c33ab199a813be3980974cacb510eb2";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Create new group in extention Simple Tab Groups";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-create-new-tab" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-create-new-tab";
+      version = "3.1";
+      addonId = "stg-plugin-create-new-tab@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4094638/stg_plugin_create_new_tab-3.1.xpi";
+      sha256 = "3c1c26d733d4c828546d4cdad04fdf5930cb919c2e1befac01996f160a15e5fd";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Create new tab (can do it in temporary container) in Simple Tab Groups extention";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-create-temp-tab" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-create-temp-tab";
+      version = "2.0";
+      addonId = "stg-plugin-create-temp-tab@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093915/stg_plugin_create_temp_tab-2.0.xpi";
+      sha256 = "91677d7263303f87095599ca724d81b474e74d8074d1b40a09f34e522f2ca35c";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Create a new tab in the container in the Simple Tab Groups v4.5.2+ extension";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-del-current-group" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-del-current-group";
+      version = "2.0";
+      addonId = "stg-plugin-del-current-group@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093917/stg_plugin_del_current_group-2.0.xpi";
+      sha256 = "81f23b12fa12edfb93f76682fccd6e183ebbf3c38b63b956cb9db7d787be5e52";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Delete current group in Simple Tab Groups extention";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-group-notes" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-group-notes";
+      version = "2.0.1";
+      addonId = "stg-plugin-group-notes@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4094713/stg_plugin_group_notes-2.0.1.xpi";
+      sha256 = "8d831263db5e43e7d1fca20ddbd661dfeb319e806f54bc44fbe07c746d5d5814";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Create notes for group";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-load-custom-group" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-load-custom-group";
+      version = "2.0";
+      addonId = "stg-plugin-load-custom-group@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093922/stg_plugin_load_custom_group-2.0.xpi";
+      sha256 = "1840147e21656d1f0ed6a0a5c420574579cc59bd99df9bd930a62962cd86d6f8";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Load custom group in Simple Tab Groups extention";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
+    "stg-plugin-manage-groups" = buildFirefoxXpiAddon {
+      pname = "stg-plugin-manage-groups";
+      version = "2.0";
+      addonId = "stg-plugin-manage-groups@drive4ik";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4093919/stg_plugin_manage_groups-2.0.xpi";
+      sha256 = "337e51bec34ec584b408e148c1b193dff93b74d4d50d0a6b88b62acfbfc5d540";
+      meta = with lib;
+      {
+        homepage = "https://github.com/drive4ik/simple-tab-groups";
+        description = "Open Manage groups page in Simple Tab Groups extention";
+        license = licenses.mpl20;
+        platforms = platforms.all;
+        };
+      };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
       version = "1.5.33";
