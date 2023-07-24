@@ -196,10 +196,10 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.6.2";
+      version = "2.7.0";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4116106/libredirect-2.6.2.xpi";
-      sha256 = "e813e907abd4bc5871cb23bd95305221eee4f99d6ca8f82f1d696f6bd8dcaa41";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4142055/libredirect-2.7.0.xpi";
+      sha256 = "271c9b7ff8e776e45fb8773d60e9456b20d20ddbf885cdd09a94552edaddd255";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -280,10 +280,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.7.0";
+      version = "1.7.1";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4126417/old_reddit_redirect-1.7.0.xpi";
-      sha256 = "6b70b536b5a14ac8c49f73e8b5f751d36b1e3837f079a3b76d302392bf91de5f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4134634/old_reddit_redirect-1.7.1.xpi";
+      sha256 = "d473230e527e007ae98414bc68ffe4f98ed997d2f25a71c349e4e13288d0da62";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -341,10 +341,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.9";
+      version = "6.6.13";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128536/raindropio-6.6.9.xpi";
-      sha256 = "c35fe9ee6bc36fb36b7eaa4f08a416eaab200d944b51d096b529a8530a476f30";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4139890/raindropio-6.6.13.xpi";
+      sha256 = "f4e38405c6b2d62b13dfd74cbc3c6432005c4341d3057975004fdb76b79946d5";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -397,10 +397,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.6.17";
+      version = "23.7.8";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4126274/refined_github-23.6.17.xpi";
-      sha256 = "5297353e020ae72b72c195388a08d74a99f3f735468f391633296898f0159686";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4135873/refined_github-23.7.8.xpi";
+      sha256 = "9e6555c0b8e11f782ae997783ec6caa0c1f00f6ec9af0b42937a9335f184668a";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -411,10 +411,10 @@
       };
     "rust-search-extension" = buildFirefoxXpiAddon {
       pname = "rust-search-extension";
-      version = "1.11.1";
+      version = "1.12.0";
       addonId = "{04188724-64d3-497b-a4fd-7caffe6eab29}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4101007/rust_search_extension-1.11.1.xpi";
-      sha256 = "0e98ea24d5d12dc2678a3f9c6961d1883c3ac69741e9e1090b8bd715124f1c99";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4139032/rust_search_extension-1.12.0.xpi";
+      sha256 = "5731dd0ac69570e41537034073ca9fc51616d15f08cf0138f0a9a1bd0d7b078e";
       meta = with lib;
       {
         homepage = "https://rust.extension.sh";
@@ -479,10 +479,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.7";
+      version = "3.6.9";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128503/steam_database-3.6.7.xpi";
-      sha256 = "44a2d00113c7523e08f03445e4983e9fd3e5f295ba096c7e5946a934c322450f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4138684/steam_database-3.6.9.xpi";
+      sha256 = "382b2368df6aea3ea91a355ad38447771f1029075733806ecd43d77b78e829bb";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -708,10 +708,10 @@
       };
     "vimium-ff" = buildFirefoxXpiAddon {
       pname = "vimium-ff";
-      version = "1.67.6";
+      version = "1.67.7";
       addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4046008/vimium_ff-1.67.6.xpi";
-      sha256 = "e8d6c98842bd7221d62d1079e4153e3e0d20c5ca5412316dd71cb5c3bdb7d457";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4137983/vimium_ff-1.67.7.xpi";
+      sha256 = "a164a4f62aa152dd6439cd96aebadbfc655fc56285854d198e7dcee2aca4eb97";
       meta = with lib;
       {
         homepage = "https://github.com/philc/vimium";
@@ -736,10 +736,10 @@
       };
     "wave" = buildFirefoxXpiAddon {
       pname = "wave";
-      version = "3.2.2.0";
+      version = "3.2.4.1";
       addonId = "{9bbf6724-d709-492e-a313-bfed0415a224}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4041128/wave_accessibility_tool-3.2.2.0_1KT3nNP.xpi";
-      sha256 = "ba4aefa44b4b4eb9d81b533b15219129296c331cba5de68d647fe56b917ab5b7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4134752/wave_accessibility_tool-3.2.4.1.xpi";
+      sha256 = "5d1bb0f4f76de9ac585e2fe945943029c2c673d643845fd5adeba9e3efa433de";
       meta = with lib;
       {
         description = "Evaluate web accessibility within the Firefox browser. When activated, the WAVE extension injects icons and indicators into your page to give feedback about accessibility and to facilitate manual evaluation.";
