@@ -44,10 +44,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.5.1";
+      version = "2023.7.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128403/bitwarden_password_manager-2023.5.1.xpi";
-      sha256 = "92f491cf260e4018192e94e866e5b2c5cd00102873d032331e28fe6ae308c010";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4140393/bitwarden_password_manager-2023.7.1.xpi";
+      sha256 = "a33971d80f552279f96579786938ae8e88c4b95c29f8339c42f5de47f15200ad";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -169,12 +169,13 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.2";
+      version = "0.3.4";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3942576/kagi_search_for_firefox-0.2.xpi";
-      sha256 = "3fd046ba0332fa76bc00bedf0f9d1c9282618c1545016bbfde246b1c8f34d311";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4145217/kagi_search_for_firefox-0.3.4.xpi";
+      sha256 = "5a55c7dacb5d4a4389cfaebb0e8019d6d05a49b7a4326c80e26c136705491bf9";
       meta = with lib;
       {
+        homepage = "https://kagi.com";
         description = "A simple helper extension for setting Kagi as a default search engine, and automatically logging in to Kagi in private browsing windows.";
         license = licenses.mpl20;
         platforms = platforms.all;
@@ -196,10 +197,10 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.7.0";
+      version = "2.7.1";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4142055/libredirect-2.7.0.xpi";
-      sha256 = "271c9b7ff8e776e45fb8773d60e9456b20d20ddbf885cdd09a94552edaddd255";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4144580/libredirect-2.7.1.xpi";
+      sha256 = "564e56e1ccccf2f445b6cb9485c602609589a23052d2a53ab491cbce51c6b42f";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -294,10 +295,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.11.0";
+      version = "2.13.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4118285/1password_x_password_manager-2.11.0.xpi";
-      sha256 = "c02b78db3f4847553239a44d3ccb8453dbac1c8145ddabf00a8fe5dcd8c8e068";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4141204/1password_x_password_manager-2.13.0.xpi";
+      sha256 = "19c39051689dbc9c10abc556df1e89b62a9ee20cd5edfbc375d2c5dd12650eeb";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -397,10 +398,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.7.8";
+      version = "23.7.25";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4135873/refined_github-23.7.8.xpi";
-      sha256 = "9e6555c0b8e11f782ae997783ec6caa0c1f00f6ec9af0b42937a9335f184668a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4143551/refined_github-23.7.25.xpi";
+      sha256 = "93a337436378a9cba17c81c442f7013b2359f5109e358487211643a98d1f3387";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -453,10 +454,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.43";
+      version = "1.21.47";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128372/single_file-1.21.43.xpi";
-      sha256 = "96ca441d989867e67c235f92c5601d77ead20552a5bdafb7615c04364911cc05";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4143436/single_file-1.21.47.xpi";
+      sha256 = "87f2be785ce8552c6662dd037cbf931e30238cd7711c2b33fa653869b8e8657a";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -633,10 +634,10 @@
       };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.15";
+      version = "3.9.16";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4088468/tree_style_tab-3.9.15.xpi";
-      sha256 = "7c993bae2d43488615f1a3b7459a2c35730a486b3855049709c636a84751d252";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4141929/tree_style_tab-3.9.16.xpi";
+      sha256 = "703c0a1d8d62329aa93ccf3a637911661dd752d0c0d714736521df7aeecc52e9";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -666,10 +667,10 @@
       };
     "tst-search" = buildFirefoxXpiAddon {
       pname = "tst-search";
-      version = "0.0.6";
+      version = "0.0.7";
       addonId = "@tst-search";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4009035/tst_search-0.0.6.xpi";
-      sha256 = "1c4ebfaadb2af712684acc96d12da69e86d4bcff9db84c97c20d3576722a4981";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4145356/tst_search-0.0.7.xpi";
+      sha256 = "5979b6ebc694ed1e62d27fec8f750dcb7f09ca393a4ce8ca552d56b7e7241bef";
       meta = with lib;
       {
         homepage = "https://github.com/NiklasGollenstede/tst-search#readme";
@@ -680,10 +681,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.50.0";
+      version = "1.51.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4121906/ublock_origin-1.50.0.xpi";
-      sha256 = "10618003e70b528c3f17996e373146d39e6b15f777ac4ca1f214da2ffdb7a5b3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4141256/ublock_origin-1.51.0.xpi";
+      sha256 = "8b73468bc233a11dd2895219466381783d19123857dd0b6fd16a01820fca4834";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -722,10 +723,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.14.0";
+      version = "2.15.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4076005/violentmonkey-2.14.0.xpi";
-      sha256 = "6c25cfb7d464c22ea4c560e5271a0cacd49b8fe0c404420fb5b4fd2c78880b2d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4142251/violentmonkey-2.15.0.xpi";
+      sha256 = "894e54cbe9dcd235deaef054b9268a955fed9afee156ebd42249c2b161c55352";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
@@ -768,10 +769,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.45";
+      version = "2.1.46";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4129840/zoom_new_scheduler-2.1.45.xpi";
-      sha256 = "00237101a59a0d94f54ffc4eb3f5f1663195bcb41b350531cecf42dc9f931acf";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4142707/zoom_new_scheduler-2.1.46.xpi";
+      sha256 = "a55a08a6cf64ecf656fc551d33568d31183341287ada52489f3b1ff0cb24f101";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
