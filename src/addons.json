@@ -146,6 +146,13 @@
     "slug": "tab-session-manager"
   },
   {
+    "slug": "tbl2csv",
+    "license": {
+      "tag": "predefined",
+      "shortName": "bsd2"
+    }
+  },
+  {
     "slug": "temporary-containers"
   },
   {

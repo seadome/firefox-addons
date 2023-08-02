@@ -618,6 +618,20 @@
         platforms = platforms.all;
         };
       };
+    "tbl2csv" = buildFirefoxXpiAddon {
+      pname = "tbl2csv";
+      version = "1.3.19";
+      addonId = "{38dc25f6-5ed7-4279-a1fb-832b5e90a98b}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4128205/tbl2csv-1.3.19.xpi";
+      sha256 = "70faed991b4c45de0fa548f53a39be0467967958878ecc6750cc9a6c40caab97";
+      meta = with lib;
+      {
+        homepage = "https://github.com/igorlogius/tbl2csv";
+        description = "Save HTML Tables, CSS Pseudo/DIV Tables or Lists (UL/OL) as a comma seperated values (CSV) file which can be opened with any spreadsheet processor (e.g. excel, libreoffice-calc,gnumeric) for further processing and conversion (e.g. to xls or ods)";
+        license = licenses.bsd2;
+        platforms = platforms.all;
+        };
+      };
     "temporary-containers" = buildFirefoxXpiAddon {
       pname = "temporary-containers";
       version = "1.9.2";
