@@ -169,10 +169,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.4";
+      version = "0.3.6";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4145217/kagi_search_for_firefox-0.3.4.xpi";
-      sha256 = "5a55c7dacb5d4a4389cfaebb0e8019d6d05a49b7a4326c80e26c136705491bf9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4147453/kagi_search_for_firefox-0.3.6.xpi";
+      sha256 = "3fc443be32f05be37cf3063b33eff4cd7da0d4def6ecdc0a643aed7a3cdc09cd";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -454,10 +454,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.47";
+      version = "1.21.50";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4143436/single_file-1.21.47.xpi";
-      sha256 = "87f2be785ce8552c6662dd037cbf931e30238cd7711c2b33fa653869b8e8657a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4145476/single_file-1.21.50.xpi";
+      sha256 = "5cd8b6cab50dcfcb6b73b9fd0e869b53e463432d92107186c2dc859c027de40a";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
