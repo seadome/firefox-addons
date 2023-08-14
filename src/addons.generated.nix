@@ -100,10 +100,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.64";
+      version = "4.9.65";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128489/darkreader-4.9.64.xpi";
-      sha256 = "c09ed43a96dccab1de3445aac263de0569e3333da330d645094e3f938f13b30e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4151368/darkreader-4.9.65.xpi";
+      sha256 = "964d7fdeec1dc90b5238a82db699de7a2bbf54e3e2bf18569befff451f35f89a";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -281,10 +281,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.7.1";
+      version = "1.7.2";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4134634/old_reddit_redirect-1.7.1.xpi";
-      sha256 = "d473230e527e007ae98414bc68ffe4f98ed997d2f25a71c349e4e13288d0da62";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4150346/old_reddit_redirect-1.7.2.xpi";
+      sha256 = "9bd4f42b340e3777253d49e72c679c6a1bac55141438d954614ce01bd85b7018";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -398,10 +398,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.7.25";
+      version = "23.8.3";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4143551/refined_github-23.7.25.xpi";
-      sha256 = "93a337436378a9cba17c81c442f7013b2359f5109e358487211643a98d1f3387";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4148042/refined_github-23.8.3.xpi";
+      sha256 = "3b0f9547fe388ba6e0366a111b25fb1db2492182747ac80949838d662ce3d295";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -454,10 +454,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.50";
+      version = "1.21.56";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4145476/single_file-1.21.50.xpi";
-      sha256 = "5cd8b6cab50dcfcb6b73b9fd0e869b53e463432d92107186c2dc859c027de40a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4150494/single_file-1.21.56.xpi";
+      sha256 = "a56aff440f862b96417b76b1b46ec65572d36248f0e8712aef292f21ff248155";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -480,10 +480,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.9";
+      version = "3.6.11";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4138684/steam_database-3.6.9.xpi";
-      sha256 = "382b2368df6aea3ea91a355ad38447771f1029075733806ecd43d77b78e829bb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4150694/steam_database-3.6.11.xpi";
+      sha256 = "ec6b77debe15b9a534591734913cc096f6ef2e902e1c42e91d44c0736d01a585";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
