@@ -281,10 +281,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.7.2";
+      version = "1.7.3";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4150346/old_reddit_redirect-1.7.2.xpi";
-      sha256 = "9bd4f42b340e3777253d49e72c679c6a1bac55141438d954614ce01bd85b7018";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4152567/old_reddit_redirect-1.7.3.xpi";
+      sha256 = "0635622093c91a0893849182a92c8c7356427d6a4dee5b61a8e985edda9e0e39";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -480,10 +480,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.6.11";
+      version = "3.7.1";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4150694/steam_database-3.6.11.xpi";
-      sha256 = "ec6b77debe15b9a534591734913cc096f6ef2e902e1c42e91d44c0736d01a585";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4154660/steam_database-3.7.1.xpi";
+      sha256 = "a3db281f0bd7a62c6f62157d97c06d6eed0900ae1878b5f819324bfe2bd9a4f4";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
