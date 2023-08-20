@@ -27,7 +27,7 @@
     "slug": "browserpass-ce",
     "pname": "browserpass"
   },
-  {"slug": "consent-o-matic"},
+  { "slug": "consent-o-matic" },
   {
     "slug": "copy-selection-as-markdown"
   },
@@ -62,6 +62,7 @@
   {
     "slug": "linkhints"
   },
+  { "slug": "metager-searchengine" },
   {
     "slug": "multi-account-containers"
   },
@@ -127,13 +128,13 @@
       "shortName": "bsd3"
     }
   },
-  {"slug": "stg-plugin-create-new-group"},
-  {"slug": "stg-plugin-create-new-tab"},
-  {"slug": "stg-plugin-create-temp-tab"},
-  {"slug": "stg-plugin-del-current-group"},
-  {"slug": "stg-plugin-group-notes"},
-  {"slug": "stg-plugin-load-custom-group"},
-  {"slug": "stg-plugin-manage-groups"},
+  { "slug": "stg-plugin-create-new-group" },
+  { "slug": "stg-plugin-create-new-tab" },
+  { "slug": "stg-plugin-create-temp-tab" },
+  { "slug": "stg-plugin-del-current-group" },
+  { "slug": "stg-plugin-group-notes" },
+  { "slug": "stg-plugin-load-custom-group" },
+  { "slug": "stg-plugin-manage-groups" },
   {
     "slug": "styl-us",
     "pname": "stylus",
