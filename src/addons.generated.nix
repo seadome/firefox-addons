@@ -2,10 +2,10 @@
   {
     "a11ycss" = buildFirefoxXpiAddon {
       pname = "a11ycss";
-      version = "2.0.0";
+      version = "2.0.1";
       addonId = "a11y.css@ffoodd";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4132650/a11ycss-2.0.0.xpi";
-      sha256 = "b42f351fec4d69b65f3d6e0ea23de01bbe0e903ca790db8356cb970eba06fd9b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4156875/a11ycss-2.0.1.xpi";
+      sha256 = "49d52c589266604c232c29a915b3d06df231267b2dca7d7694284a25059b5c51";
       meta = with lib;
       {
         homepage = "https://ffoodd.github.io/a11y.css/";
@@ -308,10 +308,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.13.0";
+      version = "2.14.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4141204/1password_x_password_manager-2.13.0.xpi";
-      sha256 = "19c39051689dbc9c10abc556df1e89b62a9ee20cd5edfbc375d2c5dd12650eeb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4157040/1password_x_password_manager-2.14.1.xpi";
+      sha256 = "0166ae58fb0ba0807124f7ec49977243922218e4022e113c19a8e59ec26db307";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -411,10 +411,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.8.3";
+      version = "23.8.24";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4148042/refined_github-23.8.3.xpi";
-      sha256 = "3b0f9547fe388ba6e0366a111b25fb1db2492182747ac80949838d662ce3d295";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4157985/refined_github-23.8.24.xpi";
+      sha256 = "2adc00ac580bb9b883627890a02db1e1f0bcb565f5b16f88f84ede5683b8bfcd";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -467,10 +467,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.56";
+      version = "1.21.62";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4150494/single_file-1.21.56.xpi";
-      sha256 = "a56aff440f862b96417b76b1b46ec65572d36248f0e8712aef292f21ff248155";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4157556/single_file-1.21.62.xpi";
+      sha256 = "219c21fcf03889cba81c4ce7295f2856cc9f41e260c14d2026b0161611a481e6";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -757,7 +757,7 @@
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
-        description = "Violentmonkey provides userscripts support for browsers.\nIt's open source! <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/c8bcebd9a0e76f20c888274e94578ab5957439e46d59a046ff9e1a9ef55c282c/https%3A//github.com/violentmonkey/violentmonkey\" rel=\"nofollow\">https://github.com/violentmonkey/violentmonkey</a>";
+        description = "Userscript support for browsers, open source.";
         license = licenses.mit;
         platforms = platforms.all;
         };
