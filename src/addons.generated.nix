@@ -11,6 +11,7 @@
         homepage = "https://ffoodd.github.io/a11y.css/";
         description = "a11y.css provides warnings about possible risks and mistakes that exist in HTML code through a style sheet. This extension also provides several accessibility-related utilities.\n\nsee <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4c643171ccddfcfa3712d45a2b7b615f54195eb4507868ab6ef3fbf6694dc4c2/https%3A//github.com/ffoodd/a11y.css/tree/webextension\" rel=\"nofollow\">https://github.com/ffoodd/a11y.css/tree/webextension</a> for  details";
         license = licenses.mit;
+        mozPermissions = [ "activeTab" "storage" "scripting" "tabs" "*://*/*" ];
         platforms = platforms.all;
         };
       };
@@ -25,6 +26,7 @@
         homepage = "http://dascritch.net/post/2014/06/24/Sniffeur-d-ancre";
         description = "Reveal the anchors in a webpage";
         license = licenses.gpl3;
+        mozPermissions = [ "activeTab" "storage" "contextMenus" ];
         platforms = platforms.all;
         };
       };
@@ -39,6 +41,15 @@
         homepage = "https://webextension.org/listing/tab-discard.html";
         description = "Increase browser speed and reduce memory load and when you have numerous open tabs.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "idle"
+          "storage"
+          "contextMenus"
+          "notifications"
+          "alarms"
+          "*://*/*"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -53,6 +64,20 @@
         homepage = "https://bitwarden.com";
         description = "A secure and free password manager for all of your devices.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "tabs"
+          "contextMenus"
+          "storage"
+          "unlimitedStorage"
+          "clipboardRead"
+          "clipboardWrite"
+          "idle"
+          "http://*/*"
+          "https://*/*"
+          "webRequest"
+          "webRequestBlocking"
+          "file:///*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -67,6 +92,19 @@
         homepage = "https://github.com/browserpass/browserpass-extension";
         description = "Browserpass is a browser extension for Firefox and Chrome to retrieve login details from zx2c4's pass (<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fcd8dcb23434c51a78197a1c25d3e2277aa1bc764c827b4b4726ec5a5657eb64/http%3A//passwordstore.org\" rel=\"nofollow\">passwordstore.org</a>) straight from your browser. Tags: passwordstore, password store, password manager, passwordmanager, gpg";
         license = licenses.isc;
+        mozPermissions = [
+          "activeTab"
+          "alarms"
+          "tabs"
+          "clipboardRead"
+          "clipboardWrite"
+          "nativeMessaging"
+          "notifications"
+          "webRequest"
+          "webRequestBlocking"
+          "http://*/*"
+          "https://*/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -81,6 +119,7 @@
         homepage = "https://consentomatic.au.dk/";
         description = "Automatic handling of GDPR consent forms";
         license = licenses.mit;
+        mozPermissions = [ "activeTab" "storage" "<all_urls>" ];
         platforms = platforms.all;
         };
       };
@@ -95,6 +134,12 @@
         homepage = "https://github.com/0x6b/copy-selection-as-markdown";
         description = "Copy title, URL, and selection as Markdown.";
         license = licenses.mit;
+        mozPermissions = [
+          "activeTab"
+          "clipboardWrite"
+          "contextMenus"
+          "storage"
+          ];
         platforms = platforms.all;
         };
       };
@@ -109,6 +154,14 @@
         homepage = "https://darkreader.org/";
         description = "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.";
         license = licenses.mit;
+        mozPermissions = [
+          "alarms"
+          "contextMenus"
+          "storage"
+          "tabs"
+          "theme"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -123,6 +176,12 @@
         homepage = "https://color.firefox.com";
         description = "Build, save and share beautiful Firefox themes.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "theme"
+          "storage"
+          "tabs"
+          "https://color.firefox.com/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -137,6 +196,15 @@
         homepage = "https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome";
         description = "This extension provides integration with GNOME Shell and the corresponding extensions repository <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/b16ff805576d83628b80265636b483e6f56c58d6e812e04045626ff602eff739/https%3A//extensions.gnome.org\" rel=\"nofollow\">https://extensions.gnome.org</a>";
         license = licenses.gpl3;
+        mozPermissions = [
+          "alarms"
+          "nativeMessaging"
+          "notifications"
+          "storage"
+          "tabs"
+          "https://extensions.gnome.org/"
+          "https://extensions.gnome.org/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -151,6 +219,18 @@
         homepage = "https://github.com/gopasspw/gopassbridge";
         description = "Gopass Bridge allows searching and inserting login credentials from the gopass password manager ( <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fa484fa7cde64c1be04f689a80902fdf34bfe274b8675213f619c3a13e6606ab/https%3A//www.gopass.pw/\">https://www.gopass.pw/</a> ).";
         license = licenses.mit;
+        mozPermissions = [
+          "<all_urls>"
+          "activeTab"
+          "clipboardWrite"
+          "storage"
+          "nativeMessaging"
+          "notifications"
+          "webRequest"
+          "webRequestBlocking"
+          "http://*/*"
+          "https://*/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -164,6 +244,7 @@
       {
         homepage = "https://js.extension.sh";
         description = "The ultimate search extension for Javascript!";
+        mozPermissions = [ "tabs" ];
         platforms = platforms.all;
         };
       };
@@ -178,6 +259,12 @@
         homepage = "https://kagi.com";
         description = "A simple helper extension for setting Kagi as a default search engine, and automatically logging in to Kagi in private browsing windows.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "cookies"
+          "declarativeNetRequestWithHostAccess"
+          "webRequest"
+          "storage"
+          ];
         platforms = platforms.all;
         };
       };
@@ -192,20 +279,40 @@
         homepage = "https://github.com/april/laboratory";
         description = "Because good website security shouldn't only be available to mad scientists! Laboratory is a WebExtension that helps you generate a Content Security Policy (CSP) header for your website.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "storage"
+          "tabs"
+          "webNavigation"
+          "webRequest"
+          "webRequestBlocking"
+          "ftp://*/*"
+          "http://*/*"
+          "https://*/*"
+          "ws://*/*"
+          "wss://*/*"
+          ];
         platforms = platforms.all;
         };
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.7.1";
+      version = "2.8.0";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4144580/libredirect-2.7.1.xpi";
-      sha256 = "564e56e1ccccf2f445b6cb9485c602609589a23052d2a53ab491cbce51c6b42f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4162020/libredirect-2.8.0.xpi";
+      sha256 = "ae8f1143fcd8c3fa926bc9c95e50ab04d1c847b8bd57c1a893db291c089510a3";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
         description = "Redirects YouTube, Twitter, TikTok... requests to alternative privacy friendly frontends.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "webRequest"
+          "webRequestBlocking"
+          "storage"
+          "clipboardWrite"
+          "contextMenus"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -220,6 +327,7 @@
         homepage = "https://github.com/idlewan/link_cleaner";
         description = "Clean URLs that are about to be visited:\n- removes utm_* parameters\n- on item pages of aliexpress and amazon, removes tracking parameters\n- skip redirect pages of facebook, steam and reddit";
         license = licenses.gpl3;
+        mozPermissions = [ "<all_urls>" "webRequest" "webRequestBlocking" ];
         platforms = platforms.all;
         };
       };
@@ -234,6 +342,7 @@
         homepage = "https://lydell.github.io/LinkHints";
         description = "Click with your keyboard.";
         license = licenses.mit;
+        mozPermissions = [ "<all_urls>" "storage" ];
         platforms = platforms.all;
         };
       };
@@ -247,6 +356,7 @@
       {
         description = "Privacy has never been that easy. Configures <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/66bc3f9394f36df6c488531cd247b43b42d46740088833de9818366e1dde5986/http%3A//MetaGer.org\" rel=\"nofollow\">MetaGer.org</a> as default search engine.\nSource Code:\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/5fdf787e5be66be7b0cfcffae0a5bd314f87597bf07579c5d2f71c8f38d1b879/https%3A//gitlab.metager.de/open-source/metager-webextension-en\" rel=\"nofollow\">https://gitlab.metager.de/open-source/metager-webextension-en</a>";
         license = licenses.gpl3;
+        mozPermissions = [ "https://metager.org/" ];
         platforms = platforms.all;
         };
       };
@@ -261,6 +371,21 @@
         homepage = "https://github.com/mozilla/multi-account-containers/#readme";
         description = "Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "<all_urls>"
+          "activeTab"
+          "cookies"
+          "contextMenus"
+          "contextualIdentities"
+          "history"
+          "idle"
+          "management"
+          "storage"
+          "unlimitedStorage"
+          "tabs"
+          "webRequestBlocking"
+          "webRequest"
+          ];
         platforms = platforms.all;
         };
       };
@@ -275,6 +400,15 @@
         homepage = "https://octolinker.vercel.app";
         description = "It turns language-specific module-loading statements like include, require or import into links. Depending on the language it will either redirect you to the referenced file or to an external website like a manual page or another service.";
         license = licenses.mit;
+        mozPermissions = [
+          "storage"
+          "https://github.com/"
+          "https://api.github.com/"
+          "https://gist.github.com/"
+          "https://octolinker-api.now.sh/"
+          "https://github.com/*"
+          "https://gist.github.com/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -289,6 +423,7 @@
         homepage = "https://github.com/rugk/offline-qr-code";
         description = "This add-on allows you to quickly generate a QR code offline with the URL of the open tab or any (selected) other text! 👍\n\nIt works completely offline protecting your privacy and has a big range of features like colored QR codes!";
         license = licenses.mit;
+        mozPermissions = [ "activeTab" "storage" "menus" ];
         platforms = platforms.all;
         };
       };
@@ -303,6 +438,18 @@
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
         description = "Ensure Reddit always loads the old design";
         license = licenses.mit;
+        mozPermissions = [
+          "webRequest"
+          "webRequestBlocking"
+          "*://reddit.com/*"
+          "*://www.reddit.com/*"
+          "*://np.reddit.com/*"
+          "*://amp.reddit.com/*"
+          "*://i.reddit.com/*"
+          "*://i.redd.it/*"
+          "*://preview.redd.it/*"
+          "*://old.reddit.com/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -322,6 +469,35 @@
           url = "https://1password.com/legal/terms-of-service/";
           free = false;
           };
+        mozPermissions = [
+          "<all_urls>"
+          "alarms"
+          "clipboardWrite"
+          "contextMenus"
+          "downloads"
+          "idle"
+          "management"
+          "nativeMessaging"
+          "notifications"
+          "privacy"
+          "scripting"
+          "tabs"
+          "webNavigation"
+          "webRequest"
+          "webRequestBlocking"
+          "https://*.1password.ca/*"
+          "https://*.1password.com/*"
+          "https://*.1password.eu/*"
+          "https://*.b5dev.ca/*"
+          "https://*.b5dev.com/*"
+          "https://*.b5dev.eu/*"
+          "https://*.b5local.com/*"
+          "https://*.b5staging.com/*"
+          "https://*.b5test.ca/*"
+          "https://*.b5test.com/*"
+          "https://*.b5test.eu/*"
+          "https://*.b5rev.com/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -336,6 +512,7 @@
         homepage = "https://github.com/sprig/org-capture-extension";
         description = "A helper for capturing things via org-protocol in emacs: First, set up: <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/04ad17418f8d35ee0f3edf4599aed951b2a5ef88d4bc7e0e3237f6d86135e4fb/http%3A//orgmode.org/worg/org-contrib/org-protocol.html\">http://orgmode.org/worg/org-contrib/org-protocol.html</a> or <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fb401af8127ccf82bc948b0a7af0543eec48d58100c0c46404f81aabeda442e6/https%3A//github.com/sprig/org-capture-extension\">https://github.com/sprig/org-capture-extension</a>\n\nSee <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/6aad51cc4e2f9476f9fff344e6554eade08347181aed05f8b61cda05073daecb/https%3A//youtu.be/zKDHto-4wsU\">https://youtu.be/zKDHto-4wsU</a> for example usage";
         license = licenses.mit;
+        mozPermissions = [ "activeTab" "storage" ];
         platforms = platforms.all;
         };
       };
@@ -350,6 +527,16 @@
         homepage = "http://kde.org";
         description = "Multitask efficiently by controlling browser functions from the Plasma desktop.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "nativeMessaging"
+          "notifications"
+          "storage"
+          "downloads"
+          "tabs"
+          "<all_urls>"
+          "contextMenus"
+          "*://*/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -364,6 +551,7 @@
         homepage = "https://raindrop.io";
         description = "All-in-one bookmark manager";
         license = licenses.mpl20;
+        mozPermissions = [ "contextMenus" "activeTab" "scripting" "storage" ];
         platforms = platforms.all;
         };
       };
@@ -378,6 +566,14 @@
         homepage = "https://github.com/facebook/react";
         description = "React Developer Tools is a tool that allows you to inspect a React tree, including the component hierarchy, props, state, and more. To get started, just open the Firefox devtools and switch to the \"⚛️ Components\" or \"⚛️ Profiler\" tab.";
         license = licenses.mit;
+        mozPermissions = [
+          "file:///*"
+          "http://*/*"
+          "https://*/*"
+          "clipboardWrite"
+          "devtools"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -392,6 +588,15 @@
         homepage = "https://redditenhancementsuite.com/";
         description = "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "https://*.reddit.com/*"
+          "cookies"
+          "identity"
+          "tabs"
+          "history"
+          "storage"
+          "unlimitedStorage"
+          ];
         platforms = platforms.all;
         };
       };
@@ -406,6 +611,17 @@
         homepage = "https://github.com/reduxjs/redux-devtools";
         description = "DevTools for Redux with actions history, undo and replay.";
         license = licenses.mit;
+        mozPermissions = [
+          "notifications"
+          "contextMenus"
+          "tabs"
+          "storage"
+          "file:///*"
+          "http://*/*"
+          "https://*/*"
+          "devtools"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -420,6 +636,15 @@
         homepage = "https://github.com/sindresorhus/refined-github";
         description = "Simplifies the GitHub interface and adds many useful features.";
         license = licenses.mit;
+        mozPermissions = [
+          "storage"
+          "contextMenus"
+          "activeTab"
+          "alarms"
+          "https://github.com/*"
+          "https://api.github.com/*"
+          "https://gist.github.com/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -434,6 +659,16 @@
         homepage = "https://rust.extension.sh";
         description = "The ultimate search extension for Rust\n\nSearch std docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4af48e3229ba03b454fb9b352a7e5a4c038e1bcc6721bf744b781a5e96b9e798/https%3A//rust.extension.sh\" rel=\"nofollow\">https://rust.extension.sh</a>";
         license = licenses.mpl20;
+        mozPermissions = [
+          "*://crates.io/api/v1/crates/*"
+          "https://rust.extension.sh/*"
+          "storage"
+          "unlimitedStorage"
+          "*://docs.rs/*"
+          "*://doc.rust-lang.org/*"
+          "*://doc.rust-lang.org/nightly/nightly-rustc/*"
+          "*://rust.extension.sh/update"
+          ];
         platforms = platforms.all;
         };
       };
@@ -448,6 +683,7 @@
         homepage = "https://github.com/SimpleSAMLphp/SAML-tracer/";
         description = "A tool for viewing SAML and WS-Federation messages sent through the browser during single sign-on and single logout.";
         license = licenses.bsd2;
+        mozPermissions = [ "webRequest" "webRequestBlocking" "<all_urls>" ];
         platforms = platforms.all;
         };
       };
@@ -462,20 +698,45 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Create, modify, and quickly change tab groups";
         license = licenses.mpl20;
+        mozPermissions = [
+          "tabs"
+          "tabHide"
+          "notifications"
+          "menus"
+          "contextualIdentities"
+          "cookies"
+          "sessions"
+          "downloads"
+          "management"
+          "webRequest"
+          "webRequestBlocking"
+          "<all_urls>"
+          "storage"
+          "unlimitedStorage"
+          ];
         platforms = platforms.all;
         };
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.62";
+      version = "1.21.63";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4157556/single_file-1.21.62.xpi";
-      sha256 = "219c21fcf03889cba81c4ce7295f2856cc9f41e260c14d2026b0161611a481e6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4158864/single_file-1.21.63.xpi";
+      sha256 = "1af240763da1d9ae62c27737d0228d19b8e94e224537aa2eed0873768be0662c";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
         description = "Save an entire web page—including images and styling—as a single HTML file.";
         license = licenses.agpl3Plus;
+        mozPermissions = [
+          "identity"
+          "menus"
+          "downloads"
+          "storage"
+          "tabs"
+          "<all_urls>"
+          "devtools"
+          ];
         platforms = platforms.all;
         };
       };
@@ -488,6 +749,14 @@
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
+        mozPermissions = [
+          "activeTab"
+          "storage"
+          "contextMenus"
+          "https://github.com/*"
+          "https://sourcegraph.com/*"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -502,6 +771,49 @@
         homepage = "https://steamdb.info/";
         description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
         license = licenses.bsd3;
+        mozPermissions = [
+          "storage"
+          "https://steamdb.info/*"
+          "https://store.steampowered.com/*"
+          "https://store.steampowered.com/checkout/*"
+          "https://store.steampowered.com/cart/*"
+          "https://store.steampowered.com/app/*"
+          "https://store.steampowered.com/news/app/*"
+          "https://store.steampowered.com/account/licenses*"
+          "https://store.steampowered.com/account/registerkey*"
+          "https://store.steampowered.com/sub/*"
+          "https://store.steampowered.com/bundle/*"
+          "https://store.steampowered.com/widget/*"
+          "https://store.steampowered.com/video/*"
+          "https://store.steampowered.com/app/*/agecheck"
+          "https://store.steampowered.com/agecheck/*"
+          "https://store.steampowered.com/explore*"
+          "https://store.steampowered.com/checkout/sendgift/*"
+          "https://steamcommunity.com/app/*"
+          "https://steamcommunity.com/sharedfiles/filedetails*"
+          "https://steamcommunity.com/workshop/filedetails*"
+          "https://steamcommunity.com/workshop/browse*"
+          "https://steamcommunity.com/workshop/discussions*"
+          "https://steamcommunity.com/*"
+          "https://steamcommunity.com/id/*"
+          "https://steamcommunity.com/profiles/*"
+          "https://steamcommunity.com/id/*/inventory*"
+          "https://steamcommunity.com/profiles/*/inventory*"
+          "https://steamcommunity.com/id/*/stats*"
+          "https://steamcommunity.com/profiles/*/stats*"
+          "https://steamcommunity.com/stats/*/achievements*"
+          "https://steamcommunity.com/tradeoffer/*"
+          "https://steamcommunity.com/id/*/recommended/*"
+          "https://steamcommunity.com/profiles/*/recommended/*"
+          "https://steamcommunity.com/id/*/badges*"
+          "https://steamcommunity.com/profiles/*/badges*"
+          "https://steamcommunity.com/id/*/gamecards/*"
+          "https://steamcommunity.com/profiles/*/gamecards/*"
+          "https://steamcommunity.com/games/*"
+          "https://steamcommunity.com/sharedfiles/*"
+          "https://steamcommunity.com/workshop/*"
+          "https://steamcommunity.com/market/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -516,6 +828,7 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Create new group in extention Simple Tab Groups";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" ];
         platforms = platforms.all;
         };
       };
@@ -530,6 +843,7 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Create new tab (can do it in temporary container) in Simple Tab Groups extention";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" "cookies" ];
         platforms = platforms.all;
         };
       };
@@ -544,6 +858,7 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Create a new tab in the container in the Simple Tab Groups v4.5.2+ extension";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" ];
         platforms = platforms.all;
         };
       };
@@ -558,6 +873,7 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Delete current group in Simple Tab Groups extention";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" ];
         platforms = platforms.all;
         };
       };
@@ -572,6 +888,12 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Create notes for group";
         license = licenses.mpl20;
+        mozPermissions = [
+          "menus"
+          "notifications"
+          "storage"
+          "unlimitedStorage"
+          ];
         platforms = platforms.all;
         };
       };
@@ -586,6 +908,7 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Load custom group in Simple Tab Groups extention";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" "menus" "storage" ];
         platforms = platforms.all;
         };
       };
@@ -600,20 +923,34 @@
         homepage = "https://github.com/drive4ik/simple-tab-groups";
         description = "Open Manage groups page in Simple Tab Groups extention";
         license = licenses.mpl20;
+        mozPermissions = [ "notifications" ];
         platforms = platforms.all;
         };
       };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.33";
+      version = "1.5.35";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4114817/styl_us-1.5.33.xpi";
-      sha256 = "d6b8cc1f4d0986ffa117999065eb5bb8b5596136aa60cb9ff746073656704822";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4160414/styl_us-1.5.35.xpi";
+      sha256 = "d415ee11fa4a4313096a268e54fd80fa93143345be16f417eb1300a6ebe26ba1";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
         description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
         license = licenses.gpl3Plus;
+        mozPermissions = [
+          "tabs"
+          "webNavigation"
+          "webRequest"
+          "webRequestBlocking"
+          "contextMenus"
+          "storage"
+          "unlimitedStorage"
+          "alarms"
+          "<all_urls>"
+          "http://userstyles.org/*"
+          "https://userstyles.org/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -628,6 +965,14 @@
         homepage = "https://tab-session-manager.sienori.com/";
         description = "Save and restore the state of windows and tabs. It also supports automatic saving and cloud sync.";
         license = licenses.mpl20;
+        mozPermissions = [
+          "storage"
+          "unlimitedStorage"
+          "tabs"
+          "cookies"
+          "downloads"
+          "identity"
+          ];
         platforms = platforms.all;
         };
       };
@@ -642,6 +987,12 @@
         homepage = "https://github.com/igorlogius/tbl2csv";
         description = "Save HTML Tables, CSS Pseudo/DIV Tables or Lists (UL/OL) as a comma seperated values (CSV) file which can be opened with any spreadsheet processor (e.g. excel, libreoffice-calc,gnumeric) for further processing and conversion (e.g. to xls or ods)";
         license = licenses.bsd2;
+        mozPermissions = [
+          "clipboardWrite"
+          "menus"
+          "activeTab"
+          "notifications"
+          ];
         platforms = platforms.all;
         };
       };
@@ -656,6 +1007,17 @@
         homepage = "https://github.com/stoically/temporary-containers";
         description = "Open tabs, websites, and links in automatically managed disposable containers which isolate the data websites store (cookies, storage, and more) from each other, enhancing your privacy and security while you browse.";
         license = licenses.mit;
+        mozPermissions = [
+          "<all_urls>"
+          "contextMenus"
+          "contextualIdentities"
+          "cookies"
+          "management"
+          "storage"
+          "tabs"
+          "webRequest"
+          "webRequestBlocking"
+          ];
         platforms = platforms.all;
         };
       };
@@ -675,6 +1037,19 @@
           url = "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt";
           free = true;
           };
+        mozPermissions = [
+          "activeTab"
+          "contextualIdentities"
+          "cookies"
+          "menus"
+          "menus.overrideContext"
+          "notifications"
+          "search"
+          "sessions"
+          "storage"
+          "tabs"
+          "theme"
+          ];
         platforms = platforms.all;
         };
       };
@@ -689,6 +1064,32 @@
         homepage = "https://tridactyl.xyz";
         description = "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.";
         license = licenses.asl20;
+        mozPermissions = [
+          "activeTab"
+          "bookmarks"
+          "browsingData"
+          "contextMenus"
+          "contextualIdentities"
+          "cookies"
+          "clipboardWrite"
+          "clipboardRead"
+          "downloads"
+          "find"
+          "history"
+          "search"
+          "sessions"
+          "storage"
+          "tabHide"
+          "tabs"
+          "topSites"
+          "management"
+          "nativeMessaging"
+          "webNavigation"
+          "webRequest"
+          "webRequestBlocking"
+          "proxy"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -703,6 +1104,7 @@
         homepage = "https://github.com/NiklasGollenstede/tst-search#readme";
         description = "Search for or filter the Tabs in TST's sidebar, and quickly find and activate them.";
         license = licenses.mpl20;
+        mozPermissions = [ "storage" "notifications" "tabs" ];
         platforms = platforms.all;
         };
       };
@@ -717,6 +1119,28 @@
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
         description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "dns"
+          "menus"
+          "privacy"
+          "storage"
+          "tabs"
+          "unlimitedStorage"
+          "webNavigation"
+          "webRequest"
+          "webRequestBlocking"
+          "<all_urls>"
+          "http://*/*"
+          "https://*/*"
+          "file://*/*"
+          "https://easylist.to/*"
+          "https://*.fanboy.co.nz/*"
+          "https://filterlists.com/*"
+          "https://forums.lanik.us/*"
+          "https://github.com/*"
+          "https://*.github.io/*"
+          "https://*.letsblock.it/*"
+          ];
         platforms = platforms.all;
         };
       };
@@ -731,6 +1155,17 @@
         homepage = "https://github.com/ueokande/vim-vixen";
         description = "Accelerates your web browsing with Vim power!!";
         license = licenses.mit;
+        mozPermissions = [
+          "history"
+          "sessions"
+          "storage"
+          "tabs"
+          "clipboardRead"
+          "notifications"
+          "bookmarks"
+          "browserSettings"
+          "<all_urls>"
+          ];
         platforms = platforms.all;
         };
       };
@@ -745,6 +1180,20 @@
         homepage = "https://github.com/philc/vimium";
         description = "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.This is a port of the popular Chrome extension to Firefox.Most stuff works, but the port to Firefox remains a work in progress.";
         license = licenses.mit;
+        mozPermissions = [
+          "tabs"
+          "bookmarks"
+          "history"
+          "storage"
+          "sessions"
+          "notifications"
+          "webNavigation"
+          "<all_urls>"
+          "clipboardRead"
+          "clipboardWrite"
+          "file:///"
+          "file:///*/"
+          ];
         platforms = platforms.all;
         };
       };
@@ -759,6 +1208,17 @@
         homepage = "https://violentmonkey.github.io/";
         description = "Userscript support for browsers, open source.";
         license = licenses.mit;
+        mozPermissions = [
+          "tabs"
+          "<all_urls>"
+          "webRequest"
+          "webRequestBlocking"
+          "notifications"
+          "storage"
+          "unlimitedStorage"
+          "clipboardWrite"
+          "cookies"
+          ];
         platforms = platforms.all;
         };
       };
@@ -777,6 +1237,14 @@
           url = "https://wave.webaim.org/terms";
           free = false;
           };
+        mozPermissions = [
+          "http://*/*"
+          "https://*/*"
+          "file:///*"
+          "<all_urls>"
+          "tabs"
+          "contextMenus"
+          ];
         platforms = platforms.all;
         };
       };
@@ -791,20 +1259,52 @@
         homepage = "https://archive.org";
         description = "Welcome to the Official Internet Archive Wayback Machine Browser Extension! Go back in time to see how a website has changed through the history of the Web. Save websites, view missing 404 Not Found pages, or read archived books &amp; papers.";
         license = licenses.gpl3;
+        mozPermissions = [
+          "activeTab"
+          "cookies"
+          "contextMenus"
+          "notifications"
+          "storage"
+          "webRequest"
+          "webRequestBlocking"
+          "https://archive.org/*"
+          "https://*.archive.org/*"
+          "https://hypothes.is/*"
+          "<all_urls>"
+          "http://*.wikipedia.org/*"
+          "https://*.wikipedia.org/*"
+          ];
         platforms = platforms.all;
         };
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.46";
+      version = "2.1.47";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4142707/zoom_new_scheduler-2.1.46.xpi";
-      sha256 = "a55a08a6cf64ecf656fc551d33568d31183341287ada52489f3b1ff0cb24f101";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4158802/zoom_new_scheduler-2.1.47.xpi";
+      sha256 = "bfc7c37ed652f0f8eaf68cf67e224d7994d01b241ea45e0e25442936e23b9ffd";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
         description = "Recommended, support FireFox 45+.\nThe Zoom Firefox Extension allows participants to schedule Zoom cloud meetings directly from Google Calendar. you can start an instant meeting or schedule a future meeting via a button.";
         license = licenses.mit;
+        mozPermissions = [
+          "activeTab"
+          "storage"
+          "unlimitedStorage"
+          "https://calendar.google.com/calendar/*"
+          "https://accounts.google.com/Logout"
+          "https://*.zoom.us/*"
+          "https://*.zoom.com/*"
+          "https://*.zoom.us/google/oauth/*"
+          "https://*.zoom.us/saml/extension/*"
+          "https://*.zoom.us/zm/extension_login/*"
+          "https://*.zoom.com/google/oauth/*"
+          "https://*.zoom.com/saml/extension/*"
+          "https://*.zoom.com/zm/extension_login/*"
+          "https://*.zoom.com/myhome*"
+          "https://*.zoom.us/myhome*"
+          ];
         platforms = platforms.all;
         };
       };
