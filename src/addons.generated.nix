@@ -627,10 +627,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.8.24";
+      version = "23.9.7";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4157985/refined_github-23.8.24.xpi";
-      sha256 = "2adc00ac580bb9b883627890a02db1e1f0bcb565f5b16f88f84ede5683b8bfcd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4164242/refined_github-23.9.7.xpi";
+      sha256 = "198ccf175a4c9c242753ccc920394fd7f970a2e7fd8bdfbb5f22880eb3da68b2";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -719,10 +719,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.63";
+      version = "1.21.64";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4158864/single_file-1.21.63.xpi";
-      sha256 = "1af240763da1d9ae62c27737d0228d19b8e94e224537aa2eed0873768be0662c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4162382/single_file-1.21.64.xpi";
+      sha256 = "e0b47d8d6d12906dd4680059640a74109532b86e47deb80ea2086055136a5afd";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -762,10 +762,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.1";
+      version = "3.7.2";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4154660/steam_database-3.7.1.xpi";
-      sha256 = "a3db281f0bd7a62c6f62157d97c06d6eed0900ae1878b5f819324bfe2bd9a4f4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4163150/steam_database-3.7.2.xpi";
+      sha256 = "d53ebbb78cab59de0111ededc3a66ff98a8ecf5580d09608579a3692d34682eb";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
