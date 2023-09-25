@@ -55,10 +55,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.7.1";
+      version = "2023.8.3";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4140393/bitwarden_password_manager-2023.7.1.xpi";
-      sha256 = "a33971d80f552279f96579786938ae8e88c4b95c29f8339c42f5de47f15200ad";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4164440/bitwarden_password_manager-2023.8.3.xpi";
+      sha256 = "d43d7603ed04a24cd37b209a22d58b940cd71503d654d6305d6c37317fd5889c";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -250,10 +250,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.6";
+      version = "0.3.7";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4147453/kagi_search_for_firefox-0.3.6.xpi";
-      sha256 = "3fc443be32f05be37cf3063b33eff4cd7da0d4def6ecdc0a643aed7a3cdc09cd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4170728/kagi_search_for_firefox-0.3.7.xpi";
+      sha256 = "6273efad7abd2072dd0e28595f2054ffdb6c9802ad655b0e4a2fa9d95c1993d3";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -455,10 +455,10 @@
       };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.14.1";
+      version = "2.15.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4157040/1password_x_password_manager-2.14.1.xpi";
-      sha256 = "0166ae58fb0ba0807124f7ec49977243922218e4022e113c19a8e59ec26db307";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4168788/1password_x_password_manager-2.15.1.xpi";
+      sha256 = "2210a7a79456bf59e445e7b751de676a29f610de14c6ea3b04cb2c7763a54b2a";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -602,10 +602,10 @@
       };
     "reduxdevtools" = buildFirefoxXpiAddon {
       pname = "reduxdevtools";
-      version = "3.0.19";
+      version = "3.1.3";
       addonId = "extension@redux.devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4079806/reduxdevtools-3.0.19.xpi";
-      sha256 = "f4da621d3d226cd3dcd817230e4214ddbc2423221dc3ef4428341fd393d1f66f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4168659/reduxdevtools-3.1.3.xpi";
+      sha256 = "c69faa457c84e32ae58ab4873a8ee9f6a0615615cb5fe242c2ffe55feb407c1d";
       meta = with lib;
       {
         homepage = "https://github.com/reduxjs/redux-devtools";
@@ -627,10 +627,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.9.7";
+      version = "23.9.21";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4164242/refined_github-23.9.7.xpi";
-      sha256 = "198ccf175a4c9c242753ccc920394fd7f970a2e7fd8bdfbb5f22880eb3da68b2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4170731/refined_github-23.9.21.xpi";
+      sha256 = "047da88fd06f63710e27661257be2922c0e0144f20def84b40a5577e6911caee";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -719,10 +719,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.64";
+      version = "1.21.66";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4162382/single_file-1.21.64.xpi";
-      sha256 = "e0b47d8d6d12906dd4680059640a74109532b86e47deb80ea2086055136a5afd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4169857/single_file-1.21.66.xpi";
+      sha256 = "0b4e9720ff38167d10849cf22c96fe4c5467ce20374668b1bc2437da2325fb02";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -956,10 +956,10 @@
       };
     "tab-session-manager" = buildFirefoxXpiAddon {
       pname = "tab-session-manager";
-      version = "6.12.1";
+      version = "6.12.2";
       addonId = "Tab-Session-Manager@sienori";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4002882/tab_session_manager-6.12.1.xpi";
-      sha256 = "a3128a187fa42d45f7beca2480ebd3117a40bc591e6df726336932e081860747";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4165190/tab_session_manager-6.12.2.xpi";
+      sha256 = "79b280f0a45b5117f6327e5bcc8275b13dec855375af29f0a935bd2e800f587a";
       meta = with lib;
       {
         homepage = "https://tab-session-manager.sienori.com/";
@@ -1023,10 +1023,10 @@
       };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.16";
+      version = "3.9.17";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4141929/tree_style_tab-3.9.16.xpi";
-      sha256 = "703c0a1d8d62329aa93ccf3a637911661dd752d0c0d714736521df7aeecc52e9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4164980/tree_style_tab-3.9.17.xpi";
+      sha256 = "4dcf70f56436465749c4c787a0bba90fe2a39bf4c0cf91fa7f7cd2a2f8a806f5";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1110,10 +1110,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.51.0";
+      version = "1.52.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4141256/ublock_origin-1.51.0.xpi";
-      sha256 = "8b73468bc233a11dd2895219466381783d19123857dd0b6fd16a01820fca4834";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4171020/ublock_origin-1.52.2.xpi";
+      sha256 = "e8ee3f9d597a6d42db9d73fe87c1d521de340755fd8bfdd69e41623edfe096d6";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
