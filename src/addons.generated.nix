@@ -145,10 +145,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.65";
+      version = "4.9.66";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4151368/darkreader-4.9.65.xpi";
-      sha256 = "964d7fdeec1dc90b5238a82db699de7a2bbf54e3e2bf18569befff451f35f89a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4172671/darkreader-4.9.66.xpi";
+      sha256 = "20b53356c36b0c76df614e2cb84e7ff3e1ab75b4fe2fd2bbca039026d018813f";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -250,10 +250,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.7";
+      version = "0.3.8";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4170728/kagi_search_for_firefox-0.3.7.xpi";
-      sha256 = "6273efad7abd2072dd0e28595f2054ffdb6c9802ad655b0e4a2fa9d95c1993d3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4173642/kagi_search_for_firefox-0.3.8.xpi";
+      sha256 = "97df6e38d7f9531efff5360c744d3f32386d7289975ed5eb818491fbdcecf20b";
       meta = with lib;
       {
         homepage = "https://kagi.com";
