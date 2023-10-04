@@ -55,10 +55,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.8.3";
+      version = "2023.9.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4164440/bitwarden_password_manager-2023.8.3.xpi";
-      sha256 = "d43d7603ed04a24cd37b209a22d58b940cd71503d654d6305d6c37317fd5889c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4170561/bitwarden_password_manager-2023.9.1.xpi";
+      sha256 = "46d4fe10ea3a1757a6a4c0d728f3f765d93883f742a3ebb73f36aeb80eec55a9";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -145,10 +145,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.65";
+      version = "4.9.67";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4151368/darkreader-4.9.65.xpi";
-      sha256 = "964d7fdeec1dc90b5238a82db699de7a2bbf54e3e2bf18569befff451f35f89a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4175386/darkreader-4.9.67.xpi";
+      sha256 = "128a151f04af774463448fe1cdb944f6c5095fb17991f82d9aec3c8c4513308e";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -250,10 +250,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.7";
+      version = "0.3.8";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4170728/kagi_search_for_firefox-0.3.7.xpi";
-      sha256 = "6273efad7abd2072dd0e28595f2054ffdb6c9802ad655b0e4a2fa9d95c1993d3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4173642/kagi_search_for_firefox-0.3.8.xpi";
+      sha256 = "97df6e38d7f9531efff5360c744d3f32386d7289975ed5eb818491fbdcecf20b";
       meta = with lib;
       {
         homepage = "https://kagi.com";
