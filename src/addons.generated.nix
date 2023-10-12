@@ -250,10 +250,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.8";
+      version = "0.4.0";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4173642/kagi_search_for_firefox-0.3.8.xpi";
-      sha256 = "97df6e38d7f9531efff5360c744d3f32386d7289975ed5eb818491fbdcecf20b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4179129/kagi_search_for_firefox-0.4.0.xpi";
+      sha256 = "1fcc1662f94ac183f9cf335260e93da4f60e53d76a91e2cd367947abf5d1b43d";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -264,6 +264,7 @@
           "declarativeNetRequestWithHostAccess"
           "webRequest"
           "storage"
+          "contextMenus"
           ];
         platforms = platforms.all;
         };
@@ -296,10 +297,10 @@
       };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.8.0";
+      version = "2.8.1";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4162020/libredirect-2.8.0.xpi";
-      sha256 = "ae8f1143fcd8c3fa926bc9c95e50ab04d1c847b8bd57c1a893db291c089510a3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4178347/libredirect-2.8.1.xpi";
+      sha256 = "c91f19377b07b119eec4d53c28c45cdb5d0755287a79b715328654adb5c7ddfa";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -429,10 +430,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.7.3";
+      version = "1.7.4";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4152567/old_reddit_redirect-1.7.3.xpi";
-      sha256 = "0635622093c91a0893849182a92c8c7356427d6a4dee5b61a8e985edda9e0e39";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4177822/old_reddit_redirect-1.7.4.xpi";
+      sha256 = "f98247ff7d17a0df473d06036f1868c5544391bd078bec9b83270a9b739bd230";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -719,10 +720,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.21.66";
+      version = "1.22.5";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4169857/single_file-1.21.66.xpi";
-      sha256 = "0b4e9720ff38167d10849cf22c96fe4c5467ce20374668b1bc2437da2325fb02";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4179345/single_file-1.22.5.xpi";
+      sha256 = "ba227568a02f5169d48d8fa6d14ae3ceac1e63833a04177a8806be5d606316f7";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -742,10 +743,10 @@
       };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
-      version = "23.4.14.1343";
+      version = "23.10.9.2250";
       addonId = "sourcegraph-for-firefox@sourcegraph.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4097469/sourcegraph_for_firefox-23.4.14.1343.xpi";
-      sha256 = "fa02236d75a82a7c47dabd0272b77dd9a74e8069563415a7b8b2b9d37c36d20b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4179147/sourcegraph_for_firefox-23.10.9.2250.xpi";
+      sha256 = "a784bd2450ea7c268fddbc716258b5467fcf1ff73ad137a7c4e988a860c6a71a";
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
