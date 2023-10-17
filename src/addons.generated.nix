@@ -55,10 +55,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.9.1";
+      version = "2023.9.2";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4170561/bitwarden_password_manager-2023.9.1.xpi";
-      sha256 = "46d4fe10ea3a1757a6a4c0d728f3f765d93883f742a3ebb73f36aeb80eec55a9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4180072/bitwarden_password_manager-2023.9.2.xpi";
+      sha256 = "e76cc68f7f194b52f615ec9df80f82308cd55e6234afff5fb41ee7de9f7a27f2";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -250,10 +250,10 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.4.0";
+      version = "0.4.1";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4179129/kagi_search_for_firefox-0.4.0.xpi";
-      sha256 = "1fcc1662f94ac183f9cf335260e93da4f60e53d76a91e2cd367947abf5d1b43d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4182021/kagi_search_for_firefox-0.4.1.xpi";
+      sha256 = "ec1b92cbc29e024f6d313ca26f7469fa154e261016e6618cd156a6f982f4d033";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -720,10 +720,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.5";
+      version = "1.22.8";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4179345/single_file-1.22.5.xpi";
-      sha256 = "ba227568a02f5169d48d8fa6d14ae3ceac1e63833a04177a8806be5d606316f7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4180542/single_file-1.22.8.xpi";
+      sha256 = "354c8226f253bef0b88b0390f486a4b1b0b5111e2e101f27b4e7797edc0fd20e";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
