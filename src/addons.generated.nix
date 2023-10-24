@@ -430,10 +430,10 @@
       };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.7.4";
+      version = "1.8.1";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4177822/old_reddit_redirect-1.7.4.xpi";
-      sha256 = "f98247ff7d17a0df473d06036f1868c5544391bd078bec9b83270a9b739bd230";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4182157/old_reddit_redirect-1.8.1.xpi";
+      sha256 = "bd411715bb36bd535a0211a47bd69c73abefac6153164f7e00f5b57971397700";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -558,10 +558,10 @@
       };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "4.27.8";
+      version = "4.28.4";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4113335/react_devtools-4.27.8.xpi";
-      sha256 = "fae1c35e731984e4375300df0c4d8ee233ec10cdabe4cafe5cfaca080e063446";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4176229/react_devtools-4.28.4.xpi";
+      sha256 = "5ecd4a07924b860724f4f10a3f1be728f07f3a9f89947640c4d4c81d746569f5";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -572,6 +572,7 @@
           "http://*/*"
           "https://*/*"
           "clipboardWrite"
+          "scripting"
           "devtools"
           "<all_urls>"
           ];
@@ -720,10 +721,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.8";
+      version = "1.22.11";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4180542/single_file-1.22.8.xpi";
-      sha256 = "354c8226f253bef0b88b0390f486a4b1b0b5111e2e101f27b4e7797edc0fd20e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4183414/single_file-1.22.11.xpi";
+      sha256 = "3db6481e1e2ffa01a1857f28a253f4f80bc45078e86bc2f4c327af22b963505b";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1280,10 +1281,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.47";
+      version = "2.1.48";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4158802/zoom_new_scheduler-2.1.47.xpi";
-      sha256 = "bfc7c37ed652f0f8eaf68cf67e224d7994d01b241ea45e0e25442936e23b9ffd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4182993/zoom_new_scheduler-2.1.48.xpi";
+      sha256 = "d0e7d49a6038cfe09b07eef9cdb12d232bc8ef9b6182c1a372eaae43d9c75b95";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
