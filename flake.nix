@@ -32,7 +32,11 @@
         devShells.default = config.devShells.ci;
         devShells.ci = inputs'.devshell.legacyPackages.mkShell {
           name = "seadome/firefox-addons";
-          packages = [pkgs.alejandra inputs'.mozilla-addons-to-nix.packages.default];
+          packages = [
+            pkgs.alejandra
+            pkgs.nodePackages.prettier
+            inputs'.mozilla-addons-to-nix.packages.default
+          ];
           commands = [
             {
               # TODO: accept moz url input
