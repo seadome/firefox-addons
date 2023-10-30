@@ -541,6 +541,32 @@
         platforms = platforms.all;
         };
       };
+    "proton-pass" = buildFirefoxXpiAddon {
+      pname = "proton-pass";
+      version = "1.8.3";
+      addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4185399/proton_pass-1.8.3.xpi";
+      sha256 = "21a25343f0ac7afa2de563057fd2430afa92779d7b9fa521baa13646097141b1";
+      meta = with lib;
+      {
+        homepage = "https://proton.me";
+        description = "Free and unlimited password manager to keep your login credentials safe and manage them directly in your browser.";
+        license = licenses.gpl3Plus;
+        mozPermissions = [
+          "activeTab"
+          "alarms"
+          "scripting"
+          "storage"
+          "unlimitedStorage"
+          "webRequest"
+          "webRequestBlocking"
+          "https://*/*"
+          "http://*/*"
+          "https://account.proton.me/*"
+          ];
+        platforms = platforms.all;
+        };
+      };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
       version = "6.6.13";

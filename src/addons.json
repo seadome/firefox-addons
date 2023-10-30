@@ -82,6 +82,13 @@
     "slug": "plasma-integration"
   },
   {
+    "slug": "proton-pass",
+    "license": {
+      "tag": "predefined",
+      "shortName": "gpl3Plus"
+    }
+  },
+  {
     "slug": "raindropio"
   },
   {
