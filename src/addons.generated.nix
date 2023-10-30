@@ -83,10 +83,10 @@
       };
     "browserpass" = buildFirefoxXpiAddon {
       pname = "browserpass";
-      version = "3.7.2";
+      version = "3.8.0";
       addonId = "browserpass@maximbaz.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3711209/browserpass_ce-3.7.2.xpi";
-      sha256 = "b1781405b46f3274697885b53139264dca2ab56ffc4435c093102ad5ebc59297";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4187654/browserpass_ce-3.8.0.xpi";
+      sha256 = "5291d94443be41a80919605b0939c16cc62f9100a8b27df713b735856140a9a7";
       meta = with lib;
       {
         homepage = "https://github.com/browserpass/browserpass-extension";
@@ -363,10 +363,10 @@
       };
     "multi-account-containers" = buildFirefoxXpiAddon {
       pname = "multi-account-containers";
-      version = "8.1.2";
+      version = "8.1.3";
       addonId = "@testpilot-containers";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4058426/multi_account_containers-8.1.2.xpi";
-      sha256 = "0ab8f0222853fb68bc05fcf96401110910dfeb507aaea2cf88c5cd7084d167fc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4186050/multi_account_containers-8.1.3.xpi";
+      sha256 = "33edd98d0fc7d47fa310f214f897ce4dfe268b0f868c9d7f32b4ca50573df85c";
       meta = with lib;
       {
         homepage = "https://github.com/mozilla/multi-account-containers/#readme";
@@ -558,10 +558,10 @@
       };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "4.28.4";
+      version = "4.28.5";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4176229/react_devtools-4.28.4.xpi";
-      sha256 = "5ecd4a07924b860724f4f10a3f1be728f07f3a9f89947640c4d4c81d746569f5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4186072/react_devtools-4.28.5.xpi";
+      sha256 = "84740ba6c69c606ca385ee7b9f674b7e2bfaa0c3fbbd5989570285b8d7a5d817";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -721,10 +721,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.11";
+      version = "1.22.14";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4183414/single_file-1.22.11.xpi";
-      sha256 = "3db6481e1e2ffa01a1857f28a253f4f80bc45078e86bc2f4c327af22b963505b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4186316/single_file-1.22.14.xpi";
+      sha256 = "550f2166afe27e3f63e7354a27b1dd5356ab2320a476beb5d54d97771d49be60";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -764,10 +764,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.2";
+      version = "3.7.4";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4163150/steam_database-3.7.2.xpi";
-      sha256 = "d53ebbb78cab59de0111ededc3a66ff98a8ecf5580d09608579a3692d34682eb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4186682/steam_database-3.7.4.xpi";
+      sha256 = "4f0abc16ea290fcf90020d6c8c40549855c5394531367bec45229314827a880b";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -1173,10 +1173,10 @@
       };
     "vimium-ff" = buildFirefoxXpiAddon {
       pname = "vimium-ff";
-      version = "1.67.7";
+      version = "2.0.4";
       addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4137983/vimium_ff-1.67.7.xpi";
-      sha256 = "a164a4f62aa152dd6439cd96aebadbfc655fc56285854d198e7dcee2aca4eb97";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4185227/vimium_ff-2.0.4.xpi";
+      sha256 = "8156d26b03c41bec0ccb32e15077cb5543c1befd2a4e99d098cdaa83c258595a";
       meta = with lib;
       {
         homepage = "https://github.com/philc/vimium";
@@ -1189,10 +1189,11 @@
           "storage"
           "sessions"
           "notifications"
+          "scripting"
           "webNavigation"
-          "<all_urls>"
           "clipboardRead"
           "clipboardWrite"
+          "<all_urls>"
           "file:///"
           "file:///*/"
           ];
@@ -1201,10 +1202,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.15.0";
+      version = "2.16.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4142251/violentmonkey-2.15.0.xpi";
-      sha256 = "894e54cbe9dcd235deaef054b9268a955fed9afee156ebd42249c2b161c55352";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4185752/violentmonkey-2.16.0.xpi";
+      sha256 = "cd1529f42c4ee591e86d55ea382c8be523236b866ad2c06088152450f682da9c";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
@@ -1219,6 +1220,7 @@
           "storage"
           "unlimitedStorage"
           "clipboardWrite"
+          "contextMenus"
           "cookies"
           ];
         platforms = platforms.all;

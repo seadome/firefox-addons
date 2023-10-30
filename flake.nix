@@ -35,6 +35,7 @@
           packages = [pkgs.alejandra inputs'.mozilla-addons-to-nix.packages.default];
           commands = [
             {
+              # TODO: accept moz url input
               name = "add-addon";
               category = "maintenance";
               command = ''
