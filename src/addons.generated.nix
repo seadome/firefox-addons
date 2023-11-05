@@ -655,10 +655,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.10.5";
+      version = "23.11.3";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4177037/refined_github-23.10.5.xpi";
-      sha256 = "22c0ab41009ff7daf249755504a5fb63f6bbaa732ba4acf677bfa79122c498c1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4189811/refined_github-23.11.3.xpi";
+      sha256 = "e5fbe86a979ea53b524eef6837f9257cf29d4d9337472f35974e54bc99ce4b2e";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -747,10 +747,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.14";
+      version = "1.22.17";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4186316/single_file-1.22.14.xpi";
-      sha256 = "550f2166afe27e3f63e7354a27b1dd5356ab2320a476beb5d54d97771d49be60";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4188797/single_file-1.22.17.xpi";
+      sha256 = "54c8ab0bcbe3f0a628918b97a5247121c198203b931651f39a5376155d828394";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -770,10 +770,10 @@
       };
     "sourcegraph" = buildFirefoxXpiAddon {
       pname = "sourcegraph";
-      version = "23.10.9.2250";
+      version = "23.4.14.1343";
       addonId = "sourcegraph-for-firefox@sourcegraph.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4179147/sourcegraph_for_firefox-23.10.9.2250.xpi";
-      sha256 = "a784bd2450ea7c268fddbc716258b5467fcf1ff73ad137a7c4e988a860c6a71a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4097469/sourcegraph_for_firefox-23.4.14.1343.xpi";
+      sha256 = "fa02236d75a82a7c47dabd0272b77dd9a74e8069563415a7b8b2b9d37c36d20b";
       meta = with lib;
       {
         description = "Adds code intelligence to GitHub, GitLab, Bitbucket Server, and Phabricator: hovers, definitions, references. Supports 20+ languages.";
@@ -1138,10 +1138,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.52.2";
+      version = "1.53.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4171020/ublock_origin-1.52.2.xpi";
-      sha256 = "e8ee3f9d597a6d42db9d73fe87c1d521de340755fd8bfdd69e41623edfe096d6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4188488/ublock_origin-1.53.0.xpi";
+      sha256 = "5403474101f753b5d38c09135e40d82a115afcd01310d78133a4af363462194b";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -1168,6 +1168,9 @@
           "https://github.com/*"
           "https://*.github.io/*"
           "https://*.letsblock.it/*"
+          "https://github.com/uBlockOrigin/*"
+          "https://ublockorigin.github.io/*"
+          "https://*.reddit.com/r/uBlockOrigin/*"
           ];
         platforms = platforms.all;
         };
