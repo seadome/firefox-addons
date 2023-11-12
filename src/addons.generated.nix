@@ -55,10 +55,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.9.2";
+      version = "2023.10.2";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4180072/bitwarden_password_manager-2023.9.2.xpi";
-      sha256 = "e76cc68f7f194b52f615ec9df80f82308cd55e6234afff5fb41ee7de9f7a27f2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4191732/bitwarden_password_manager-2023.10.2.xpi";
+      sha256 = "3eac55c07a2802a6192e2788da86578d45158fca21ccdeb521e5281137ecc24a";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -543,10 +543,10 @@
       };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.8.3";
+      version = "1.8.4";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4185399/proton_pass-1.8.3.xpi";
-      sha256 = "21a25343f0ac7afa2de563057fd2430afa92779d7b9fa521baa13646097141b1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4188487/proton_pass-1.8.4.xpi";
+      sha256 = "268615d5204f5e64bccf1d60671a6763955267903b2eae999a385aaa50a80bc3";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -569,10 +569,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.13";
+      version = "6.6.17";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4139890/raindropio-6.6.13.xpi";
-      sha256 = "f4e38405c6b2d62b13dfd74cbc3c6432005c4341d3057975004fdb76b79946d5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4189809/raindropio-6.6.17.xpi";
+      sha256 = "31c0dc6920e67cd06b9d6a85fac1d5f3f57367cbdf7bdae4e1f847308f87be90";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -747,10 +747,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.17";
+      version = "1.22.19";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4188797/single_file-1.22.17.xpi";
-      sha256 = "54c8ab0bcbe3f0a628918b97a5247121c198203b931651f39a5376155d828394";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4191752/single_file-1.22.19.xpi";
+      sha256 = "cc672c3a1f66ec7df4c24b29d8a287a5355b2077ce20c92102c6cb9eb8ad3fa0";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -790,10 +790,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.4";
+      version = "3.7.5";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4186682/steam_database-3.7.4.xpi";
-      sha256 = "4f0abc16ea290fcf90020d6c8c40549855c5394531367bec45229314827a880b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4190119/steam_database-3.7.5.xpi";
+      sha256 = "f382947ef9e83c018f48399adb79a2c00e913823b992cf28d0d59e8bf4c4b608";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -1202,14 +1202,14 @@
       };
     "vimium-ff" = buildFirefoxXpiAddon {
       pname = "vimium-ff";
-      version = "2.0.4";
+      version = "2.0.6";
       addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4185227/vimium_ff-2.0.4.xpi";
-      sha256 = "8156d26b03c41bec0ccb32e15077cb5543c1befd2a4e99d098cdaa83c258595a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4191523/vimium_ff-2.0.6.xpi";
+      sha256 = "94a2d7e88596b65891747d48837deb5440780d57db7ae330d1d7d43d5fe64922";
       meta = with lib;
       {
         homepage = "https://github.com/philc/vimium";
-        description = "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.This is a port of the popular Chrome extension to Firefox.Most stuff works, but the port to Firefox remains a work in progress.";
+        description = "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.";
         license = licenses.mit;
         mozPermissions = [
           "tabs"
