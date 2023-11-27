@@ -10,7 +10,10 @@
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     ##: channels
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # NOTE: we need to allow unfree licenses for some of these extensions.
+    nixpkgs.url = "github:numtide/nixpkgs-unfree";
+    nixpkgs.inputs.nixpkgs.follows = "nixos-unstable";
+    nixos-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs = inputs @ {flake-parts, ...}:
