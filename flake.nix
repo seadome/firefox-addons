@@ -46,6 +46,10 @@
           ];
           commands = [
             {
+              package = pkgs.just;
+              category = "tools";
+            }
+            {
               # TODO: accept moz url input
               name = "add-addon";
               category = "maintenance";
