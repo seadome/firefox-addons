@@ -145,10 +145,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.68";
+      version = "4.9.70";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4194520/darkreader-4.9.68.xpi";
-      sha256 = "009b35e2b5e3ad787cc5f5cd75cf995119baaddfd45a00bd045c2098a99cff85";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4198549/darkreader-4.9.70.xpi";
+      sha256 = "3ccbe247031dd4fcc3d9bd840872ed38e9843729709f92803c234041070588a7";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -569,10 +569,10 @@
       };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.17";
+      version = "6.6.19";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4189809/raindropio-6.6.17.xpi";
-      sha256 = "31c0dc6920e67cd06b9d6a85fac1d5f3f57367cbdf7bdae4e1f847308f87be90";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4198542/raindropio-6.6.19.xpi";
+      sha256 = "064ccce0e9e9ddfe9e540d29c6cd132d575a57a443982d344ccc01296067a0fc";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -655,10 +655,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.11.15.1433";
+      version = "23.11.23";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4195428/refined_github-23.11.15.1433.xpi";
-      sha256 = "247bc427f9afad4220362f12b9b3b153f99bba8d7d85f4e42578a5002f6a1a2e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4199107/refined_github-23.11.23.xpi";
+      sha256 = "c9263d5768f07c9de20cc9e0ccca78b01f82a5c9695a69f601dc9bcd95dff2bd";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -747,10 +747,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.26";
+      version = "1.22.30";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4195063/single_file-1.22.26.xpi";
-      sha256 = "4dd1dd2971e1c6d196861c57c9eb2bcb66339fddf13a9e3c12aeb37b7757f98b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4199006/single_file-1.22.30.xpi";
+      sha256 = "c4da791fffbde0ad98c37553ab98f0fe7877a2009b1bd36dbbb057e30d2c5480";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -790,10 +790,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.6";
+      version = "3.7.8";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4192028/steam_database-3.7.6.xpi";
-      sha256 = "8a76dc34185f6950b6acffde02aeab288f72bdbd58eaff9dd0d6c493b16b654c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4197171/steam_database-3.7.8.xpi";
+      sha256 = "99eba9f082bfc9d7a74d0d40ec5188af7c3b38490565e41b15e5319c849b840a";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -957,10 +957,10 @@
       };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.35";
+      version = "1.5.38";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4160414/styl_us-1.5.35.xpi";
-      sha256 = "d415ee11fa4a4313096a268e54fd80fa93143345be16f417eb1300a6ebe26ba1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4190287/styl_us-1.5.38.xpi";
+      sha256 = "881b89235e8a33c32334e922abf11a4a857d0e007c4a2ff124b5445cd9994984";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
@@ -1051,10 +1051,10 @@
       };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.18";
+      version = "3.9.19";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4193133/tree_style_tab-3.9.18.xpi";
-      sha256 = "f0b235eedc858d327354e43505427581f1902c45158f08958f9fb4a323f2fab0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4197314/tree_style_tab-3.9.19.xpi";
+      sha256 = "bb67f47a554f8f937f4176bee6144945eb0f240630b93f73d2cff49f0985b55a";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1138,10 +1138,10 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.53.0";
+      version = "1.54.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4188488/ublock_origin-1.53.0.xpi";
-      sha256 = "5403474101f753b5d38c09135e40d82a115afcd01310d78133a4af363462194b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4198829/ublock_origin-1.54.0.xpi";
+      sha256 = "9797160908191710ff0858536ba6dc29ecad9923c30b2ad6d3e5e371d759e44d";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
