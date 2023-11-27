@@ -6,11 +6,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1698410321,
-        "narHash": "sha256-MphuSlgpmKwtJncGMohryHiK55J1n6WzVQ/OAfmfoMc=",
+        "lastModified": 1700815693,
+        "narHash": "sha256-JtKZEQUzosrCwDsLgm+g6aqbP1aseUl1334OShEAS3s=",
         "owner": "numtide",
         "repo": "devshell",
-        "rev": "1aed986e3c81a4f6698e85a7452cbfcc4b31a36e",
+        "rev": "7ad1c417c87e98e56dcef7ecd0e0a2f2e5669d51",
         "type": "github"
       },
       "original": {
@@ -71,22 +71,6 @@
         "type": "sourcehut"
       }
     },
-    "nixos-unstable": {
-      "locked": {
-        "lastModified": 1700390070,
-        "narHash": "sha256-de9KYi8rSJpqvBfNwscWdalIJXPo8NjdIZcEJum1mH0=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "e4ad989506ec7d71f7302cc3067abd82730a4beb",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1677383253,
@@ -138,22 +122,18 @@
       }
     },
     "nixpkgs_3": {
-      "inputs": {
-        "nixpkgs": [
-          "nixos-unstable"
-        ]
-      },
       "locked": {
-        "lastModified": 1700485601,
-        "narHash": "sha256-QPKwBuLWZBZDdGfv0mQf/Qqd6kWv0x2tFTGgjapi4bE=",
-        "owner": "numtide",
-        "repo": "nixpkgs-unfree",
-        "rev": "7955774a2860fb2025498e64b94716e7837b47ce",
+        "lastModified": 1700794826,
+        "narHash": "sha256-RyJTnTNKhO0yqRpDISk03I/4A67/dp96YRxc86YOPgU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5a09cb4b393d58f9ed0d9ca1555016a8543c2ac8",
         "type": "github"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "nixpkgs-unfree",
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
         "type": "github"
       }
     },
@@ -162,7 +142,6 @@
         "devshell": "devshell",
         "flake-parts": "flake-parts",
         "mozilla-addons-to-nix": "mozilla-addons-to-nix",
-        "nixos-unstable": "nixos-unstable",
         "nixpkgs": "nixpkgs_3"
       }
     },
