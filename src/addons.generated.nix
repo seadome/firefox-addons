@@ -655,10 +655,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.11.23";
+      version = "23.12.1";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4199107/refined_github-23.11.23.xpi";
-      sha256 = "c9263d5768f07c9de20cc9e0ccca78b01f82a5c9695a69f601dc9bcd95dff2bd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4203292/refined_github-23.12.1.xpi";
+      sha256 = "a15b0914cd7199067d54958ee56b9d2506b770cac25c6bdd2679089bdcf32631";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -747,10 +747,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.30";
+      version = "1.22.36";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4199006/single_file-1.22.30.xpi";
-      sha256 = "c4da791fffbde0ad98c37553ab98f0fe7877a2009b1bd36dbbb057e30d2c5480";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4202975/single_file-1.22.36.xpi";
+      sha256 = "f6440ad7f86be09f80995ac41a2633fd13ab01b9af01fd6cc5aad4ad84299136";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1312,10 +1312,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.48";
+      version = "2.1.50";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4182993/zoom_new_scheduler-2.1.48.xpi";
-      sha256 = "d0e7d49a6038cfe09b07eef9cdb12d232bc8ef9b6182c1a372eaae43d9c75b95";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4200711/zoom_new_scheduler-2.1.50.xpi";
+      sha256 = "edc00cda506974799ccd28c4e5ad006f476a0b19d50226d1dab9acb328725383";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
