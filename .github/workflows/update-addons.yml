@@ -3,7 +3,7 @@ name: Update Firefox Addons
 on:
   schedule:
     # Run every day at 00:30, giving the flake update action time to complete.
-    - cron: '30 0 * * *' 
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,14 +26,14 @@ jobs:
         run: nix develop .#ci -Lv
       - name: Update Firefox addons manifest
         run: |
-          nix develop .#ci --command mozilla-addons-to-nix \
+          nix develop --command mozilla-addons-to-nix \
             ./src/addons.json ./src/addons.generated.nix
       # TODO: build all <https://github.com/NixOS/nix/issues/7165>
       # - name: 'Build addons packages'
       #   run: mozilla-addons-to-nix ./src/addons.json ./src/addons.generated.nix
       - name: Commit and create pull request
         uses: peter-evans/create-pull-request@v4
-        with: 
+        with:
           commit-message: 'chore(deps:addons): update'
           title: 'Update Firefox addons'
           reviewers: montchr
