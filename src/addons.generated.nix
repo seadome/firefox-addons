@@ -55,10 +55,10 @@
       };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2023.10.2";
+      version = "2023.12.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4191732/bitwarden_password_manager-2023.10.2.xpi";
-      sha256 = "3eac55c07a2802a6192e2788da86578d45158fca21ccdeb521e5281137ecc24a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4211087/bitwarden_password_manager-2023.12.1.xpi";
+      sha256 = "40f695fbe5153a7614f25289a9388f95c59a952fb039b8b9c33fd7bd99ea2da2";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -145,10 +145,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.70";
+      version = "4.9.73";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4198549/darkreader-4.9.70.xpi";
-      sha256 = "3ccbe247031dd4fcc3d9bd840872ed38e9843729709f92803c234041070588a7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4205543/darkreader-4.9.73.xpi";
+      sha256 = "7c399ff32561886bb80dad0cafaf8f629792b0b71ff1efcf12667e05a2b38f1a";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -250,15 +250,15 @@
       };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.4.2";
+      version = "0.4.3";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4195277/kagi_search_for_firefox-0.4.2.xpi";
-      sha256 = "7bd80f4717db48a5589e3d303af2a4cf016b9cff61f76ff66d7e2f7c464600f2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4206027/kagi_search_for_firefox-0.4.3.xpi";
+      sha256 = "7e8366d3f6e9e41028c82bc48a7b479ec5ad1dd18b1fa124bde2f30ce7f5776a";
       meta = with lib;
       {
         homepage = "https://kagi.com";
         description = "A simple helper extension for setting Kagi as a default search engine, and automatically logging in to Kagi in private browsing windows.";
-        license = licenses.mpl20;
+        license = licenses.mit;
         mozPermissions = [
           "cookies"
           "declarativeNetRequestWithHostAccess"
@@ -543,10 +543,10 @@
       };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.8.4";
+      version = "1.9.3";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4188487/proton_pass-1.8.4.xpi";
-      sha256 = "268615d5204f5e64bccf1d60671a6763955267903b2eae999a385aaa50a80bc3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4211785/proton_pass-1.9.3.xpi";
+      sha256 = "881bf9ef9fa2f0a427cc453f953f3d2e17cb4af3424048be04ad8e7cc900e5e7";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -584,10 +584,10 @@
       };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "4.28.5";
+      version = "5.0.0";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4186072/react_devtools-4.28.5.xpi";
-      sha256 = "84740ba6c69c606ca385ee7b9f674b7e2bfaa0c3fbbd5989570285b8d7a5d817";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4204958/react_devtools-5.0.0.xpi";
+      sha256 = "4290cd8eb5f51f80198ab749495a0a1239ba17a1b997b8b486e10448916a0187";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -630,10 +630,10 @@
       };
     "reduxdevtools" = buildFirefoxXpiAddon {
       pname = "reduxdevtools";
-      version = "3.1.3";
+      version = "3.1.6";
       addonId = "extension@redux.devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4168659/reduxdevtools-3.1.3.xpi";
-      sha256 = "c69faa457c84e32ae58ab4873a8ee9f6a0615615cb5fe242c2ffe55feb407c1d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4209147/reduxdevtools-3.1.6.xpi";
+      sha256 = "2149809b62c5524b241e89204ef271c665b9da46ceeaa0fd93132ed338aaaa26";
       meta = with lib;
       {
         homepage = "https://github.com/reduxjs/redux-devtools";
@@ -655,10 +655,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.12.1";
+      version = "23.12.17";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4203292/refined_github-23.12.1.xpi";
-      sha256 = "a15b0914cd7199067d54958ee56b9d2506b770cac25c6bdd2679089bdcf32631";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4209984/refined_github-23.12.17.xpi";
+      sha256 = "2ed7a9928f411c5b764e214f0549273a0b860562e53c84fb7fa909c437badf3c";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -747,10 +747,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.36";
+      version = "1.22.38";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4202975/single_file-1.22.36.xpi";
-      sha256 = "f6440ad7f86be09f80995ac41a2633fd13ab01b9af01fd6cc5aad4ad84299136";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4208296/single_file-1.22.38.xpi";
+      sha256 = "9923da8f7803fc3c210356c129a9301f5dbfe06bd6f2a68e522fba652d32063d";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -790,10 +790,10 @@
       };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.8";
+      version = "3.7.9";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4197171/steam_database-3.7.8.xpi";
-      sha256 = "99eba9f082bfc9d7a74d0d40ec5188af7c3b38490565e41b15e5319c849b840a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4202136/steam_database-3.7.9.xpi";
+      sha256 = "87f93bee3c42c469da72d7fce76db7cecbe843875ea8f098ecafad06940a973b";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -957,10 +957,10 @@
       };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.38";
+      version = "1.5.41";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4190287/styl_us-1.5.38.xpi";
-      sha256 = "881b89235e8a33c32334e922abf11a4a857d0e007c4a2ff124b5445cd9994984";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4204840/styl_us-1.5.41.xpi";
+      sha256 = "90ff3ca3ac070eebe2624025e6b43a46a2a88c51d2835446984b8ceadcc0f031";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
@@ -1083,10 +1083,10 @@
       };
     "tridactyl" = buildFirefoxXpiAddon {
       pname = "tridactyl";
-      version = "1.23.0";
+      version = "1.24.0";
       addonId = "tridactyl.vim@cmcaine.co.uk";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4036604/tridactyl_vim-1.23.0.xpi";
-      sha256 = "08b7af97bef05300ab3ac3ad721322ff00505631233482568fc4489c16d51b71";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4208422/tridactyl_vim-1.24.0.xpi";
+      sha256 = "9e70bccf7ced3a87e4cf6a5dc6210a884fa9a46a79ee19177367a28c02aaa04b";
       meta = with lib;
       {
         homepage = "https://tridactyl.xyz";
@@ -1312,10 +1312,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.50";
+      version = "2.1.51";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4200711/zoom_new_scheduler-2.1.50.xpi";
-      sha256 = "edc00cda506974799ccd28c4e5ad006f476a0b19d50226d1dab9acb328725383";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4201848/zoom_new_scheduler-2.1.51.xpi";
+      sha256 = "8aa59a5895dff0cf054794a2358221308e9378c3cead7651816627f6d951ad1d";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
