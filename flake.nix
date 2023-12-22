@@ -16,23 +16,16 @@
     nixos-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = inputs @ {flake-parts, ...}:
-    flake-parts.lib.mkFlake {inherit inputs;} {
-      imports = [
-        inputs.devshell.flakeModule
-        ./src
-      ];
-      systems = ["aarch64-linux" "aarch64-darwin" "x86_64-darwin" "x86_64-linux"];
-      perSystem = {
-        inputs',
-        config,
-        pkgs,
-        ...
-      }: {
+  outputs = inputs@{ flake-parts, ... }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [ inputs.devshell.flakeModule ./src ];
+      systems =
+        [ "aarch64-linux" "aarch64-darwin" "x86_64-darwin" "x86_64-linux" ];
+      flake = { _module.args.lib = inputs.nixpkgs.lib; };
+      perSystem = { inputs', config, pkgs, lib, ... }: {
         _module.args.pkgs = inputs'.nixpkgs.legacyPackages;
-        formatter = pkgs.alejandra;
-        # TODO: switch to future official formatter
-        # formatter = pkgs.nixfmt;
+
+        formatter = pkgs.nixfmt;
 
         # TODO: build all <https://github.com/NixOS/nix/issues/7165>
         # packages.all = pkgs.symlinkJoin {
@@ -41,16 +34,29 @@
         #   };
 
         devshells.default = {
-          devshell.name = "seadome/firefox-addons";
+          devshell.name = "firefox-addons";
           packages = [
             inputs'.mozilla-addons-to-nix.packages.default
-            pkgs.alejandra
+            pkgs.fd
+            pkgs.nixfmt
             pkgs.nodePackages.prettier
           ];
           commands = [
             {
               package = pkgs.just;
               category = "tools";
+            }
+            {
+              name = "fmt";
+              category = "tools";
+              help = "format all (non-generated) nix files";
+              command = ''
+                ${lib.getExe pkgs.fd} \
+                  --type file \
+                  --extension nix \
+                  --exclude '*.generated.*' \
+                  --exec-batch ${lib.getExe config.formatter} '{}'
+              '';
             }
             {
               # TODO: accept moz url input
