@@ -145,10 +145,10 @@
       };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.73";
+      version = "4.9.74";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4205543/darkreader-4.9.73.xpi";
-      sha256 = "7c399ff32561886bb80dad0cafaf8f629792b0b71ff1efcf12667e05a2b38f1a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4216652/darkreader-4.9.74.xpi";
+      sha256 = "140a72b36750ba68a9da30d0f0df3ff192f58160b711b86c3d4f674e5be2bb2c";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -230,6 +230,25 @@
           "webRequestBlocking"
           "http://*/*"
           "https://*/*"
+          ];
+        platforms = platforms.all;
+        };
+      };
+    "headingsmap" = buildFirefoxXpiAddon {
+      pname = "headingsmap";
+      version = "4.7.5";
+      addonId = "headings@niquelheadings.net";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4220368/headingsmap-4.7.5.xpi";
+      sha256 = "0122b2ef48d566f839d98e9b139f67f5549a1214b48c3a161a5ac7782b676938";
+      meta = with lib;
+      {
+        description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
+        mozPermissions = [
+          "<all_urls>"
+          "tabs"
+          "activeTab"
+          "storage"
+          "webNavigation"
           ];
         platforms = platforms.all;
         };
@@ -543,10 +562,10 @@
       };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.9.3";
+      version = "1.9.6";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4211785/proton_pass-1.9.3.xpi";
-      sha256 = "881bf9ef9fa2f0a427cc453f953f3d2e17cb4af3424048be04ad8e7cc900e5e7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4215883/proton_pass-1.9.6.xpi";
+      sha256 = "a35a36890fa2eb6ea7f33075c789518fc3180425d4a52d8a4a7705801d26fbb2";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -655,10 +674,10 @@
       };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "23.12.17";
+      version = "24.1.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4209984/refined_github-23.12.17.xpi";
-      sha256 = "2ed7a9928f411c5b764e214f0549273a0b860562e53c84fb7fa909c437badf3c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4219626/refined_github-24.1.10.xpi";
+      sha256 = "4f38a0ba88df819fee0ff456bbb17b8e0223b17cb97ee17953fa7c5b44c81ca8";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -747,10 +766,10 @@
       };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.38";
+      version = "1.22.39";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4208296/single_file-1.22.38.xpi";
-      sha256 = "9923da8f7803fc3c210356c129a9301f5dbfe06bd6f2a68e522fba652d32063d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4211794/single_file-1.22.39.xpi";
+      sha256 = "c5605f2ae5fbe14f7720ebb2f93b559acffb9256b982d034a3dfe3d979b3296c";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1006,21 +1025,16 @@
       };
     "tbl2csv" = buildFirefoxXpiAddon {
       pname = "tbl2csv";
-      version = "1.3.19";
+      version = "1.3.21";
       addonId = "{38dc25f6-5ed7-4279-a1fb-832b5e90a98b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4128205/tbl2csv-1.3.19.xpi";
-      sha256 = "70faed991b4c45de0fa548f53a39be0467967958878ecc6750cc9a6c40caab97";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4215238/tbl2csv-1.3.21.xpi";
+      sha256 = "405ff6682a700149820684a6ec50c6d287e40ad06751056b41c8794576550b4b";
       meta = with lib;
       {
         homepage = "https://github.com/igorlogius/tbl2csv";
         description = "Save HTML Tables, CSS Pseudo/DIV Tables or Lists (UL/OL) as a comma seperated values (CSV) file which can be opened with any spreadsheet processor (e.g. excel, libreoffice-calc,gnumeric) for further processing and conversion (e.g. to xls or ods)";
         license = licenses.bsd2;
-        mozPermissions = [
-          "clipboardWrite"
-          "menus"
-          "activeTab"
-          "notifications"
-          ];
+        mozPermissions = [ "menus" "activeTab" ];
         platforms = platforms.all;
         };
       };
@@ -1138,16 +1152,17 @@
       };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.54.0";
+      version = "1.55.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4198829/ublock_origin-1.54.0.xpi";
-      sha256 = "9797160908191710ff0858536ba6dc29ecad9923c30b2ad6d3e5e371d759e44d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4216633/ublock_origin-1.55.0.xpi";
+      sha256 = "a02ca1d32737c3437f97553e5caaead6479a66ac1f8ff3b84a06cfa6bb0c7647";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
         description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
         license = licenses.gpl3;
         mozPermissions = [
+          "alarms"
           "dns"
           "menus"
           "privacy"
@@ -1231,10 +1246,10 @@
       };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.16.0";
+      version = "2.17.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4185752/violentmonkey-2.16.0.xpi";
-      sha256 = "cd1529f42c4ee591e86d55ea382c8be523236b866ad2c06088152450f682da9c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4213757/violentmonkey-2.17.0.xpi";
+      sha256 = "8a0d00f6b0a0ec2b77cab4576b0c30a81705ef7e1f45de9856c36c193afc6843";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
@@ -1312,10 +1327,10 @@
       };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.51";
+      version = "2.1.52";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4201848/zoom_new_scheduler-2.1.51.xpi";
-      sha256 = "8aa59a5895dff0cf054794a2358221308e9378c3cead7651816627f6d951ad1d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4212428/zoom_new_scheduler-2.1.52.xpi";
+      sha256 = "44e79661b1c464c3a84f7a7a88825fce91013f50c3894a1df3785751ee2a6889";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
