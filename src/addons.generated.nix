@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.1.0";
+      version = "2024.1.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4219948/bitwarden_password_manager-2024.1.0.xpi";
-      sha256 = "ba77b59aba15f71568414047962e266214e656430ee347940fdff97cd1720fd8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4225453/bitwarden_password_manager-2024.1.1.xpi";
+      sha256 = "af5aabc846eba9adeaf194dc0cacc0921df734c21f1156d705ad9b9cf57e1d73";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -237,10 +237,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.7.9";
+      version = "4.7.10";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4225087/headingsmap-4.7.9.xpi";
-      sha256 = "f74bcfcda3c5aad75dc93bb498e94fe49d422cd99eb4dabca120973ca4855190";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4228393/headingsmap-4.7.10.xpi";
+      sha256 = "31a19e7e1e550af8e1d72621a631662c24bde4268591bd5dc14230a305587e02";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -264,10 +264,10 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.5.0";
+      version = "0.5.1";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4224219/kagi_search_for_firefox-0.5.0.xpi";
-      sha256 = "21bcf7a32c163c708ec4d9bba5fcc89716c2f55dae3fc3975b00263271b3dd34";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4227463/kagi_search_for_firefox-0.5.1.xpi";
+      sha256 = "d0ae33551d245da4364983b6cde893e5cf0115dbdf3115ef8acb7d75fb52e4ac";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -557,10 +557,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.11.0";
+      version = "1.11.1";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4224133/proton_pass-1.11.0.xpi";
-      sha256 = "c712decdf4e7b31b77d77ad132b218f17be7fedec56b271f0cb04e3a93c9ce9c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4226810/proton_pass-1.11.1.xpi";
+      sha256 = "10fa4360fb5628e6ff53d6fff873764f7dac09e822534a3fbf796505e285c68b";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -971,10 +971,10 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.41";
+      version = "1.5.45";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4204840/styl_us-1.5.41.xpi";
-      sha256 = "90ff3ca3ac070eebe2624025e6b43a46a2a88c51d2835446984b8ceadcc0f031";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4226958/styl_us-1.5.45.xpi";
+      sha256 = "0ea1e3bf6d415e4509730896318b4605a6d8186b11e30cede600eba0b54af3dc";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
@@ -1060,10 +1060,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.20";
+      version = "3.9.21";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4223206/tree_style_tab-3.9.20.xpi";
-      sha256 = "dfce652ffc61a5ad93b18512f7af5764e9ff23eab4b2164ae028a51660a16850";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4227049/tree_style_tab-3.9.21.xpi";
+      sha256 = "0302907866889894078290310a041bf740323449b41856699408938ff40ddb07";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
