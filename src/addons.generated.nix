@@ -669,10 +669,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.1.10";
+      version = "24.2.2";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4219626/refined_github-24.1.10.xpi";
-      sha256 = "4f38a0ba88df819fee0ff456bbb17b8e0223b17cb97ee17953fa7c5b44c81ca8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4230668/refined_github-24.2.2.xpi";
+      sha256 = "c356c4f3a978e867bfeff13ec684c805c55c44e0ab7658f84a63a850fa8eb26d";
       meta = with lib;
       {
         homepage = "https://github.com/sindresorhus/refined-github";
@@ -1060,10 +1060,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.21";
+      version = "3.9.22";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4227049/tree_style_tab-3.9.21.xpi";
-      sha256 = "0302907866889894078290310a041bf740323449b41856699408938ff40ddb07";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4229169/tree_style_tab-3.9.22.xpi";
+      sha256 = "b3df30f96fbcf33dd74cfae30e9053709003792d9e184c8438f9a88cbb439f1d";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
