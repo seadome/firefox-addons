@@ -55,16 +55,17 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.1.1";
+      version = "2024.2.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4225453/bitwarden_password_manager-2024.1.1.xpi";
-      sha256 = "af5aabc846eba9adeaf194dc0cacc0921df734c21f1156d705ad9b9cf57e1d73";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4233394/bitwarden_password_manager-2024.2.0.xpi";
+      sha256 = "2c59e7040749dee010b34fb2a9c24b28ada71ad7fa5a23264ff70e63f8f686d1";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
         description = "A secure and free password manager for all of your devices.";
         license = licenses.gpl3;
         mozPermissions = [
+          "<all_urls>"
           "tabs"
           "contextMenus"
           "storage"
@@ -146,10 +147,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.76";
+      version = "4.9.77";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4223104/darkreader-4.9.76.xpi";
-      sha256 = "d3afe139928c3c30bd11347c08a3360fa3417be4667c47f3de19fdc0ab92da9f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4233074/darkreader-4.9.77.xpi";
+      sha256 = "931de67e9091c69edd9fd3f348a7ed1de1dce7d136017fed641bd10eb0ae8891";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -237,10 +238,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.7.10";
+      version = "4.8.0";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4228393/headingsmap-4.7.10.xpi";
-      sha256 = "31a19e7e1e550af8e1d72621a631662c24bde4268591bd5dc14230a305587e02";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4233374/headingsmap-4.8.0.xpi";
+      sha256 = "4890eb5cfccf80292fdf5e870c573736f5493731991e940baa620f90eb908ec7";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -264,10 +265,10 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.5.1";
+      version = "0.6.0";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4227463/kagi_search_for_firefox-0.5.1.xpi";
-      sha256 = "d0ae33551d245da4364983b6cde893e5cf0115dbdf3115ef8acb7d75fb52e4ac";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4235536/kagi_search_for_firefox-0.6.0.xpi";
+      sha256 = "4e0c7419378166fed21b1c4d64e0ca0b42cde28d4233a6a9c7d0b2d6a881c50e";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -470,10 +471,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.15.1";
+      version = "2.20.2";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4168788/1password_x_password_manager-2.15.1.xpi";
-      sha256 = "2210a7a79456bf59e445e7b751de676a29f610de14c6ea3b04cb2c7763a54b2a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4232852/1password_x_password_manager-2.20.2.xpi";
+      sha256 = "5a4998b873d568cd66ef5582bf08b0d8233d15829f5910423a805be6cc5af7ae";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -557,10 +558,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.11.1";
+      version = "1.13.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4226810/proton_pass-1.11.1.xpi";
-      sha256 = "10fa4360fb5628e6ff53d6fff873764f7dac09e822534a3fbf796505e285c68b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4233328/proton_pass-1.13.0.xpi";
+      sha256 = "eca535bc59bd3b802b2046f0399015e0060e6349141c552b1749ea8fdde9c1a3";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -577,6 +578,7 @@
           "https://*/*"
           "http://*/*"
           "https://account.proton.me/*"
+          "https://pass.proton.me/*"
         ];
         platforms = platforms.all;
       };
@@ -669,13 +671,13 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.2.2";
+      version = "24.2.8";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4230668/refined_github-24.2.2.xpi";
-      sha256 = "c356c4f3a978e867bfeff13ec684c805c55c44e0ab7658f84a63a850fa8eb26d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4233557/refined_github-24.2.8.xpi";
+      sha256 = "df51ec2cd17001bd474b86d75d6657156e91b54de607b6c7b4977a2044c5f6a7";
       meta = with lib;
       {
-        homepage = "https://github.com/sindresorhus/refined-github";
+        homepage = "https://github.com/refined-github/refined-github";
         description = "Simplifies the GitHub interface and adds many useful features.";
         license = licenses.mit;
         mozPermissions = [
@@ -692,10 +694,10 @@
     };
     "rust-search-extension" = buildFirefoxXpiAddon {
       pname = "rust-search-extension";
-      version = "1.12.0";
+      version = "1.13.0";
       addonId = "{04188724-64d3-497b-a4fd-7caffe6eab29}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4139032/rust_search_extension-1.12.0.xpi";
-      sha256 = "5731dd0ac69570e41537034073ca9fc51616d15f08cf0138f0a9a1bd0d7b078e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4236369/rust_search_extension-1.13.0.xpi";
+      sha256 = "59ddefdab6cd7dbe5fb368fe6fac2eace052060bf9357dd39bc9c7ff3439be13";
       meta = with lib;
       {
         homepage = "https://rust.extension.sh";
@@ -761,10 +763,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.40";
+      version = "1.22.42";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4223580/single_file-1.22.40.xpi";
-      sha256 = "72b11aa29cac50d9c9ac6978310b4597b42eaecd79098451f545a3ab0e2b516d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4235927/single_file-1.22.42.xpi";
+      sha256 = "c79c2cfd7c9361f5ccdd7ba55eb3ab6898d4c43bc5641bc8ee21a58504bdd336";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -971,10 +973,10 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.45";
+      version = "1.5.46";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4226958/styl_us-1.5.45.xpi";
-      sha256 = "0ea1e3bf6d415e4509730896318b4605a6d8186b11e30cede600eba0b54af3dc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4232144/styl_us-1.5.46.xpi";
+      sha256 = "9a75bf1bdde7263a5502d78009b5f19117ea09e6237afc852e7ba4e52b565364";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
