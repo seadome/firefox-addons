@@ -238,10 +238,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.8.1";
+      version = "4.8.2";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4237933/headingsmap-4.8.1.xpi";
-      sha256 = "111347a78fe58c4f2430a234b552bc0e256cd20910de8ab617b17a4130fb0680";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4240009/headingsmap-4.8.2.xpi";
+      sha256 = "49f801a7eb31163b03f8100c830850ec933fbc5950d7b72d37c736310a3a22db";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -763,10 +763,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.42";
+      version = "1.22.43";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4235927/single_file-1.22.42.xpi";
-      sha256 = "c79c2cfd7c9361f5ccdd7ba55eb3ab6898d4c43bc5641bc8ee21a58504bdd336";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4236989/single_file-1.22.43.xpi";
+      sha256 = "7d32842dad41355c9b8ea8bd862a5e62e772f9138f024ea079464204acf01b10";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1149,10 +1149,10 @@
     };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.55.0";
+      version = "1.56.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4216633/ublock_origin-1.55.0.xpi";
-      sha256 = "a02ca1d32737c3437f97553e5caaead6479a66ac1f8ff3b84a06cfa6bb0c7647";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4237670/ublock_origin-1.56.0.xpi";
+      sha256 = "f5fbeeac511ca4e10a74723413727fda8e6f9236c726d16eb54ade1fbe7be5be";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
