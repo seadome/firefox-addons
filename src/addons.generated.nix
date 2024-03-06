@@ -147,10 +147,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.77";
+      version = "4.9.78";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4233074/darkreader-4.9.77.xpi";
-      sha256 = "931de67e9091c69edd9fd3f348a7ed1de1dce7d136017fed641bd10eb0ae8891";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4243182/darkreader-4.9.78.xpi";
+      sha256 = "21e08b3f26e9b54257d30f6b2fb2d966d41ace54d2d79ccec55e55517084c7ce";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -238,10 +238,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.8.2";
+      version = "4.8.4";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4240009/headingsmap-4.8.2.xpi";
-      sha256 = "49f801a7eb31163b03f8100c830850ec933fbc5950d7b72d37c736310a3a22db";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4245767/headingsmap-4.8.4.xpi";
+      sha256 = "03b8e1ae09ae4479b13a66d58b3d5bb45ba3511d700244709dc72cb96c9e3a94";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -471,10 +471,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.20.2";
+      version = "2.21.0";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4232852/1password_x_password_manager-2.20.2.xpi";
-      sha256 = "5a4998b873d568cd66ef5582bf08b0d8233d15829f5910423a805be6cc5af7ae";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4242854/1password_x_password_manager-2.21.0.xpi";
+      sha256 = "45a18b6101ab3354a522902d82a151648269670b7cfec42086a1ce853f5b053c";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -558,10 +558,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.13.0";
+      version = "1.14.1";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4233328/proton_pass-1.13.0.xpi";
-      sha256 = "eca535bc59bd3b802b2046f0399015e0060e6349141c552b1749ea8fdde9c1a3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4243202/proton_pass-1.14.1.xpi";
+      sha256 = "3a0cee9a4116ea276cafcff9d7edeb53ec954bce39b869a9d351bd7c013a7635";
       meta = with lib;
       {
         homepage = "https://proton.me";
