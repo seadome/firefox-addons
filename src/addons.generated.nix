@@ -532,6 +532,30 @@
         platforms = platforms.all;
       };
     };
+    "passff" = buildFirefoxXpiAddon {
+      pname = "passff";
+      version = "1.16";
+      addonId = "passff@invicem.pro";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4202971/passff-1.16.xpi";
+      sha256 = "ac410a2fbdaa3a43ae3f0ec01056bc0b037b4441a9e38d2cc330f186c8fce112";
+      meta = with lib;
+      {
+        homepage = "https://github.com/passff/passff";
+        description = "Add-on that allows users of the unix password manager 'pass' (see <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/24f646fb865abe6edf9e3f626db62565bfdc2e7819ab33a5b4c30a9573787988/https%3A//www.passwordstore.org/\" rel=\"nofollow\">https://www.passwordstore.org/</a>) to access their password store from Firefox";
+        license = licenses.gpl2;
+        mozPermissions = [
+          "<all_urls>"
+          "tabs"
+          "storage"
+          "nativeMessaging"
+          "clipboardWrite"
+          "contextMenus"
+          "webRequest"
+          "webRequestBlocking"
+        ];
+        platforms = platforms.all;
+      };
+    };
     "plasma-integration" = buildFirefoxXpiAddon {
       pname = "plasma-integration";
       version = "1.8.1";
