@@ -62,7 +62,7 @@
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
-        description = "A secure and free password manager for all of your devices.";
+        description = "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.";
         license = licenses.gpl3;
         mozPermissions = [
           "<all_urls>"
