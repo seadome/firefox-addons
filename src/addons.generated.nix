@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.2.0";
+      version = "2024.2.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4233394/bitwarden_password_manager-2024.2.0.xpi";
-      sha256 = "2c59e7040749dee010b34fb2a9c24b28ada71ad7fa5a23264ff70e63f8f686d1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4246600/bitwarden_password_manager-2024.2.1.xpi";
+      sha256 = "f2db399e5a0915e4fd7e4906c32c72eac4a2b7bb4b4acacd892fff18e73085d4";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -85,16 +85,16 @@
     };
     "consent-o-matic" = buildFirefoxXpiAddon {
       pname = "consent-o-matic";
-      version = "1.0.12";
+      version = "1.0.13";
       addonId = "gdpr@cavi.au.dk";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4074847/consent_o_matic-1.0.12.xpi";
-      sha256 = "013ea48757b8a4d84a2a0d944bc49b5612d62bae1d337f9569f425f2b8310e0f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4246350/consent_o_matic-1.0.13.xpi";
+      sha256 = "ee577eaedebd9fef65f77218b86c59972818442c9af551d551a7015a4a246e9a";
       meta = with lib;
       {
         homepage = "https://consentomatic.au.dk/";
         description = "Automatic handling of GDPR consent forms";
         license = licenses.mit;
-        mozPermissions = [ "activeTab" "storage" "<all_urls>" ];
+        mozPermissions = [ "activeTab" "tabs" "storage" "<all_urls>" ];
         platforms = platforms.all;
       };
     };
@@ -285,10 +285,10 @@
     };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.8.1";
+      version = "2.8.2";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4178347/libredirect-2.8.1.xpi";
-      sha256 = "c91f19377b07b119eec4d53c28c45cdb5d0755287a79b715328654adb5c7ddfa";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4248205/libredirect-2.8.2.xpi";
+      sha256 = "ac23b1c222f7af20c3b817f1514d796df5f5e3d24894dd1ec6a176e5830b8351";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -1059,10 +1059,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "3.9.22";
+      version = "4.0.1";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4229169/tree_style_tab-3.9.22.xpi";
-      sha256 = "b3df30f96fbcf33dd74cfae30e9053709003792d9e184c8438f9a88cbb439f1d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4246897/tree_style_tab-4.0.1.xpi";
+      sha256 = "53ef2dab4a5e76a2a49c9282c083bab9b4589a774d2d9e94e8852ff4c8c347bc";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
