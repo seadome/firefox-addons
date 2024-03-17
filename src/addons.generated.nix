@@ -100,10 +100,10 @@
     };
     "copy-selection-as-markdown" = buildFirefoxXpiAddon {
       pname = "copy-selection-as-markdown";
-      version = "0.21.0";
+      version = "0.22.0";
       addonId = "{db9a72da-7bc5-4805-bcea-da3cb1a15316}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3802383/copy_selection_as_markdown-0.21.0.xpi";
-      sha256 = "ead9406f8e9afbe409a55c5b5b3d9d4eb9f0b8fb0f3f42c985b86bcfe2173ed4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4250904/copy_selection_as_markdown-0.22.0.xpi";
+      sha256 = "5d76d73b93762b2a42781cc564de20e982387b428664e96bda50b3066db9ac08";
       meta = with lib;
       {
         homepage = "https://github.com/0x6b/copy-selection-as-markdown";
@@ -555,10 +555,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.14.1";
+      version = "1.15.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4243202/proton_pass-1.14.1.xpi";
-      sha256 = "3a0cee9a4116ea276cafcff9d7edeb53ec954bce39b869a9d351bd7c013a7635";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4248868/proton_pass-1.15.0.xpi";
+      sha256 = "7269a3e6a426aa8ce09fb707a0b6900cc766f52e601cdb0a052ccc902757c6ca";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -1059,10 +1059,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.1";
+      version = "4.0.3";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4246897/tree_style_tab-4.0.1.xpi";
-      sha256 = "53ef2dab4a5e76a2a49c9282c083bab9b4589a774d2d9e94e8852ff4c8c347bc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4249095/tree_style_tab-4.0.3.xpi";
+      sha256 = "0904fe9db63b949b66f876cbea911c1f2d9f59d5b2ae0e0f1cae362a1ca36720";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
