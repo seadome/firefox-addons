@@ -120,10 +120,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.78";
+      version = "4.9.80";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4243182/darkreader-4.9.78.xpi";
-      sha256 = "21e08b3f26e9b54257d30f6b2fb2d966d41ace54d2d79ccec55e55517084c7ce";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4249607/darkreader-4.9.80.xpi";
+      sha256 = "a93f1250b72cc27fe4a9b02be062c68fb079e45a1233d562852b48e1e9b99307";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -238,21 +238,20 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.6.0";
+      version = "0.3.8";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4235536/kagi_search_for_firefox-0.6.0.xpi";
-      sha256 = "4e0c7419378166fed21b1c4d64e0ca0b42cde28d4233a6a9c7d0b2d6a881c50e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4173642/kagi_search_for_firefox-0.3.8.xpi";
+      sha256 = "97df6e38d7f9531efff5360c744d3f32386d7289975ed5eb818491fbdcecf20b";
       meta = with lib;
       {
         homepage = "https://kagi.com";
         description = "A simple helper extension for setting Kagi as a default search engine, and automatically logging in to Kagi in private browsing windows.";
-        license = licenses.mit;
+        license = licenses.mpl20;
         mozPermissions = [
           "cookies"
           "declarativeNetRequestWithHostAccess"
           "webRequest"
           "storage"
-          "contextMenus"
         ];
         platforms = platforms.all;
       };
@@ -555,10 +554,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.15.0";
+      version = "1.15.1";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4248868/proton_pass-1.15.0.xpi";
-      sha256 = "7269a3e6a426aa8ce09fb707a0b6900cc766f52e601cdb0a052ccc902757c6ca";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4250914/proton_pass-1.15.1.xpi";
+      sha256 = "8c1e9eb2f9aaf8a1601e1ff64f8089a9a22d0240563d5489776fa5cd79107c12";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -597,10 +596,10 @@
     };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "5.0.0";
+      version = "5.0.2";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4204958/react_devtools-5.0.0.xpi";
-      sha256 = "4290cd8eb5f51f80198ab749495a0a1239ba17a1b997b8b486e10448916a0187";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4247170/react_devtools-5.0.2.xpi";
+      sha256 = "0b880751b0f63ef4b10ffc436e42f65e5054fd3fc747f7e04733e8173c2dab57";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -668,10 +667,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.2.8";
+      version = "24.3.20";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4233557/refined_github-24.2.8.xpi";
-      sha256 = "df51ec2cd17001bd474b86d75d6657156e91b54de607b6c7b4977a2044c5f6a7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4252355/refined_github-24.3.20.xpi";
+      sha256 = "ad3cc2317f57e5e6bd3101714a6dc6369f878cc619814e6628781ad34dd29716";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -760,10 +759,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.43";
+      version = "1.22.45";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4236989/single_file-1.22.43.xpi";
-      sha256 = "7d32842dad41355c9b8ea8bd862a5e62e772f9138f024ea079464204acf01b10";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4249603/single_file-1.22.45.xpi";
+      sha256 = "c5956270a4e098edd309e3f6279c27ff5713ad4222aba1f4a84e7cc9fb9aea26";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -803,10 +802,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "3.7.9";
+      version = "3.7.10";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4202136/steam_database-3.7.9.xpi";
-      sha256 = "87f93bee3c42c469da72d7fce76db7cecbe843875ea8f098ecafad06940a973b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4251832/steam_database-3.7.10.xpi";
+      sha256 = "aee51bce4e6b84b95cadafd804c9f271394ae634fe121d0b9d82c4e6af022f73";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -816,8 +815,6 @@
           "storage"
           "https://steamdb.info/*"
           "https://store.steampowered.com/*"
-          "https://store.steampowered.com/checkout/*"
-          "https://store.steampowered.com/cart/*"
           "https://store.steampowered.com/app/*"
           "https://store.steampowered.com/news/app/*"
           "https://store.steampowered.com/account/licenses*"
@@ -829,7 +826,6 @@
           "https://store.steampowered.com/app/*/agecheck"
           "https://store.steampowered.com/agecheck/*"
           "https://store.steampowered.com/explore*"
-          "https://store.steampowered.com/checkout/sendgift/*"
           "https://steamcommunity.com/app/*"
           "https://steamcommunity.com/sharedfiles/filedetails*"
           "https://steamcommunity.com/workshop/filedetails*"
@@ -1059,10 +1055,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.3";
+      version = "4.0.10";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4249095/tree_style_tab-4.0.3.xpi";
-      sha256 = "0904fe9db63b949b66f876cbea911c1f2d9f59d5b2ae0e0f1cae362a1ca36720";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4252861/tree_style_tab-4.0.10.xpi";
+      sha256 = "d13a67005f9d0241b16ef50c4fb37ec11d8cd22fe51fba68550fd0c395440302";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1321,10 +1317,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.52";
+      version = "2.1.53";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4212428/zoom_new_scheduler-2.1.52.xpi";
-      sha256 = "44e79661b1c464c3a84f7a7a88825fce91013f50c3894a1df3785751ee2a6889";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4250798/zoom_new_scheduler-2.1.53.xpi";
+      sha256 = "6641751d8ca2796d332bea0ae26b7c44998ab58559e687f744049402434799f5";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
