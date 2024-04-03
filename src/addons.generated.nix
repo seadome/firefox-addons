@@ -120,10 +120,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.80";
+      version = "4.9.81";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4249607/darkreader-4.9.80.xpi";
-      sha256 = "a93f1250b72cc27fe4a9b02be062c68fb079e45a1233d562852b48e1e9b99307";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4257392/darkreader-4.9.81.xpi";
+      sha256 = "71413cde04cca328b64fbad24e63c716759d1154fa7e016a728366230e0e0122";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -443,10 +443,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.21.0";
+      version = "2.22.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4242854/1password_x_password_manager-2.21.0.xpi";
-      sha256 = "45a18b6101ab3354a522902d82a151648269670b7cfec42086a1ce853f5b053c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4256845/1password_x_password_manager-2.22.1.xpi";
+      sha256 = "57bd35718625d9fd890600b37cfa3d40541950b2ce2a5247e697623f5e93fba2";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -554,10 +554,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.15.1";
+      version = "1.16.4";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4250914/proton_pass-1.15.1.xpi";
-      sha256 = "8c1e9eb2f9aaf8a1601e1ff64f8089a9a22d0240563d5489776fa5cd79107c12";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4255648/proton_pass-1.16.4.xpi";
+      sha256 = "d68b2f151a0e143cb26956c767419cb4380f3deebb388159f946821886221f97";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -619,10 +619,10 @@
     };
     "reddit-enhancement-suite" = buildFirefoxXpiAddon {
       pname = "reddit-enhancement-suite";
-      version = "5.22.17";
+      version = "5.24.4";
       addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4092764/reddit_enhancement_suite-5.22.17.xpi";
-      sha256 = "f49827c7684076dbf6890741dbbc31e82c180f87cb3fd745216ba2432398b1d9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4257183/reddit_enhancement_suite-5.24.4.xpi";
+      sha256 = "86cf6958c54604b9f1dcc7e925c1c18bdf3ed2a8e098608964527e6b359d057c";
       meta = with lib;
       {
         homepage = "https://redditenhancementsuite.com/";
@@ -635,6 +635,7 @@
           "tabs"
           "history"
           "storage"
+          "scripting"
           "unlimitedStorage"
         ];
         platforms = platforms.all;
@@ -667,10 +668,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.3.20";
+      version = "24.4.1";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4252355/refined_github-24.3.20.xpi";
-      sha256 = "ad3cc2317f57e5e6bd3101714a6dc6369f878cc619814e6628781ad34dd29716";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4258070/refined_github-24.4.1.xpi";
+      sha256 = "d12f8f307954ac6b0ad28612442b47bca1c340089bcf6cf15088b8490a4d730e";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -1021,7 +1022,7 @@
       sha256 = "405ff6682a700149820684a6ec50c6d287e40ad06751056b41c8794576550b4b";
       meta = with lib;
       {
-        homepage = "https://github.com/igorlogius/tbl2csv";
+        homepage = "https://github.com/igorlogius";
         description = "Save HTML Tables, CSS Pseudo/DIV Tables or Lists (UL/OL) as a comma seperated values (CSV) file which can be opened with any spreadsheet processor (e.g. excel, libreoffice-calc,gnumeric) for further processing and conversion (e.g. to xls or ods)";
         license = licenses.bsd2;
         mozPermissions = [ "menus" "activeTab" ];
@@ -1142,10 +1143,10 @@
     };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.56.0";
+      version = "1.57.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4237670/ublock_origin-1.56.0.xpi";
-      sha256 = "f5fbeeac511ca4e10a74723413727fda8e6f9236c726d16eb54ade1fbe7be5be";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4257361/ublock_origin-1.57.0.xpi";
+      sha256 = "393736f7350b3ef4a849e4e31b63ed6e9ec33f6e7a4c662595c543a01b10447e";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
@@ -1317,10 +1318,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.53";
+      version = "2.1.54";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4250798/zoom_new_scheduler-2.1.53.xpi";
-      sha256 = "6641751d8ca2796d332bea0ae26b7c44998ab58559e687f744049402434799f5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4254488/zoom_new_scheduler-2.1.54.xpi";
+      sha256 = "054acf2594f1eb471dd0791800100c64525a81f06f7b469aae6a318dc4b2020c";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
