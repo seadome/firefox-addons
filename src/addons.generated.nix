@@ -1016,10 +1016,10 @@
     };
     "tbl2csv" = buildFirefoxXpiAddon {
       pname = "tbl2csv";
-      version = "1.3.21";
+      version = "1.3.22";
       addonId = "{38dc25f6-5ed7-4279-a1fb-832b5e90a98b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4215238/tbl2csv-1.3.21.xpi";
-      sha256 = "405ff6682a700149820684a6ec50c6d287e40ad06751056b41c8794576550b4b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4260089/tbl2csv-1.3.22.xpi";
+      sha256 = "7978a223e9052045a4d9c795bad674e31392f10b4fae9b8bbfeee5cc62ba1b7d";
       meta = with lib;
       {
         homepage = "https://github.com/igorlogius";
@@ -1056,10 +1056,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.10";
+      version = "4.0.11";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4252861/tree_style_tab-4.0.10.xpi";
-      sha256 = "d13a67005f9d0241b16ef50c4fb37ec11d8cd22fe51fba68550fd0c395440302";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4259083/tree_style_tab-4.0.11.xpi";
+      sha256 = "ec53eb91431544981ea19e372a2b07f14c9264a9eb3b96a7b00570d4beb18ee0";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1088,10 +1088,10 @@
     };
     "tridactyl" = buildFirefoxXpiAddon {
       pname = "tridactyl";
-      version = "1.24.0";
+      version = "1.24.1";
       addonId = "tridactyl.vim@cmcaine.co.uk";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4208422/tridactyl_vim-1.24.0.xpi";
-      sha256 = "9e70bccf7ced3a87e4cf6a5dc6210a884fa9a46a79ee19177367a28c02aaa04b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4261352/tridactyl_vim-1.24.1.xpi";
+      sha256 = "ab63fe1554471c280f234409393172fc58e1bb2ca527f4329d983b028073e19c";
       meta = with lib;
       {
         homepage = "https://tridactyl.xyz";
@@ -1208,10 +1208,10 @@
     };
     "vimium-ff" = buildFirefoxXpiAddon {
       pname = "vimium-ff";
-      version = "2.0.6";
+      version = "2.1.2";
       addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4191523/vimium_ff-2.0.6.xpi";
-      sha256 = "94a2d7e88596b65891747d48837deb5440780d57db7ae330d1d7d43d5fe64922";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4259790/vimium_ff-2.1.2.xpi";
+      sha256 = "3b9d43ee277ff374e3b1153f97dc20cb06e654116a833674c79b43b8887820e1";
       meta = with lib;
       {
         homepage = "https://github.com/philc/vimium";
