@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.2.1";
+      version = "2024.3.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4246600/bitwarden_password_manager-2024.2.1.xpi";
-      sha256 = "f2db399e5a0915e4fd7e4906c32c72eac4a2b7bb4b4acacd892fff18e73085d4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4261683/bitwarden_password_manager-2024.3.1.xpi";
+      sha256 = "c55dbcc014ac7782c1c0e7b31cf859e97da43a308d886b87efcd13e7cb5fc510";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -66,6 +66,7 @@
         license = licenses.gpl3;
         mozPermissions = [
           "<all_urls>"
+          "*://*/*"
           "tabs"
           "contextMenus"
           "storage"
@@ -73,11 +74,10 @@
           "clipboardRead"
           "clipboardWrite"
           "idle"
-          "http://*/*"
-          "https://*/*"
           "webRequest"
           "webRequestBlocking"
           "file:///*"
+          "https://*/*"
           "https://lastpass.com/export.php"
         ];
         platforms = platforms.all;
@@ -120,10 +120,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.81";
+      version = "4.9.82";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4257392/darkreader-4.9.81.xpi";
-      sha256 = "71413cde04cca328b64fbad24e63c716759d1154fa7e016a728366230e0e0122";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4260787/darkreader-4.9.82.xpi";
+      sha256 = "df2e0c5498c08caa8452cd21f627d6dce0b2251047602ab2417c2e1dd7350697";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -668,10 +668,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.4.1";
+      version = "24.4.9";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4258070/refined_github-24.4.1.xpi";
-      sha256 = "d12f8f307954ac6b0ad28612442b47bca1c340089bcf6cf15088b8490a4d730e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4262441/refined_github-24.4.9.xpi";
+      sha256 = "7bbc82d7d991f8f776ff47167b0c9e7c05043e83c0d85e1b6711e1e2777f3284";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -760,10 +760,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.45";
+      version = "1.22.46";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4249603/single_file-1.22.45.xpi";
-      sha256 = "c5956270a4e098edd309e3f6279c27ff5713ad4222aba1f4a84e7cc9fb9aea26";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4259991/single_file-1.22.46.xpi";
+      sha256 = "b63928f13e7a964d9be3cebd33483a5791ebe28363f0271de76bb75344579ad0";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1056,10 +1056,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.11";
+      version = "4.0.12";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4259083/tree_style_tab-4.0.11.xpi";
-      sha256 = "ec53eb91431544981ea19e372a2b07f14c9264a9eb3b96a7b00570d4beb18ee0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4260305/tree_style_tab-4.0.12.xpi";
+      sha256 = "e6ac13b311a251e47238c8eb0e07779f2e10d6b782be879126bd83c219813bd8";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1143,10 +1143,10 @@
     };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.57.0";
+      version = "1.57.2";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4257361/ublock_origin-1.57.0.xpi";
-      sha256 = "393736f7350b3ef4a849e4e31b63ed6e9ec33f6e7a4c662595c543a01b10447e";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4261710/ublock_origin-1.57.2.xpi";
+      sha256 = "9928e79a52cecf7cfa231fdb0699c7d7a427660d94eb10d711ed5a2f10d2eb89";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
