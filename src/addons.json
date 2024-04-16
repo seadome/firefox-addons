@@ -27,6 +27,13 @@
     "slug": "consent-o-matic"
   },
   {
+    "slug": "copy-as-org-mode",
+    "license": {
+      "tag": "predefined",
+      "shortName": "mpl20"
+    }
+  },
+  {
     "slug": "copy-selection-as-markdown"
   },
   {
