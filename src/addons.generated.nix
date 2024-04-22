@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.3.1";
+      version = "2024.4.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4261683/bitwarden_password_manager-2024.3.1.xpi";
-      sha256 = "c55dbcc014ac7782c1c0e7b31cf859e97da43a308d886b87efcd13e7cb5fc510";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4263752/bitwarden_password_manager-2024.4.1.xpi";
+      sha256 = "1ba1e66cb9a4ee3bf80a81fc31348b04162385455d2b02f9902473e3931d9693";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -602,10 +602,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.19";
+      version = "6.6.22";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4198542/raindropio-6.6.19.xpi";
-      sha256 = "064ccce0e9e9ddfe9e540d29c6cd132d575a57a443982d344ccc01296067a0fc";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4266289/raindropio-6.6.22.xpi";
+      sha256 = "b65bd2431e1696ea0650cbf2ec6f84730b06a069117a9e95c47fdac117f45f46";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -781,10 +781,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.46";
+      version = "1.22.47";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4259991/single_file-1.22.46.xpi";
-      sha256 = "b63928f13e7a964d9be3cebd33483a5791ebe28363f0271de76bb75344579ad0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4264820/single_file-1.22.47.xpi";
+      sha256 = "66020eb464cb4868434546ebc3b6bc110dd1810b677f3a1c50046cb9eec53368";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1077,10 +1077,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.13";
+      version = "4.0.14";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4262807/tree_style_tab-4.0.13.xpi";
-      sha256 = "85b2e86f316080f955897340f5eabb8cd0ffae752eea769f637a282e6f6bb951";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4265667/tree_style_tab-4.0.14.xpi";
+      sha256 = "a15ff154a48d50899f1abe3aaf553bfab2df7391ac0912eab428611224dc259c";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
