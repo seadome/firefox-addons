@@ -39,6 +39,7 @@
             inputs'.mozilla-addons-to-nix.packages.default
 
             pkgs.fd
+            pkgs.jq
             pkgs.nixfmt-rfc-style
             pkgs.nodePackages.prettier
           ];
