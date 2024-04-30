@@ -17,10 +17,10 @@
     };
     "anchors-reveal" = buildFirefoxXpiAddon {
       pname = "anchors-reveal";
-      version = "1.1";
+      version = "1.2resigned1";
       addonId = "jid1-XX0TcCGBa7GVGw@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/1690998/anchors_reveal-1.1.xpi";
-      sha256 = "0412acabe742f7e78ff77aa95c4196150c240592a1bbbad75012b39a05352c36";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4270578/anchors_reveal-1.2resigned1.xpi";
+      sha256 = "bcae97368b2c2271cf694676a2fb29dd168698e6e8105a6df6607fcf0bbce77a";
       meta = with lib;
       {
         homepage = "http://dascritch.net/post/2014/06/24/Sniffeur-d-ancre";
@@ -327,10 +327,10 @@
     };
     "link-cleaner" = buildFirefoxXpiAddon {
       pname = "link-cleaner";
-      version = "1.5";
+      version = "1.6resigned1";
       addonId = "{6d85dea2-0fb4-4de3-9f8c-264bce9a2296}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/671858/link_cleaner-1.5.xpi";
-      sha256 = "1ecec8cbe78b4166fc50da83213219f30575a8c183f7a13aabbff466c71ce560";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4272011/link_cleaner-1.6resigned1.xpi";
+      sha256 = "16dbaf948c31ed586e64301d5809d7b11dd07014bf5edb5f7b1b4bfa30d40ff0";
       meta = with lib;
       {
         homepage = "https://github.com/idlewan/link_cleaner";
@@ -512,10 +512,10 @@
     };
     "org-capture" = buildFirefoxXpiAddon {
       pname = "org-capture";
-      version = "0.2.1";
+      version = "0.2.2resigned1";
       addonId = "{ddefd400-12ea-4264-8166-481f23abaa87}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/1127481/org_capture-0.2.1.xpi";
-      sha256 = "5683ee1ebfafc24abc2d759c7180c4e839c24fa90764d8cf3285c5d72fc81f0a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4272196/org_capture-0.2.2resigned1.xpi";
+      sha256 = "eac6fdbfb90ff92862228acb7e8d265f1326ddcc4b86f87455d74ae448a22f45";
       meta = with lib;
       {
         homepage = "https://github.com/sprig/org-capture-extension";
@@ -575,10 +575,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.16.4";
+      version = "1.16.7";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4255648/proton_pass-1.16.4.xpi";
-      sha256 = "d68b2f151a0e143cb26956c767419cb4380f3deebb388159f946821886221f97";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4267054/proton_pass-1.16.7.xpi";
+      sha256 = "29a44d48a794a87860f4ceeae1e27d1cb493f42194741041a94bc2caf9f40e7f";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -602,10 +602,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.22";
+      version = "6.6.24";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4266289/raindropio-6.6.22.xpi";
-      sha256 = "b65bd2431e1696ea0650cbf2ec6f84730b06a069117a9e95c47fdac117f45f46";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4269679/raindropio-6.6.24.xpi";
+      sha256 = "4c86f5e78e06e7b5978c1f20ce1be659a871556188ef4669b9a2aa826bab660f";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -617,10 +617,10 @@
     };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "5.0.2";
+      version = "5.1.0";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4247170/react_devtools-5.0.2.xpi";
-      sha256 = "0b880751b0f63ef4b10ffc436e42f65e5054fd3fc747f7e04733e8173c2dab57";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4266360/react_devtools-5.1.0.xpi";
+      sha256 = "f40c6f549006f84f811588ca6473de502ddad3722bfa772537ad39f9f0d2eff9";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -1339,10 +1339,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.54";
+      version = "2.1.55";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4254488/zoom_new_scheduler-2.1.54.xpi";
-      sha256 = "054acf2594f1eb471dd0791800100c64525a81f06f7b469aae6a318dc4b2020c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4267961/zoom_new_scheduler-2.1.55.xpi";
+      sha256 = "91d6c4adad35e9752414f59860bf7cbd15fe64039aab48c2bea36785602944ff";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
