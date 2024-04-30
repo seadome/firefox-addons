@@ -37,8 +37,9 @@
           devshell.name = "firefox-addons";
           packages = [
             inputs'.mozilla-addons-to-nix.packages.default
+
             pkgs.fd
-            pkgs.nixfmt
+            pkgs.nixfmt-rfc-style
             pkgs.nodePackages.prettier
           ];
           commands = [
