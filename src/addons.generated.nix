@@ -141,10 +141,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.83";
+      version = "4.9.84";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4262984/darkreader-4.9.83.xpi";
-      sha256 = "a43cca2449de202d17040b0d91b2fb3ed4dd58ac81ec5d3fde4c9940d326c822";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4278339/darkreader-4.9.84.xpi";
+      sha256 = "d418b40fc2cb69cfffabf6cc291f2cc5ca4c9d6a99e46562b44f4e2c0148374c";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -305,10 +305,10 @@
     };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.8.2";
+      version = "2.8.4";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4248205/libredirect-2.8.2.xpi";
-      sha256 = "ac23b1c222f7af20c3b817f1514d796df5f5e3d24894dd1ec6a176e5830b8351";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4280925/libredirect-2.8.4.xpi";
+      sha256 = "cd1f5780cf1ae20a05e4e2fbdc5a338c7d0aad9619a0b5824ede024c3a0933f1";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -464,10 +464,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.22.1";
+      version = "2.23.3";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4256845/1password_x_password_manager-2.22.1.xpi";
-      sha256 = "57bd35718625d9fd890600b37cfa3d40541950b2ce2a5247e697623f5e93fba2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4279916/1password_x_password_manager-2.23.3.xpi";
+      sha256 = "e4212296da2064caebdac7e0925467179ae4bbfc01c824672f3ee41aa652654f";
       meta = with lib;
       {
         homepage = "https://1password.com";
