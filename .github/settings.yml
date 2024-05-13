@@ -117,6 +117,6 @@ branches:
       # restrictions are only available for organization-owned repositories.  Set
       # to null to disable.
       restrictions:
-        apps: []
-        users: ["montchr"]
-        teams: []
+        # apps: []
+        # users: ["montchr"]
+        # teams: []
