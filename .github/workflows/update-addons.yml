@@ -13,19 +13,22 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Install Nix
         uses: cachix/install-nix-action@v26
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup binary cache
         uses: cachix/cachix-action@v14
         with:
           name: seadome
           extraPullNames: dotfield,nix-community
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
-      - name: Update Firefox addons manifest
+
+      - name: Update Firefox addons
         run: |
-          nix develop .#ci -Lv --command \
+          nix develop .#ci --print-build-logs --verbose --command \
             mozilla-addons-to-nix ./src/addons.json ./src/addons.generated.nix
 
       # TODO: build all <https://github.com/NixOS/nix/issues/7165>
