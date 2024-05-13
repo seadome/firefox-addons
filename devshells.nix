@@ -8,6 +8,11 @@
       ...
     }:
     {
+      devshells.ci = {
+        packages = [
+          inputs'.mozilla-addons-to-nix.packages.default
+        ];
+      };
       devshells.default = {
         devshell.name = "firefox-addons";
         packages = [
