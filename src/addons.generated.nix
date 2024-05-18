@@ -781,10 +781,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.47";
+      version = "1.22.48";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4264820/single_file-1.22.47.xpi";
-      sha256 = "66020eb464cb4868434546ebc3b6bc110dd1810b677f3a1c50046cb9eec53368";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4286096/single_file-1.22.48.xpi";
+      sha256 = "3166308728700d081b5b7c1d4b04b5b5c5bdf6d9b204501800cca015b233c012";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1043,7 +1043,7 @@
       sha256 = "7978a223e9052045a4d9c795bad674e31392f10b4fae9b8bbfeee5cc62ba1b7d";
       meta = with lib;
       {
-        homepage = "https://github.com/igorlogius";
+        homepage = "https://github.com/igorlogius/tbl2csv";
         description = "Save HTML Tables, CSS Pseudo/DIV Tables or Lists (UL/OL) as a comma seperated values (CSV) file which can be opened with any spreadsheet processor (e.g. excel, libreoffice-calc,gnumeric) for further processing and conversion (e.g. to xls or ods)";
         license = licenses.bsd2;
         mozPermissions = [ "menus" "activeTab" ];
