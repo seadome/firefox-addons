@@ -355,20 +355,6 @@
         platforms = platforms.all;
       };
     };
-    "metager-searchengine" = buildFirefoxXpiAddon {
-      pname = "metager-searchengine";
-      version = "0.0.1.3";
-      addonId = "firefoxextension@metager.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3571599/metager_searchengine-0.0.1.3.xpi";
-      sha256 = "ad469947e639d58546c5dc5055ae3c9aaa13988a3560d00aca2393880d480817";
-      meta = with lib;
-      {
-        description = "Privacy has never been that easy. Configures <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/66bc3f9394f36df6c488531cd247b43b42d46740088833de9818366e1dde5986/http%3A//MetaGer.org\" rel=\"nofollow\">MetaGer.org</a> as default search engine.\nSource Code:\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/5fdf787e5be66be7b0cfcffae0a5bd314f87597bf07579c5d2f71c8f38d1b879/https%3A//gitlab.metager.de/open-source/metager-webextension-en\" rel=\"nofollow\">https://gitlab.metager.de/open-source/metager-webextension-en</a>";
-        license = licenses.gpl3;
-        mozPermissions = [ "https://metager.org/" ];
-        platforms = platforms.all;
-      };
-    };
     "multi-account-containers" = buildFirefoxXpiAddon {
       pname = "multi-account-containers";
       version = "8.1.3";
