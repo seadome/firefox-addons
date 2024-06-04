@@ -141,10 +141,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.85";
+      version = "4.9.86";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4286925/darkreader-4.9.85.xpi";
-      sha256 = "28180bd8b970c4b9f961bda310df271d1e26a7cdf4ff01c94239f2fca3079d05";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4295557/darkreader-4.9.86.xpi";
+      sha256 = "dde9896751858d0179f3d724a59f2bd4a0d61e599cb8822dc8ed2de320510714";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -1001,10 +1001,10 @@
     };
     "tab-session-manager" = buildFirefoxXpiAddon {
       pname = "tab-session-manager";
-      version = "6.12.2";
+      version = "7.0.0";
       addonId = "Tab-Session-Manager@sienori";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4165190/tab_session_manager-6.12.2.xpi";
-      sha256 = "79b280f0a45b5117f6327e5bcc8275b13dec855375af29f0a935bd2e800f587a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4293879/tab_session_manager-7.0.0.xpi";
+      sha256 = "0aba3d23085edaaa1aeb608c2e3b7451eff2dae3250a91a6fad801c8bbd5f5e2";
       meta = with lib;
       {
         homepage = "https://tab-session-manager.sienori.com/";
@@ -1017,6 +1017,7 @@
           "cookies"
           "downloads"
           "identity"
+          "alarms"
         ];
         platforms = platforms.all;
       };
