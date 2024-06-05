@@ -513,22 +513,23 @@
     };
     "passff" = buildFirefoxXpiAddon {
       pname = "passff";
-      version = "1.17";
+      version = "1.18";
       addonId = "passff@invicem.pro";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4284061/passff-1.17.xpi";
-      sha256 = "fe447ebab2741166bdeb505274724649c9146de454d74599419ff3b2a73cdfbe";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4298236/passff-1.18.xpi";
+      sha256 = "3fa99d1fd24f3a4bdf5f57fb4d0ddc051c949289bf5e59a0779477f0c3335445";
       meta = with lib;
       {
-        homepage = "https://github.com/passff/passff";
+        homepage = "https://codeberg.org/PassFF/passff";
         description = "Add-on that allows users of the unix password manager 'pass' (see <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/24f646fb865abe6edf9e3f626db62565bfdc2e7819ab33a5b4c30a9573787988/https%3A//www.passwordstore.org/\" rel=\"nofollow\">https://www.passwordstore.org/</a>) to access their password store from Firefox";
         license = licenses.gpl2;
         mozPermissions = [
           "<all_urls>"
-          "tabs"
-          "storage"
-          "nativeMessaging"
           "clipboardWrite"
           "contextMenus"
+          "contextualIdentities"
+          "nativeMessaging"
+          "storage"
+          "tabs"
           "webRequest"
           "webRequestBlocking"
         ];
