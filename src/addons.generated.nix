@@ -513,10 +513,10 @@
     };
     "passff" = buildFirefoxXpiAddon {
       pname = "passff";
-      version = "1.19";
+      version = "1.19.3";
       addonId = "passff@invicem.pro";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4298564/passff-1.19.xpi";
-      sha256 = "ebc1349b3fef84f7af22688f905dfffc108c6a13d30827d07dd73e0dc0a7e05f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4299236/passff-1.19.3.xpi";
+      sha256 = "07fc361c2b50498003eda5007c16fec2a2f9472599d9fcc34cae0c2203c28a09";
       meta = with lib;
       {
         homepage = "https://codeberg.org/PassFF/passff";
