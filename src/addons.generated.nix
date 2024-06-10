@@ -189,7 +189,7 @@
       sha256 = "dff05cff4e53254c03a91d047e776f77aeb1d069540aecd5e48209fae2a44c3b";
       meta = with lib;
       {
-        homepage = "https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome";
+        homepage = "https://gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/gnome-browser-integration.html";
         description = "This extension provides integration with GNOME Shell and the corresponding extensions repository <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/b16ff805576d83628b80265636b483e6f56c58d6e812e04045626ff602eff739/https%3A//extensions.gnome.org\" rel=\"nofollow\">https://extensions.gnome.org</a>";
         license = licenses.gpl3;
         mozPermissions = [
@@ -676,10 +676,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.6.2";
+      version = "24.6.9";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4296939/refined_github-24.6.2.xpi";
-      sha256 = "d7cce1af2deccd0430cc6eb516024f4e03433ad755d5218c43bff2922076ab39";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4300256/refined_github-24.6.9.xpi";
+      sha256 = "e857c4f1f9c6441ae38da48c7c748a2a382227862ce9f30cc2cf83e918ce8fbf";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
