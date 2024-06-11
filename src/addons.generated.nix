@@ -1002,10 +1002,10 @@
     };
     "tab-session-manager" = buildFirefoxXpiAddon {
       pname = "tab-session-manager";
-      version = "7.0.0";
+      version = "7.0.1";
       addonId = "Tab-Session-Manager@sienori";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4293879/tab_session_manager-7.0.0.xpi";
-      sha256 = "0aba3d23085edaaa1aeb608c2e3b7451eff2dae3250a91a6fad801c8bbd5f5e2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4298614/tab_session_manager-7.0.1.xpi";
+      sha256 = "936499a7cf42fabb26a283125cc5ec8c0615407722f3c7e9fb9f6d3ee5916890";
       meta = with lib;
       {
         homepage = "https://tab-session-manager.sienori.com/";
