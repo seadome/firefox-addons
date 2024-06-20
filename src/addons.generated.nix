@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.4.2";
+      version = "2024.6.2";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4282854/bitwarden_password_manager-2024.4.2.xpi";
-      sha256 = "19caac7131a37e558204c1f61cf1459502cc624b0284dc5837112c4742917da0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4305759/bitwarden_password_manager-2024.6.2.xpi";
+      sha256 = "c064e2d6601cb921ecd154e0d3bfd54d71af43da1947aa51666877ef0afd1436";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -259,20 +259,21 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.3.8";
+      version = "0.7.0";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4173642/kagi_search_for_firefox-0.3.8.xpi";
-      sha256 = "97df6e38d7f9531efff5360c744d3f32386d7289975ed5eb818491fbdcecf20b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4302254/kagi_search_for_firefox-0.7.0.xpi";
+      sha256 = "78b19871c4afe390dd9e3cebcf47f8136abcd6ed3c7fe51c6eb7cf614cc48c87";
       meta = with lib;
       {
         homepage = "https://kagi.com";
         description = "A simple helper extension for setting Kagi as a default search engine, and automatically logging in to Kagi in private browsing windows.";
-        license = licenses.mpl20;
+        license = licenses.mit;
         mozPermissions = [
           "cookies"
           "declarativeNetRequestWithHostAccess"
           "webRequest"
           "storage"
+          "contextMenus"
         ];
         platforms = platforms.all;
       };
