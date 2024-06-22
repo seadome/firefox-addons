@@ -677,10 +677,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.6.14";
+      version = "24.6.21";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4303296/refined_github-24.6.14.xpi";
-      sha256 = "4f1389428f0b2207fd450ce7dfd9ee3b08735df40e84ff2f343fdff4514de3a1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4307292/refined_github-24.6.21.xpi";
+      sha256 = "0e377404047a430cc359e8c645c0274746f390a8b73a3eaaf4651433b9c24e31";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -688,11 +688,11 @@
         license = licenses.mit;
         mozPermissions = [
           "storage"
+          "scripting"
           "contextMenus"
           "activeTab"
           "alarms"
           "https://github.com/*"
-          "https://api.github.com/*"
           "https://gist.github.com/*"
         ];
         platforms = platforms.all;
@@ -769,10 +769,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.49";
+      version = "1.22.50";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4294665/single_file-1.22.49.xpi";
-      sha256 = "2230a3d4313e07c1416e87b0d7a6ba52a5c86b8ca83b71b6054cfe1abe5a0014";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4305663/single_file-1.22.50.xpi";
+      sha256 = "710c23cee88177ed6aea0f3ba43647a33f42bbbefe58be0be4792e5ff35b71ab";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
