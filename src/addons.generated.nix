@@ -451,10 +451,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.24.2";
+      version = "2.25.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4291426/1password_x_password_manager-2.24.2.xpi";
-      sha256 = "f92d7e032a6bc4182079da912344cd91f2ae00fb883bc4fe8054d75ac6b6db83";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4307081/1password_x_password_manager-2.25.1.xpi";
+      sha256 = "694ccd2a6464812ba8dbc09b143397516b16867a387a8f49290176d85e9845bf";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -677,10 +677,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.6.25";
+      version = "24.7.1";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4309229/refined_github-24.6.25.xpi";
-      sha256 = "dec15456b60128d81ebcc5f4b63d517f6a71b5167e007b9dec6d9660fbf52066";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4311993/refined_github-24.7.1.xpi";
+      sha256 = "da7e36569b2ef0b6c7b947637ee0af2b98e9dc1499eb06ba949e2f2030682bf1";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
