@@ -563,10 +563,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.17.4";
+      version = "1.19.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4294359/proton_pass-1.17.4.xpi";
-      sha256 = "44166b0e1520ee6a4598e90fa24c377ed92d7867a5772c1d25e995de06018a6a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4312876/proton_pass-1.19.0.xpi";
+      sha256 = "2d8d8c0f4e8d2118e2292be6f465201e3e020c10e2088116ed9c9f8923cc661f";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -976,10 +976,10 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.46";
+      version = "1.5.48";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4232144/styl_us-1.5.46.xpi";
-      sha256 = "9a75bf1bdde7263a5502d78009b5f19117ea09e6237afc852e7ba4e52b565364";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4312995/styl_us-1.5.48.xpi";
+      sha256 = "c41434ff62124d16a8eb4e29876f2fb1850a6003957fb679b4f16e76621e9151";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
