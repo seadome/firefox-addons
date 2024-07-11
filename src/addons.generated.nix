@@ -563,10 +563,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.19.0";
+      version = "1.20.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4312876/proton_pass-1.19.0.xpi";
-      sha256 = "2d8d8c0f4e8d2118e2292be6f465201e3e020c10e2088116ed9c9f8923cc661f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4314861/proton_pass-1.20.0.xpi";
+      sha256 = "068f81a53467f7298e429a1f14c20163083b60aaebe0a08ee14d4829ae8618f3";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -677,10 +677,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.7.1";
+      version = "24.7.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4311993/refined_github-24.7.1.xpi";
-      sha256 = "da7e36569b2ef0b6c7b947637ee0af2b98e9dc1499eb06ba949e2f2030682bf1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4317387/refined_github-24.7.10.xpi";
+      sha256 = "cce26134ede7e2d44069aebfc743f379ac28139ff376976fbf19e72d266d371b";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
