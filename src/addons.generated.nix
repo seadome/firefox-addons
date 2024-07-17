@@ -141,10 +141,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.87";
+      version = "4.9.88";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4310627/darkreader-4.9.87.xpi";
-      sha256 = "0327d42e507979b0a0443b6aad24d011fea50dd020bcfd07b326bd3df285c79b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4317971/darkreader-4.9.88.xpi";
+      sha256 = "7a965d5880be9fbf8be81a106acd1968263b1acc2db0add580b30f2dd71954b3";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -306,10 +306,10 @@
     };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.8.4";
+      version = "2.8.5";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4280925/libredirect-2.8.4.xpi";
-      sha256 = "cd1f5780cf1ae20a05e4e2fbdc5a338c7d0aad9619a0b5824ede024c3a0933f1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4320954/libredirect-2.8.5.xpi";
+      sha256 = "b0e07ae1480c9087c22a560d0601bee28cf79dda3083fc6757a9d2b56b58fa76";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
