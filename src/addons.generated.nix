@@ -605,10 +605,10 @@
     };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "5.1.0";
+      version = "5.3.1";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4266360/react_devtools-5.1.0.xpi";
-      sha256 = "f40c6f549006f84f811588ca6473de502ddad3722bfa772537ad39f9f0d2eff9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4314064/react_devtools-5.3.1.xpi";
+      sha256 = "376f33d9b1219341eb8be16578b406b3f371c11aace55f68fcad4847e818f076";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
@@ -770,10 +770,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.51";
+      version = "1.22.54";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4310297/single_file-1.22.51.xpi";
-      sha256 = "a3e8ad79c4fa58e56272c8f89788fee78e2b584253c15e611e26028f13ee9daf";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4324972/single_file-1.22.54.xpi";
+      sha256 = "b5c565f9754e5e45d6649cca851d3dec19e69a0eac39877160e49d3f6c354f4f";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
