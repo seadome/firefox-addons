@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.6.3";
+      version = "2024.7.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4307738/bitwarden_password_manager-2024.6.3.xpi";
-      sha256 = "d3c052e66a9daa390707c4481ec50c09bc3b6253cb222792c9a55aa4b5f4045a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4326285/bitwarden_password_manager-2024.7.1.xpi";
+      sha256 = "28c505df3b615f6a3c829afdcff74584ddc5eb1d3fb35f9848c18470fad93772";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -74,6 +74,7 @@
           "clipboardRead"
           "clipboardWrite"
           "idle"
+          "alarms"
           "webRequest"
           "webRequestBlocking"
           "webNavigation"
@@ -677,10 +678,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.7.23";
+      version = "24.7.30";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4324785/refined_github-24.7.23.xpi";
-      sha256 = "d510007d5ff8ee50230f2228623133cf3be01ad872024633ddc395b7c4b81a76";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4328593/refined_github-24.7.30.xpi";
+      sha256 = "7cf73aa9da978f301cc57241c851cfeff884e009c301662d0f6424cda6e8c2dd";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -813,10 +814,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.4";
+      version = "4.5";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4321888/steam_database-4.4.xpi";
-      sha256 = "a44bb1367e86f5c4ea5662851d4dc46201b45f19fe3b2dcd05d64ebc84d214ab";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4326369/steam_database-4.5.xpi";
+      sha256 = "f4dff61843f35adfc2cf8e353e25a6a8e37836b770b4d1a35f48114f1cd21328";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
