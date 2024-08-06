@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.54";
+      version = "1.22.55";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4324972/single_file-1.22.54.xpi";
-      sha256 = "b5c565f9754e5e45d6649cca851d3dec19e69a0eac39877160e49d3f6c354f4f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4330250/single_file-1.22.55.xpi";
+      sha256 = "058f46663486a2b91e817f4014b2fd8676cedd845d683c044bc844c7e388d9df";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -1068,10 +1068,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.20";
+      version = "4.0.21";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4310845/tree_style_tab-4.0.20.xpi";
-      sha256 = "1c1588dc4cafff49344cfc97df40d763651aea3964de774c925e460e8e307552";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4331020/tree_style_tab-4.0.21.xpi";
+      sha256 = "2865b81e8ff55db7eb64903ce95ccfe5b8676290a3c11e5375366c3d2694f805";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
