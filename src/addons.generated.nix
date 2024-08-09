@@ -515,10 +515,10 @@
     };
     "passff" = buildFirefoxXpiAddon {
       pname = "passff";
-      version = "1.19.5";
+      version = "1.20";
       addonId = "passff@invicem.pro";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4303400/passff-1.19.5.xpi";
-      sha256 = "03331d671c759b8689726aca7146cc2e2d9a4118d2d00e184dda20d1176e79e7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4333675/passff-1.20.xpi";
+      sha256 = "cf07997a5687f4a1db191b5229a97ff839ec29f581bce2b6fa42b141635e0f7d";
       meta = with lib;
       {
         homepage = "https://codeberg.org/PassFF/passff";
@@ -564,10 +564,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.21.1";
+      version = "1.21.2";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4327803/proton_pass-1.21.1.xpi";
-      sha256 = "195d9e46e3b361cd8e38c08e801ed6c5e4855a6f46adbcb7855d13cf2f2ee34d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4332444/proton_pass-1.21.2.xpi";
+      sha256 = "d2131f06e0fd5b364476ad02147cae30c8c8642076769c46f9aa7ad557439948";
       meta = with lib;
       {
         homepage = "https://proton.me";
