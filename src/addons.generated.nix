@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.55";
+      version = "1.22.59";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4330250/single_file-1.22.55.xpi";
-      sha256 = "058f46663486a2b91e817f4014b2fd8676cedd845d683c044bc844c7e388d9df";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4335620/single_file-1.22.59.xpi";
+      sha256 = "b9d2fa7cade21b5858e196f80bc1e42a1df78eddaca523c53ef9567b0a2966fd";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
