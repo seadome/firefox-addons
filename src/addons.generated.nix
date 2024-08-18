@@ -233,10 +233,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.8.4";
+      version = "4.8.5";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4245767/headingsmap-4.8.4.xpi";
-      sha256 = "03b8e1ae09ae4479b13a66d58b3d5bb45ba3511d700244709dc72cb96c9e3a94";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4338302/headingsmap-4.8.5.xpi";
+      sha256 = "b56130a8514ae872e3dc6ea8190f9473a9fa8b9de66d6d95fd7365fc48c92bc2";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
