@@ -452,10 +452,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.26.1";
+      version = "2.27.1";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4321525/1password_x_password_manager-2.26.1.xpi";
-      sha256 = "d838bfb835e6c1004d99e9192b2e7243646669915400f3fa782ae03ef0765946";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4333130/1password_x_password_manager-2.27.1.xpi";
+      sha256 = "675502aa7938d495066e1e56e3c579c1216687175da87161e1ae89d610467736";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -515,10 +515,10 @@
     };
     "passff" = buildFirefoxXpiAddon {
       pname = "passff";
-      version = "1.20";
+      version = "1.20.1";
       addonId = "passff@invicem.pro";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4333675/passff-1.20.xpi";
-      sha256 = "cf07997a5687f4a1db191b5229a97ff839ec29f581bce2b6fa42b141635e0f7d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4339137/passff-1.20.1.xpi";
+      sha256 = "7418b41a6ee43d380d42147a3632c0cf7e68591a4341effc5dc2e40a72575122";
       meta = with lib;
       {
         homepage = "https://codeberg.org/PassFF/passff";
