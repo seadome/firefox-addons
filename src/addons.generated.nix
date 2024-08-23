@@ -307,10 +307,10 @@
     };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.9.0";
+      version = "2.9.1";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4331333/libredirect-2.9.0.xpi";
-      sha256 = "469937f913e62c80918784ca87e5036526cf0394b371b43139c2673d2977114c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4340831/libredirect-2.9.1.xpi";
+      sha256 = "89864e121d42eb7351ee2378979f52069871eeb7035ab9f878fc4b74f1bee7ea";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -726,16 +726,16 @@
     };
     "saml-tracer" = buildFirefoxXpiAddon {
       pname = "saml-tracer";
-      version = "1.7.1";
+      version = "1.8";
       addonId = "{d3e01ff2-9a3a-4007-8f6e-7acd9a5de263}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3884953/saml_tracer-1.7.1.xpi";
-      sha256 = "8fa02c1b4e55f9d4b2fd3cd038403861ba850f9e6b194bd18ab3a38430f286a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4338561/saml_tracer-1.8.xpi";
+      sha256 = "77ef1f42c3a10aa2be647cd2e2cf42b9be6d07765ba8bc8a678a60088496e30a";
       meta = with lib;
       {
         homepage = "https://github.com/SimpleSAMLphp/SAML-tracer/";
         description = "A tool for viewing SAML and WS-Federation messages sent through the browser during single sign-on and single logout.";
         license = licenses.bsd2;
-        mozPermissions = [ "webRequest" "webRequestBlocking" "<all_urls>" ];
+        mozPermissions = [ "webRequest" ];
         platforms = platforms.all;
       };
     };
@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.59";
+      version = "1.22.61";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4335620/single_file-1.22.59.xpi";
-      sha256 = "b9d2fa7cade21b5858e196f80bc1e42a1df78eddaca523c53ef9567b0a2966fd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4339360/single_file-1.22.61.xpi";
+      sha256 = "002d164403923be95f616f11c6582708ca982b569659d9949176738bace6be0f";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
@@ -978,10 +978,10 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.48";
+      version = "1.5.51";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4312995/styl_us-1.5.48.xpi";
-      sha256 = "c41434ff62124d16a8eb4e29876f2fb1850a6003957fb679b4f16e76621e9151";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4338993/styl_us-1.5.51.xpi";
+      sha256 = "4d7c184af2d81f40c35f33c77c4040dc4205908dbcf65e7c99fafd7d26e4814f";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
