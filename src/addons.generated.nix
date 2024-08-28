@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.7.1";
+      version = "2024.8.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4326285/bitwarden_password_manager-2024.7.1.xpi";
-      sha256 = "28c505df3b615f6a3c829afdcff74584ddc5eb1d3fb35f9848c18470fad93772";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4340992/bitwarden_password_manager-2024.8.0.xpi";
+      sha256 = "8b7dba43a2820adce4d9ae497be119eac3802c01bd4b5a536941fbeea8adac59";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -142,10 +142,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.88";
+      version = "4.9.89";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4317971/darkreader-4.9.88.xpi";
-      sha256 = "7a965d5880be9fbf8be81a106acd1968263b1acc2db0add580b30f2dd71954b3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4341235/darkreader-4.9.89.xpi";
+      sha256 = "f4a5b4d5966d99cc68b31a9d2072cdb6388efefa9d45746f03d76e3c897c49be";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -233,10 +233,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.8.5";
+      version = "4.8.7";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4338302/headingsmap-4.8.5.xpi";
-      sha256 = "b56130a8514ae872e3dc6ea8190f9473a9fa8b9de66d6d95fd7365fc48c92bc2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4343686/headingsmap-4.8.7.xpi";
+      sha256 = "f6943d051052a2aaa26c9392b4777cdeb535a6d822e77cc145f5521ece3945c2";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -678,10 +678,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.8.20";
+      version = "24.8.26.1";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4339819/refined_github-24.8.20.xpi";
-      sha256 = "03904cb0ee8b64eca5aea373914bedeb6aede40b5799f09088b7c3a703063c17";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4343506/refined_github-24.8.26.1.xpi";
+      sha256 = "2d5f10788e1eff825632087696c09be5829ebb257c6dabf3ebf83af85f1ac9a1";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
