@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.8.0";
+      version = "2024.8.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4340992/bitwarden_password_manager-2024.8.0.xpi";
-      sha256 = "8b7dba43a2820adce4d9ae497be119eac3802c01bd4b5a536941fbeea8adac59";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4343724/bitwarden_password_manager-2024.8.1.xpi";
+      sha256 = "52b19c69997bc392ebea26e12f1420b2bf42850df2a28dcd64b303396009554d";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -678,10 +678,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.8.26.1";
+      version = "24.8.30";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4343506/refined_github-24.8.26.1.xpi";
-      sha256 = "2d5f10788e1eff825632087696c09be5829ebb257c6dabf3ebf83af85f1ac9a1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4345066/refined_github-24.8.30.xpi";
+      sha256 = "5ac5e48e8805182ba9dc1ff4fc6039139a7205f50db185ac1a25584140981560";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
