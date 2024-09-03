@@ -344,10 +344,10 @@
     };
     "linkhints" = buildFirefoxXpiAddon {
       pname = "linkhints";
-      version = "1.3.1";
+      version = "1.3.2";
       addonId = "linkhints@lydell.github.io";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3985677/linkhints-1.3.1.xpi";
-      sha256 = "ca0d9ed8d52e3ab62a9d3d7c2be29ae30d22f2ecd37eff5b38e34c130d96711b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4346347/linkhints-1.3.2.xpi";
+      sha256 = "ecd9a5b3868768b501ff94eb917d65d2b2ae9da5586966cc51ddb27e06c25c91";
       meta = with lib;
       {
         homepage = "https://lydell.github.io/LinkHints";
@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.61";
+      version = "1.22.64";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4339360/single_file-1.22.61.xpi";
-      sha256 = "002d164403923be95f616f11c6582708ca982b569659d9949176738bace6be0f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4344693/single_file-1.22.64.xpi";
+      sha256 = "fbddbc0597e33df25f2a03a1bd45241c5d7db814dd605c3de51e0d1b2abd3abd";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
