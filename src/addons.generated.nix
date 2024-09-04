@@ -344,10 +344,10 @@
     };
     "linkhints" = buildFirefoxXpiAddon {
       pname = "linkhints";
-      version = "1.3.2";
+      version = "1.3.3";
       addonId = "linkhints@lydell.github.io";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4346347/linkhints-1.3.2.xpi";
-      sha256 = "ecd9a5b3868768b501ff94eb917d65d2b2ae9da5586966cc51ddb27e06c25c91";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4346988/linkhints-1.3.3.xpi";
+      sha256 = "209e50c4f9b9162d5ce0ebf4097518f51ae74129c29d920019497f6323871e6b";
       meta = with lib;
       {
         homepage = "https://lydell.github.io/LinkHints";
@@ -564,10 +564,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.22.2";
+      version = "1.22.3";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4341690/proton_pass-1.22.2.xpi";
-      sha256 = "4d7905ac8f0752b307ee4ab80e128ea6ec1e15d67cab5a98705e9fff77e6e3a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4344990/proton_pass-1.22.3.xpi";
+      sha256 = "e74105570c528e9f5159fb029316fe9da0884d8a595df30e05c74503edabe761";
       meta = with lib;
       {
         homepage = "https://proton.me";
