@@ -452,10 +452,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "2.27.1";
+      version = "8.10.44.34";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4333130/1password_x_password_manager-2.27.1.xpi";
-      sha256 = "675502aa7938d495066e1e56e3c579c1216687175da87161e1ae89d610467736";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4347028/1password_x_password_manager-8.10.44.34.xpi";
+      sha256 = "ab46650e4c11c32ac3135f021103d42fb10335a15dc82a36692a075f3d5e1fe5";
       meta = with lib;
       {
         homepage = "https://1password.com";
