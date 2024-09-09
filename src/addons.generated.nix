@@ -418,7 +418,7 @@
       meta = with lib;
       {
         homepage = "https://github.com/rugk/offline-qr-code";
-        description = "This add-on allows you to quickly generate a QR code offline with the URL of the open tab or any (selected) other text! 👍\n\nIt works completely offline protecting your privacy and has a big range of features like colored QR codes!";
+        description = "This add-on allows you to quickly generate a QR code offline with the URL of the open tab or any (selected) other text! 👍\r\n\r\nIt works completely offline protecting your privacy and has a big range of features like colored QR codes!";
         license = licenses.mit;
         mozPermissions = [ "activeTab" "storage" "menus" ];
         platforms = platforms.all;
