@@ -1274,10 +1274,10 @@
     };
     "wave" = buildFirefoxXpiAddon {
       pname = "wave";
-      version = "3.2.4.1";
+      version = "3.2.7.1";
       addonId = "{9bbf6724-d709-492e-a313-bfed0415a224}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4134752/wave_accessibility_tool-3.2.4.1.xpi";
-      sha256 = "5d1bb0f4f76de9ac585e2fe945943029c2c673d643845fd5adeba9e3efa433de";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4347627/wave_accessibility_tool-3.2.7.1.xpi";
+      sha256 = "26dbf601d4cce121040116ede4edbd983428a8fdece49dc5663db40bdbe9c11e";
       meta = with lib;
       {
         description = "Evaluate web accessibility within the Firefox browser. When activated, the WAVE extension injects icons and indicators into your page to give feedback about accessibility and to facilitate manual evaluation.";
