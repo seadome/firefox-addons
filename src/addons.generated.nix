@@ -411,10 +411,10 @@
     };
     "offline-qr-code-generator" = buildFirefoxXpiAddon {
       pname = "offline-qr-code-generator";
-      version = "1.8";
+      version = "1.9";
       addonId = "offline-qr-code@rugk.github.io";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3870992/offline_qr_code_generator-1.8.xpi";
-      sha256 = "449c236b88cf3fea2da31bdc004fdf6379face841b77ccc5096cba3afbd983de";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4349427/offline_qr_code_generator-1.9.xpi";
+      sha256 = "448c63fbd4036ed913b85a93ea57480fd7a8f8dbcaa7d8a24f99b34443a9fad1";
       meta = with lib;
       {
         homepage = "https://github.com/rugk/offline-qr-code";
@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.66";
+      version = "1.22.68";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4346807/single_file-1.22.66.xpi";
-      sha256 = "00f57fcc9a995f1b880e195c28025d6922fde7bb74096acd6158822b48c2c7a0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4349267/single_file-1.22.68.xpi";
+      sha256 = "a99410ce341b2d4fe0508c0c5b2985c99a8ec8546c8747ee1c161bef53098d63";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
