@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.8.2";
+      version = "2024.9.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4348137/bitwarden_password_manager-2024.8.2.xpi";
-      sha256 = "46908d7ffafc276b7f0425341849d439ee8c0f75d755f6eee79f83a097ea8e7b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4350677/bitwarden_password_manager-2024.9.0.xpi";
+      sha256 = "8c8b97b445fe65cbdd91eda4bd07e8946d6c1b21ac89c771205a3b9225e2ef12";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -307,10 +307,10 @@
     };
     "libredirect" = buildFirefoxXpiAddon {
       pname = "libredirect";
-      version = "2.9.1";
+      version = "3.0.0";
       addonId = "7esoorv3@alefvanoon.anonaddy.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4340831/libredirect-2.9.1.xpi";
-      sha256 = "89864e121d42eb7351ee2378979f52069871eeb7035ab9f878fc4b74f1bee7ea";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4352736/libredirect-3.0.0.xpi";
+      sha256 = "2d6f612b754500d8b1ce0613a0ad20c4fdf8956c956b8bc7f09476e7519e64c8";
       meta = with lib;
       {
         homepage = "https://libredirect.github.io";
@@ -814,10 +814,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.5";
+      version = "4.6";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4326369/steam_database-4.5.xpi";
-      sha256 = "f4dff61843f35adfc2cf8e353e25a6a8e37836b770b4d1a35f48114f1cd21328";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4350553/steam_database-4.6.xpi";
+      sha256 = "8eae2f65fe7fa0f347433b9618b89d6dd668314b4052145b27152ab94a3781d4";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -849,6 +849,8 @@
           "https://steamcommunity.com/profiles/*/inventory*"
           "https://steamcommunity.com/id/*/stats*"
           "https://steamcommunity.com/profiles/*/stats*"
+          "https://steamcommunity.com/id/*/stats/CSGO*"
+          "https://steamcommunity.com/profiles/*/stats/CSGO*"
           "https://steamcommunity.com/stats/*/achievements*"
           "https://steamcommunity.com/tradeoffer/*"
           "https://steamcommunity.com/id/*/recommended/*"
@@ -1028,10 +1030,10 @@
     };
     "tbl2csv" = buildFirefoxXpiAddon {
       pname = "tbl2csv";
-      version = "1.3.22";
+      version = "1.3.24";
       addonId = "{38dc25f6-5ed7-4279-a1fb-832b5e90a98b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4260089/tbl2csv-1.3.22.xpi";
-      sha256 = "7978a223e9052045a4d9c795bad674e31392f10b4fae9b8bbfeee5cc62ba1b7d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4352228/tbl2csv-1.3.24.xpi";
+      sha256 = "7854eaf067af95c6a476b702b186f1f2d0b0c55c4172b9579fbc784fd51b761d";
       meta = with lib;
       {
         homepage = "https://github.com/igorlogius/tbl2csv";
