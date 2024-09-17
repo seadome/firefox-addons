@@ -142,10 +142,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.89";
+      version = "4.9.92";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4341235/darkreader-4.9.89.xpi";
-      sha256 = "f4a5b4d5966d99cc68b31a9d2072cdb6388efefa9d45746f03d76e3c897c49be";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4351387/darkreader-4.9.92.xpi";
+      sha256 = "be55b3ea5bab95743d43823d9290fa820035b89c4d07943b568111d837a98226";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -1070,10 +1070,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.22";
+      version = "4.0.23";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4333810/tree_style_tab-4.0.22.xpi";
-      sha256 = "7712bb35bddaf4178a2847476c9dc4938c28e2661d02895fafefb2e3eae7fe9a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4350896/tree_style_tab-4.0.23.xpi";
+      sha256 = "d8061eff00b56ccfdd6fd290b14ef2c8ef692a14eb8db1a27529f21e43df1f30";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
