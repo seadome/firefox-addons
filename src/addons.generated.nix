@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.9.0";
+      version = "2024.9.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4350677/bitwarden_password_manager-2024.9.0.xpi";
-      sha256 = "8c8b97b445fe65cbdd91eda4bd07e8946d6c1b21ac89c771205a3b9225e2ef12";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4355865/bitwarden_password_manager-2024.9.1.xpi";
+      sha256 = "f484fbcd1e45e4a68f2eec8fb8c22fed5a77f1a00b515f38c167e36b4d6118bf";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -359,10 +359,10 @@
     };
     "multi-account-containers" = buildFirefoxXpiAddon {
       pname = "multi-account-containers";
-      version = "8.1.3";
+      version = "8.2.0";
       addonId = "@testpilot-containers";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4186050/multi_account_containers-8.1.3.xpi";
-      sha256 = "33edd98d0fc7d47fa310f214f897ce4dfe268b0f868c9d7f32b4ca50573df85c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4355970/multi_account_containers-8.2.0.xpi";
+      sha256 = "1ce35650853973572bc1ce770076d93e00b6b723b799f7b90c3045268c64b422";
       meta = with lib;
       {
         homepage = "https://github.com/mozilla/multi-account-containers/#readme";
@@ -771,10 +771,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.68";
+      version = "1.22.70";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4349267/single_file-1.22.68.xpi";
-      sha256 = "a99410ce341b2d4fe0508c0c5b2985c99a8ec8546c8747ee1c161bef53098d63";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4355962/single_file-1.22.70.xpi";
+      sha256 = "aa92c125e6394e4114eede03fa660de6bc96ddf6ffdfb23161f939931243ecb8";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
