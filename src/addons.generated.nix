@@ -452,10 +452,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.44.34";
+      version = "8.10.46.26";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4347028/1password_x_password_manager-8.10.44.34.xpi";
-      sha256 = "ab46650e4c11c32ac3135f021103d42fb10335a15dc82a36692a075f3d5e1fe5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4355876/1password_x_password_manager-8.10.46.26.xpi";
+      sha256 = "dc97804c1ca57402fa5adf6ea0cc7795eb607468a9d6b5ff7e6ec9fdfd1c1b47";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -1250,10 +1250,10 @@
     };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.23.0";
+      version = "2.25.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4352761/violentmonkey-2.23.0.xpi";
-      sha256 = "b3eadf855b6093376590aa63ae05933c5812e9515c9acf558550a4f2c78ab49b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4358157/violentmonkey-2.25.0.xpi";
+      sha256 = "f6466e75d01c1dd42320300366bc501ccd7d2aa5afcefaeea37a54eadc8012d4";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
