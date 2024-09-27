@@ -1331,10 +1331,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.1.58";
+      version = "2.2.0";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4341950/zoom_new_scheduler-2.1.58.xpi";
-      sha256 = "90d948a4dc4a8db47517c46bd258f24ef40e865f2db4e63df77b3be25c3cd434";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4357644/zoom_new_scheduler-2.2.0.xpi";
+      sha256 = "91c789513fde292e88ee46f0b5a901f2270077d17b436711c8af7e56c6a35dc4";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
