@@ -142,10 +142,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.92";
+      version = "4.9.94";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4351387/darkreader-4.9.92.xpi";
-      sha256 = "be55b3ea5bab95743d43823d9290fa820035b89c4d07943b568111d837a98226";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4359254/darkreader-4.9.94.xpi";
+      sha256 = "251c4e7d0a30c0cab006803600e59ab92dcc0c606429740d42677846d4c9ccd6";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -1250,10 +1250,10 @@
     };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.25.0";
+      version = "2.26.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4358157/violentmonkey-2.25.0.xpi";
-      sha256 = "f6466e75d01c1dd42320300366bc501ccd7d2aa5afcefaeea37a54eadc8012d4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4362578/violentmonkey-2.26.0.xpi";
+      sha256 = "47b61fd463602a38bf67591ab94c60d3f1a02ad4f81b9a8a3de97d5461b2e12e";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
