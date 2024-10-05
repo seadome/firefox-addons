@@ -207,14 +207,14 @@
     };
     "gopass-bridge" = buildFirefoxXpiAddon {
       pname = "gopass-bridge";
-      version = "0.9.0";
+      version = "1.0.0";
       addonId = "{eec37db0-22ad-4bf1-9068-5ae08df8c7e9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/3933988/gopass_bridge-0.9.0.xpi";
-      sha256 = "3ef72f32eabc9092591076a2093b3341cb1a9e6c57631655a97c7bcecab80420";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4364396/gopass_bridge-1.0.0.xpi";
+      sha256 = "f073b83e73c010d8f783c53a562ee424af9f56acb98e74aa466fef8414fc53b8";
       meta = with lib;
       {
         homepage = "https://github.com/gopasspw/gopassbridge";
-        description = "Gopass Bridge allows searching and inserting login credentials from the gopass password manager ( <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fa484fa7cde64c1be04f689a80902fdf34bfe274b8675213f619c3a13e6606ab/https%3A//www.gopass.pw/\">https://www.gopass.pw/</a> ).";
+        description = "Gopass Bridge allows searching, inserting and managing login credentials from the gopass password manager.";
         license = licenses.mit;
         mozPermissions = [
           "<all_urls>"
@@ -260,10 +260,10 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.7.1";
+      version = "0.7.2";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4307128/kagi_search_for_firefox-0.7.1.xpi";
-      sha256 = "78c28702ebe56d920a64010f413540880065c45eae2ee58823941d7e1fd49059";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4360390/kagi_search_for_firefox-0.7.2.xpi";
+      sha256 = "ea55fbfdc8afd574f954317c9ad0a63cd9a65387d2a1ef01ec230677d2098ed4";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -606,21 +606,19 @@
     };
     "react-devtools" = buildFirefoxXpiAddon {
       pname = "react-devtools";
-      version = "5.3.1";
+      version = "6.0.0";
       addonId = "@react-devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4314064/react_devtools-5.3.1.xpi";
-      sha256 = "376f33d9b1219341eb8be16578b406b3f371c11aace55f68fcad4847e818f076";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4360002/react_devtools-6.0.0.xpi";
+      sha256 = "ed862b7bc65fc67a2cac53c3e4607ab9e54f4871656b048dcc42f49f613a0664";
       meta = with lib;
       {
         homepage = "https://github.com/facebook/react";
         description = "React Developer Tools is a tool that allows you to inspect a React tree, including the component hierarchy, props, state, and more. To get started, just open the Firefox devtools and switch to the \"⚛️ Components\" or \"⚛️ Profiler\" tab.";
         license = licenses.mit;
         mozPermissions = [
-          "file:///*"
-          "http://*/*"
-          "https://*/*"
-          "clipboardWrite"
           "scripting"
+          "storage"
+          "tabs"
           "devtools"
           "<all_urls>"
         ];
