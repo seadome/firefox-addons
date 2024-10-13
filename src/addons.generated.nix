@@ -207,10 +207,10 @@
     };
     "gopass-bridge" = buildFirefoxXpiAddon {
       pname = "gopass-bridge";
-      version = "1.0.0";
+      version = "2.0.0";
       addonId = "{eec37db0-22ad-4bf1-9068-5ae08df8c7e9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4364396/gopass_bridge-1.0.0.xpi";
-      sha256 = "f073b83e73c010d8f783c53a562ee424af9f56acb98e74aa466fef8414fc53b8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4368853/gopass_bridge-2.0.0.xpi";
+      sha256 = "597cdc25544730ec0aa028eee27ca5d636899927588fe2b9ca4ae906e6979a91";
       meta = with lib;
       {
         homepage = "https://github.com/gopasspw/gopassbridge";
