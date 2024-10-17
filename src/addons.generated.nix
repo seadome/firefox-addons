@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.9.1";
+      version = "2024.10.0";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4355865/bitwarden_password_manager-2024.9.1.xpi";
-      sha256 = "f484fbcd1e45e4a68f2eec8fb8c22fed5a77f1a00b515f38c167e36b4d6118bf";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4363548/bitwarden_password_manager-2024.10.0.xpi";
+      sha256 = "9ea9428444870a74ae1999d77eb12d97a45275c85e83d6afdcbc4597fa3eccfb";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -699,23 +699,20 @@
     };
     "rust-search-extension" = buildFirefoxXpiAddon {
       pname = "rust-search-extension";
-      version = "1.13.0";
+      version = "2.0.0";
       addonId = "{04188724-64d3-497b-a4fd-7caffe6eab29}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4236369/rust_search_extension-1.13.0.xpi";
-      sha256 = "59ddefdab6cd7dbe5fb368fe6fac2eace052060bf9357dd39bc9c7ff3439be13";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4370710/rust_search_extension-2.0.0.xpi";
+      sha256 = "a5b1abb26f3997c5cd3e8a90273f1c88e1efeb1a4204ce6bbdc9260a9dbf5aee";
       meta = with lib;
       {
         homepage = "https://rust.extension.sh";
         description = "The ultimate search extension for Rust\n\nSearch std docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4af48e3229ba03b454fb9b352a7e5a4c038e1bcc6721bf744b781a5e96b9e798/https%3A//rust.extension.sh\" rel=\"nofollow\">https://rust.extension.sh</a>";
         license = licenses.mpl20;
         mozPermissions = [
-          "*://crates.io/api/v1/crates/*"
-          "https://rust.extension.sh/*"
           "storage"
           "unlimitedStorage"
           "*://docs.rs/*"
           "*://doc.rust-lang.org/*"
-          "*://doc.rust-lang.org/nightly/nightly-rustc/*"
           "*://rust.extension.sh/update"
         ];
         platforms = platforms.all;
