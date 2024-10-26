@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.10.0";
+      version = "2024.10.1";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4363548/bitwarden_password_manager-2024.10.0.xpi";
-      sha256 = "9ea9428444870a74ae1999d77eb12d97a45275c85e83d6afdcbc4597fa3eccfb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4371752/bitwarden_password_manager-2024.10.1.xpi";
+      sha256 = "7b7357ddce2756dc536b86b5c14139ec09731c1c114ac82807c60fba3ced12a5";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -808,10 +808,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.7";
+      version = "4.8";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4363931/steam_database-4.7.xpi";
-      sha256 = "482cf0c66da7e6638451f3ee98c11168f8c31395902227112c00fad3057dc3a5";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4371564/steam_database-4.8.xpi";
+      sha256 = "71eab48fd805316b18659ec203b0e6486d73a926cc5c51a7b843fe5ea30667fb";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -821,6 +821,7 @@
           "storage"
           "https://steamdb.info/*"
           "https://store.steampowered.com/*"
+          "https://steamcommunity.com/*"
           "https://store.steampowered.com/app/*"
           "https://store.steampowered.com/news/app/*"
           "https://store.steampowered.com/account/licenses*"
@@ -836,7 +837,6 @@
           "https://steamcommunity.com/workshop/filedetails*"
           "https://steamcommunity.com/workshop/browse*"
           "https://steamcommunity.com/workshop/discussions*"
-          "https://steamcommunity.com/*"
           "https://steamcommunity.com/id/*"
           "https://steamcommunity.com/profiles/*"
           "https://steamcommunity.com/id/*/inventory*"
@@ -854,10 +854,10 @@
           "https://steamcommunity.com/id/*/gamecards/*"
           "https://steamcommunity.com/profiles/*/gamecards/*"
           "https://steamcommunity.com/market/multibuy*"
+          "https://steamcommunity.com/market/*"
           "https://steamcommunity.com/games/*"
           "https://steamcommunity.com/sharedfiles/*"
           "https://steamcommunity.com/workshop/*"
-          "https://steamcommunity.com/market/*"
         ];
         platforms = platforms.all;
       };
