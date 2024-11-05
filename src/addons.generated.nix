@@ -2,10 +2,10 @@
   {
     "a11ycss" = buildFirefoxXpiAddon {
       pname = "a11ycss";
-      version = "2.0.1";
+      version = "2.0.2";
       addonId = "a11y.css@ffoodd";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4156875/a11ycss-2.0.1.xpi";
-      sha256 = "49d52c589266604c232c29a915b3d06df231267b2dca7d7694284a25059b5c51";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4382162/a11ycss-2.0.2.xpi";
+      sha256 = "0be0f2a02785801246bf835ed45348f8ba6f8bf710a47dd3e5117557d425a8f0";
       meta = with lib;
       {
         homepage = "https://ffoodd.github.io/a11y.css/";
