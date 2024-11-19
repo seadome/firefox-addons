@@ -452,10 +452,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.48.25";
+      version = "8.10.52.25";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4370505/1password_x_password_manager-8.10.48.25.xpi";
-      sha256 = "85dac283f4d6ddb06f07f27a6793480e0006e7ddb925808674a2cd7b284ccf49";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4386887/1password_x_password_manager-8.10.52.25.xpi";
+      sha256 = "e5732561a7f614fbda7ba3712ed7a3ac22d4944205e4ab49c3649e8887a9baa4";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -1064,10 +1064,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.0.24";
+      version = "4.0.25";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4377780/tree_style_tab-4.0.24.xpi";
-      sha256 = "e1826e2054aede2f390cb98ff22915cc1e89778a6ebf94d68467200aeba8fefd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4386321/tree_style_tab-4.0.25.xpi";
+      sha256 = "c228594161f3a436b74778ac6bfef0288c00639eb1f2a1e5d6cddacfa8af2ea6";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
