@@ -564,10 +564,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.24.1";
+      version = "1.24.4";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4379392/proton_pass-1.24.1.xpi";
-      sha256 = "1290a7d3b91204fae8f392c8dd4b3f62e4fa0182ae98de1d0042280af744be80";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4387139/proton_pass-1.24.4.xpi";
+      sha256 = "852bca200818db59ee5418e576911a29c3f21245b828d272cddcad88c4f1bd0c";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -591,10 +591,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.24";
+      version = "6.6.62";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4269679/raindropio-6.6.24.xpi";
-      sha256 = "4c86f5e78e06e7b5978c1f20ce1be659a871556188ef4669b9a2aa826bab660f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4387956/raindropio-6.6.62.xpi";
+      sha256 = "6503b1aa46ce45e5e2a0fa1da568f2279f87aa55e07ee406814fe1aa33b0905a";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
@@ -765,10 +765,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.72";
+      version = "1.22.73";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4370054/single_file-1.22.72.xpi";
-      sha256 = "98012de2fa7a5edc790aaecbc3a1d9534eebaf637be0d0c6110ab167aaedd21c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4387552/single_file-1.22.73.xpi";
+      sha256 = "a3e0e5bfe8c35c91c6360fe0a144563fe28eb1760135833a131a27d525d49a44";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
