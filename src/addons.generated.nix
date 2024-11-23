@@ -260,10 +260,10 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.7.2";
+      version = "0.7.3.1";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4360390/kagi_search_for_firefox-0.7.2.xpi";
-      sha256 = "ea55fbfdc8afd574f954317c9ad0a63cd9a65387d2a1ef01ec230677d2098ed4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4389383/kagi_search_for_firefox-0.7.3.1.xpi";
+      sha256 = "0e2d167bc4797d8cc88b93c7fbf20a8709cbfd6a2f6277bfaed25c52083e32a6";
       meta = with lib;
       {
         homepage = "https://kagi.com";
