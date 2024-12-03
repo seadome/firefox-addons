@@ -676,10 +676,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.11.21";
+      version = "24.12.2";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4391954/refined_github-24.11.21.xpi";
-      sha256 = "641fbd216f236295a109c36ba0bcc282dc17219ea64c6e49baeeb3f02b68d644";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4398027/refined_github-24.12.2.xpi";
+      sha256 = "b11a3756e6a04fcad2f91a58c668f1ab0a072240c019613f0fb19e03b0725478";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -808,10 +808,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.9";
+      version = "4.10";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4379170/steam_database-4.9.xpi";
-      sha256 = "8c3d26153c009595a80d20d41cef38650e9938ec7836eb4e8b59c0dd65e725f8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4393736/steam_database-4.10.xpi";
+      sha256 = "1d77ec61f9905261e9f00885428e5791f457f08480b551d10279010496f24328";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
