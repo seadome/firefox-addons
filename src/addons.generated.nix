@@ -564,10 +564,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.24.4";
+      version = "1.25.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4387139/proton_pass-1.24.4.xpi";
-      sha256 = "852bca200818db59ee5418e576911a29c3f21245b828d272cddcad88c4f1bd0c";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4393918/proton_pass-1.25.0.xpi";
+      sha256 = "f032a0a522b647277680649e4546392b4b891a54b2e699f9887ad398d58a6033";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -1325,10 +1325,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.2.1";
+      version = "2.2.2";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4382530/zoom_new_scheduler-2.2.1.xpi";
-      sha256 = "f203f6be1d51f0594c78996c6e3aea4577331566a0a0eff9c1bba7f4a324ac84";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4394635/zoom_new_scheduler-2.2.2.xpi";
+      sha256 = "9c76ddcdae74d0616d5de49b4e83f5341fa74e2dac8a4b6856f13c3c1756193d";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
