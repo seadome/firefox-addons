@@ -676,10 +676,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "24.12.2";
+      version = "24.12.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4398027/refined_github-24.12.2.xpi";
-      sha256 = "b11a3756e6a04fcad2f91a58c668f1ab0a072240c019613f0fb19e03b0725478";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4402789/refined_github-24.12.10.xpi";
+      sha256 = "0b71a6d92a0b6bb8cf0eb40800b35f910bba616bacf990317ae7300b33a98c01";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -1244,10 +1244,10 @@
     };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.28.0";
+      version = "2.29.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4379821/violentmonkey-2.28.0.xpi";
-      sha256 = "30bc3db14194a5197e4721d419123f3a02b9c6f3e94646724aa991137121bcba";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4398029/violentmonkey-2.29.0.xpi";
+      sha256 = "2edf39a824476b8a77a57c7c3abdaf3f685a679486e47450fab837b4bd71d469";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
