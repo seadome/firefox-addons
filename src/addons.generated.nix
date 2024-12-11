@@ -2,10 +2,10 @@
   {
     "a11ycss" = buildFirefoxXpiAddon {
       pname = "a11ycss";
-      version = "2.0.2";
+      version = "2.1.0";
       addonId = "a11y.css@ffoodd";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4382162/a11ycss-2.0.2.xpi";
-      sha256 = "0be0f2a02785801246bf835ed45348f8ba6f8bf710a47dd3e5117557d425a8f0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4403161/a11ycss-2.1.0.xpi";
+      sha256 = "f531360f0466a387a753d92a36695e43b34707433aa676c6454c4621f95a47c2";
       meta = with lib;
       {
         homepage = "https://ffoodd.github.io/a11y.css/";
@@ -808,10 +808,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.10";
+      version = "4.11";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4393736/steam_database-4.10.xpi";
-      sha256 = "1d77ec61f9905261e9f00885428e5791f457f08480b551d10279010496f24328";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4399194/steam_database-4.11.xpi";
+      sha256 = "e92a5452c1df8016b67c49b13c93768a71b596e1baab6fafca773a55d8eb6e6a";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
