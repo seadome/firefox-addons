@@ -55,10 +55,10 @@
     };
     "bitwarden" = buildFirefoxXpiAddon {
       pname = "bitwarden";
-      version = "2024.11.2";
+      version = "2024.12.3";
       addonId = "{446900e4-71c2-419f-a6a7-df9c091e268b}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4392295/bitwarden_password_manager-2024.11.2.xpi";
-      sha256 = "38faecbfca76086a54e62b6e2036eae45e9d9f9f3aee4c7a72b652593f51b8e7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4407804/bitwarden_password_manager-2024.12.3.xpi";
+      sha256 = "a48af549da66e2987a135b0cb918b1c90f8e80b868760cbaa07c8f6df4da9b07";
       meta = with lib;
       {
         homepage = "https://bitwarden.com";
@@ -67,17 +67,17 @@
         mozPermissions = [
           "<all_urls>"
           "*://*/*"
-          "tabs"
-          "contextMenus"
-          "storage"
-          "unlimitedStorage"
+          "alarms"
           "clipboardRead"
           "clipboardWrite"
+          "contextMenus"
           "idle"
-          "alarms"
+          "storage"
+          "tabs"
+          "unlimitedStorage"
+          "webNavigation"
           "webRequest"
           "webRequestBlocking"
-          "webNavigation"
           "file:///*"
           "https://lastpass.com/export.php"
         ];
@@ -591,10 +591,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.62";
+      version = "6.6.65";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4387956/raindropio-6.6.62.xpi";
-      sha256 = "6503b1aa46ce45e5e2a0fa1da568f2279f87aa55e07ee406814fe1aa33b0905a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4406418/raindropio-6.6.65.xpi";
+      sha256 = "7b0a827fc089169b012d8869051047f7dbe64e36d60c1dabf8c2542ac3b5c882";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
