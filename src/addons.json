@@ -1,245 +1,250 @@
 [
-  {
-    "pname": "onepassword-password-manager",
-    "slug": "1password-x-password-manager",
-    "license": {
-      "tag": "custom",
-      "shortName": "1pwd",
-      "fullName": "Service Agreement for 1Password users and customers",
-      "url": "https://1password.com/legal/terms-of-service/",
-      "free": false
-    }
-  },
-  {
-    "slug": "a11ycss"
-  },
-  {
-    "slug": "anchors-reveal"
-  },
-  {
-    "slug": "auto-tab-discard"
-  },
-  {
-    "slug": "bitwarden-password-manager",
-    "pname": "bitwarden"
-  },
-  {
-    "slug": "consent-o-matic"
-  },
-  {
-    "slug": "copy-as-org-mode",
-    "license": {
-      "tag": "predefined",
-      "shortName": "mpl20"
-    }
-  },
-  {
-    "slug": "copy-selection-as-markdown"
-  },
-  {
-    "slug": "darkreader"
-  },
-  {
-    "slug": "firefox-color"
-  },
-  {
-    "slug": "gnome-shell-integration"
-  },
-  {
-    "slug": "gopass-bridge"
-  },
-  {
-    "slug": "headingsmap"
-  },
-  {
-    "slug": "js-search-extension"
-  },
-  {
-    "slug": "kagi-search-for-firefox",
-    "pname": "kagi-search"
-  },
-  {
-    "slug": "laboratory-by-mozilla"
-  },
-  {
-    "slug": "libredirect"
-  },
-  {
-    "slug": "link-cleaner"
-  },
-  {
-    "slug": "linkhints"
-  },
-  {
-    "slug": "metager-searchengine"
-  },
-  {
-    "slug": "multi-account-containers"
-  },
-  {
-    "slug": "octolinker"
-  },
-  {
-    "slug": "offline-qr-code-generator"
-  },
-  {
-    "slug": "old-reddit-redirect"
-  },
-  {
-    "slug": "org-capture"
-  },
-  {
-    "slug": "passff"
-  },
-  {
-    "slug": "plasma-integration"
-  },
-  {
-    "slug": "proton-pass",
-    "license": {
-      "tag": "predefined",
-      "shortName": "gpl3Plus"
-    }
-  },
-  {
-    "slug": "raindropio"
-  },
-  {
-    "slug": "react-devtools"
-  },
-  {
-    "slug": "reddit-enhancement-suite"
-  },
-  {
-    "slug": "reduxdevtools"
-  },
-  {
-    "slug": "refined-github-",
-    "pname": "refined-github"
-  },
-  {
-    "slug": "rust-search-extension"
-  },
-  {
-    "slug": "saml-tracer",
-    "license": {
-      "tag": "predefined",
-      "shortName": "bsd2"
-    }
-  },
-  {
-    "slug": "simple-tab-groups"
-  },
-  {
-    "slug": "single-file",
-    "license": {
-      "tag": "predefined",
-      "shortName": "agpl3Plus"
-    }
-  },
-  {
-    "slug": "sourcegraph-for-firefox",
-    "pname": "sourcegraph"
-  },
-  {
-    "slug": "steam-database",
-    "license": {
-      "tag": "predefined",
-      "shortName": "bsd3"
-    }
-  },
-  {
-    "slug": "stg-plugin-create-new-group"
-  },
-  {
-    "slug": "stg-plugin-create-new-tab"
-  },
-  {
-    "slug": "stg-plugin-create-temp-tab"
-  },
-  {
-    "slug": "stg-plugin-del-current-group"
-  },
-  {
-    "slug": "stg-plugin-group-notes"
-  },
-  {
-    "slug": "stg-plugin-load-custom-group"
-  },
-  {
-    "slug": "stg-plugin-manage-groups"
-  },
-  {
-    "slug": "styl-us",
-    "pname": "stylus",
-    "license": {
-      "tag": "predefined",
-      "shortName": "gpl3Plus"
-    }
-  },
-  {
-    "slug": "tab-session-manager"
-  },
-  {
-    "slug": "tbl2csv",
-    "license": {
-      "tag": "predefined",
-      "shortName": "bsd2"
-    }
-  },
-  {
-    "slug": "temporary-containers"
-  },
-  {
-    "slug": "tree-style-tab",
-    "license": {
-      "tag": "custom",
-      "shortName": "tree-style-tab",
-      "fullName": "Tree Style Tab License, primarily MPL 2.0",
-      "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt",
-      "free": true
-    }
-  },
-  {
-    "slug": "tridactyl-vim",
-    "pname": "tridactyl",
-    "license": {
-      "tag": "predefined",
-      "shortName": "asl20"
-    }
-  },
-  {
-    "slug": "tst-search"
-  },
-  {
-    "slug": "ublock-origin"
-  },
-  {
-    "slug": "vim-vixen"
-  },
-  {
-    "slug": "vimium-ff"
-  },
-  {
-    "slug": "violentmonkey"
-  },
-  {
-    "slug": "wave-accessibility-tool",
-    "pname": "wave",
-    "license": {
-      "tag": "custom",
-      "shortName": "wave",
-      "fullName": "Terms of Use and Privacy Notice for WAVE users",
-      "url": "https://wave.webaim.org/terms",
-      "free": false
-    }
-  },
-  {
-    "slug": "wayback-machine_new",
-    "pname": "wayback-machine"
-  },
-  {
-    "slug": "zoom-new-scheduler",
-    "pname": "zoom-scheduler"
-  }
+	{
+		"pname": "onepassword-password-manager",
+		"slug": "1password-x-password-manager",
+		"license": {
+			"tag": "custom",
+			"shortName": "1pwd",
+			"fullName": "Service Agreement for 1Password users and customers",
+			"url": "https://1password.com/legal/terms-of-service/",
+			"free": false
+		}
+	},
+	{
+		"slug": "a11ycss"
+	},
+	{
+		"slug": "auto-tab-discard"
+	},
+	{
+		"slug": "bitwarden-password-manager",
+		"pname": "bitwarden"
+	},
+	{
+		"slug": "consent-o-matic"
+	},
+	{
+		"slug": "copy-as-org-mode",
+		"license": {
+			"tag": "predefined",
+			"shortName": "mpl20"
+		}
+	},
+	{
+		"slug": "copy-selection-as-markdown"
+	},
+	{
+		"slug": "darkreader"
+	},
+	{
+		"pname": "display-anchors",
+		"slug": "display-_anchors",
+		"license": {
+			"tag": "predefined",
+			"shortName": "mit"
+		}
+	},
+	{
+		"slug": "firefox-color"
+	},
+	{
+		"slug": "gnome-shell-integration"
+	},
+	{
+		"slug": "gopass-bridge"
+	},
+	{
+		"slug": "headingsmap"
+	},
+	{
+		"slug": "js-search-extension"
+	},
+	{
+		"slug": "kagi-search-for-firefox",
+		"pname": "kagi-search"
+	},
+	{
+		"slug": "laboratory-by-mozilla"
+	},
+	{
+		"slug": "libredirect"
+	},
+	{
+		"slug": "link-cleaner"
+	},
+	{
+		"slug": "linkhints"
+	},
+	{
+		"slug": "metager-searchengine"
+	},
+	{
+		"slug": "multi-account-containers"
+	},
+	{
+		"slug": "octolinker"
+	},
+	{
+		"slug": "offline-qr-code-generator"
+	},
+	{
+		"slug": "old-reddit-redirect"
+	},
+	{
+		"slug": "org-capture"
+	},
+	{
+		"slug": "passff"
+	},
+	{
+		"slug": "plasma-integration"
+	},
+	{
+		"slug": "proton-pass",
+		"license": {
+			"tag": "predefined",
+			"shortName": "gpl3Plus"
+		}
+	},
+	{
+		"slug": "raindropio"
+	},
+	{
+		"slug": "react-devtools"
+	},
+	{
+		"slug": "reddit-enhancement-suite"
+	},
+	{
+		"slug": "reduxdevtools"
+	},
+	{
+		"slug": "refined-github-",
+		"pname": "refined-github"
+	},
+	{
+		"slug": "rust-search-extension"
+	},
+	{
+		"slug": "saml-tracer",
+		"license": {
+			"tag": "predefined",
+			"shortName": "bsd2"
+		}
+	},
+	{
+		"slug": "simple-tab-groups"
+	},
+	{
+		"slug": "single-file",
+		"license": {
+			"tag": "predefined",
+			"shortName": "agpl3Plus"
+		}
+	},
+	{
+		"slug": "sourcegraph-for-firefox",
+		"pname": "sourcegraph"
+	},
+	{
+		"slug": "steam-database",
+		"license": {
+			"tag": "predefined",
+			"shortName": "bsd3"
+		}
+	},
+	{
+		"slug": "stg-plugin-create-new-group"
+	},
+	{
+		"slug": "stg-plugin-create-new-tab"
+	},
+	{
+		"slug": "stg-plugin-create-temp-tab"
+	},
+	{
+		"slug": "stg-plugin-del-current-group"
+	},
+	{
+		"slug": "stg-plugin-group-notes"
+	},
+	{
+		"slug": "stg-plugin-load-custom-group"
+	},
+	{
+		"slug": "stg-plugin-manage-groups"
+	},
+	{
+		"slug": "styl-us",
+		"pname": "stylus",
+		"license": {
+			"tag": "predefined",
+			"shortName": "gpl3Plus"
+		}
+	},
+	{
+		"slug": "tab-session-manager"
+	},
+	{
+		"slug": "tbl2csv",
+		"license": {
+			"tag": "predefined",
+			"shortName": "bsd2"
+		}
+	},
+	{
+		"slug": "temporary-containers"
+	},
+	{
+		"slug": "tree-style-tab",
+		"license": {
+			"tag": "custom",
+			"shortName": "tree-style-tab",
+			"fullName": "Tree Style Tab License, primarily MPL 2.0",
+			"url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt",
+			"free": true
+		}
+	},
+	{
+		"slug": "tridactyl-vim",
+		"pname": "tridactyl",
+		"license": {
+			"tag": "predefined",
+			"shortName": "asl20"
+		}
+	},
+	{
+		"slug": "tst-search"
+	},
+	{
+		"slug": "ublock-origin"
+	},
+	{
+		"slug": "vim-vixen"
+	},
+	{
+		"slug": "vimium-ff"
+	},
+	{
+		"slug": "violentmonkey"
+	},
+	{
+		"slug": "wave-accessibility-tool",
+		"pname": "wave",
+		"license": {
+			"tag": "custom",
+			"shortName": "wave",
+			"fullName": "Terms of Use and Privacy Notice for WAVE users",
+			"url": "https://wave.webaim.org/terms",
+			"free": false
+		}
+	},
+	{
+		"slug": "wayback-machine_new",
+		"pname": "wayback-machine"
+	},
+	{
+		"slug": "zoom-new-scheduler",
+		"pname": "zoom-scheduler"
+	}
 ]
