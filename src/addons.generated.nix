@@ -15,21 +15,6 @@
         platforms = platforms.all;
       };
     };
-    "anchors-reveal" = buildFirefoxXpiAddon {
-      pname = "anchors-reveal";
-      version = "1.2resigned1";
-      addonId = "jid1-XX0TcCGBa7GVGw@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4270578/anchors_reveal-1.2resigned1.xpi";
-      sha256 = "bcae97368b2c2271cf694676a2fb29dd168698e6e8105a6df6607fcf0bbce77a";
-      meta = with lib;
-      {
-        homepage = "http://dascritch.net/post/2014/06/24/Sniffeur-d-ancre";
-        description = "Reveal the anchors in a webpage";
-        license = licenses.gpl3;
-        mozPermissions = [ "activeTab" "storage" "contextMenus" ];
-        platforms = platforms.all;
-      };
-    };
     "auto-tab-discard" = buildFirefoxXpiAddon {
       pname = "auto-tab-discard";
       version = "0.6.7";
@@ -158,6 +143,26 @@
           "tabs"
           "theme"
           "<all_urls>"
+        ];
+        platforms = platforms.all;
+      };
+    };
+    "display-anchors" = buildFirefoxXpiAddon {
+      pname = "display-anchors";
+      version = "1.4resigned1";
+      addonId = "display-anchors@robwu.nl";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4271984/display__anchors-1.4resigned1.xpi";
+      sha256 = "5028274d94e887319937d4dcdeb3a06d21746523ac5e104fb4775eb22d943c60";
+      meta = with lib;
+      {
+        homepage = "https://github.com/Rob--W/display-anchors";
+        description = "Displays anchors for all content in the current web page without breaking the layout.";
+        license = licenses.mit;
+        mozPermissions = [
+          "storage"
+          "notifications"
+          "contextMenus"
+          "activeTab"
         ];
         platforms = platforms.all;
       };
