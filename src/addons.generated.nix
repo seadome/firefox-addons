@@ -569,10 +569,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.26.0";
+      version = "1.27.0";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4401514/proton_pass-1.26.0.xpi";
-      sha256 = "d7d2a996b1a907ea582a3685b62efbe92f5995a496abc84dcacf02554fc063e2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4408212/proton_pass-1.27.0.xpi";
+      sha256 = "ee2eee1d4fe741853b53f0e340a0e481206f70622edc24bd7e33358434198c2b";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -813,10 +813,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.11";
+      version = "4.12";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4399194/steam_database-4.11.xpi";
-      sha256 = "e92a5452c1df8016b67c49b13c93768a71b596e1baab6fafca773a55d8eb6e6a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4409030/steam_database-4.12.xpi";
+      sha256 = "fa922a9ad4a4ff9bbe2b33d84897cd9cf961bfe8344b83708aa0c418535c3ecd";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
