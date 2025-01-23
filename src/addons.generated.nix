@@ -1069,10 +1069,10 @@
     };
     "tree-style-tab" = buildFirefoxXpiAddon {
       pname = "tree-style-tab";
-      version = "4.1.1";
+      version = "4.1.3";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4417227/tree_style_tab-4.1.1.xpi";
-      sha256 = "07433d82622184206cea577f1689635f0e74ae3eb378f887fc03ab5f0c26259a";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4420652/tree_style_tab-4.1.3.xpi";
+      sha256 = "73e3cde7399ba81c21a0cb08858a92b26e5d8dfe12d84dd4dc83493bba75f804";
       meta = with lib;
       {
         homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
@@ -1330,10 +1330,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.2.2";
+      version = "2.2.3";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4394635/zoom_new_scheduler-2.2.2.xpi";
-      sha256 = "9c76ddcdae74d0616d5de49b4e83f5341fa74e2dac8a4b6856f13c3c1756193d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4418739/zoom_new_scheduler-2.2.3.xpi";
+      sha256 = "c4ed2dd9f2d5cd17ec6da4ab3f6759c44de4a1ca098d28abcca8a623165251fe";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
