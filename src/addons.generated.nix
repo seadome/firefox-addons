@@ -596,10 +596,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.65";
+      version = "6.6.71";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4406418/raindropio-6.6.65.xpi";
-      sha256 = "7b0a827fc089169b012d8869051047f7dbe64e36d60c1dabf8c2542ac3b5c882";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4420771/raindropio-6.6.71.xpi";
+      sha256 = "52fe5217981ca70ca8e2c25f7c86352a6d3eb15c8ae2183ee43d23bf2fa10794";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
