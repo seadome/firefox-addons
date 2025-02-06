@@ -265,10 +265,10 @@
     };
     "kagi-search" = buildFirefoxXpiAddon {
       pname = "kagi-search";
-      version = "0.7.4";
+      version = "0.7.6";
       addonId = "search@kagi.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4408391/kagi_search_for_firefox-0.7.4.xpi";
-      sha256 = "3852e490c5b7848025cbe7d415d436db97791766614bf9eac24f223877dbf753";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4429158/kagi_search_for_firefox-0.7.6.xpi";
+      sha256 = "51cac0f2f57e3d7671d502df66a6019a8ed3a280e690249f09dcda0fb570990f";
       meta = with lib;
       {
         homepage = "https://kagi.com";
@@ -1249,10 +1249,10 @@
     };
     "violentmonkey" = buildFirefoxXpiAddon {
       pname = "violentmonkey";
-      version = "2.29.0";
+      version = "2.30.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4398029/violentmonkey-2.29.0.xpi";
-      sha256 = "2edf39a824476b8a77a57c7c3abdaf3f685a679486e47450fab837b4bd71d469";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4426490/violentmonkey-2.30.0.xpi";
+      sha256 = "82932f9d6ba68a230ef57b1cdcf9f76226b2659f94249eeec0e4ffcc2b644394";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
