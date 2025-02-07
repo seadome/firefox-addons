@@ -127,10 +127,10 @@
     };
     "darkreader" = buildFirefoxXpiAddon {
       pname = "darkreader";
-      version = "4.9.99";
+      version = "4.9.100";
       addonId = "addon@darkreader.org";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4405074/darkreader-4.9.99.xpi";
-      sha256 = "02c67ce2b3cd96719b5e369b9207ef11ed6c3a79eccb454d1e6ec3e005004e72";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4427854/darkreader-4.9.100.xpi";
+      sha256 = "9ad477dffe36d7337617fbf1c8ee8b6abb7bb681caed1b8bfe87bbed5a424302";
       meta = with lib;
       {
         homepage = "https://darkreader.org/";
@@ -813,10 +813,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.12";
+      version = "4.13";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4409030/steam_database-4.12.xpi";
-      sha256 = "fa922a9ad4a4ff9bbe2b33d84897cd9cf961bfe8344b83708aa0c418535c3ecd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4427679/steam_database-4.13.xpi";
+      sha256 = "b57368ba644d93f485ad53c3982e3999b6e2cb3bf9470f03ff50678842b2d0bb";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
@@ -979,26 +979,25 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "1.5.51";
+      version = "2.3.10";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4338993/styl_us-1.5.51.xpi";
-      sha256 = "4d7c184af2d81f40c35f33c77c4040dc4205908dbcf65e7c99fafd7d26e4814f";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4427271/styl_us-2.3.10.xpi";
+      sha256 = "62528ccaf2eaf6db09645b255eb484d27947b35f69ab25739000769b34a0b107";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
         description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
         license = licenses.gpl3Plus;
         mozPermissions = [
+          "alarms"
+          "contextMenus"
+          "storage"
           "tabs"
+          "unlimitedStorage"
           "webNavigation"
           "webRequest"
           "webRequestBlocking"
-          "contextMenus"
-          "storage"
-          "unlimitedStorage"
-          "alarms"
           "<all_urls>"
-          "http://userstyles.org/*"
           "https://userstyles.org/*"
         ];
         platforms = platforms.all;
