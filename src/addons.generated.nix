@@ -704,10 +704,10 @@
     };
     "rust-search-extension" = buildFirefoxXpiAddon {
       pname = "rust-search-extension";
-      version = "2.0.0";
+      version = "2.0.2";
       addonId = "{04188724-64d3-497b-a4fd-7caffe6eab29}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4370710/rust_search_extension-2.0.0.xpi";
-      sha256 = "a5b1abb26f3997c5cd3e8a90273f1c88e1efeb1a4204ce6bbdc9260a9dbf5aee";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4435641/rust_search_extension-2.0.2.xpi";
+      sha256 = "10f521001a9fd9c7b8c5f8133daa74de01a5db33fb283b6b472b49c183e8418c";
       meta = with lib;
       {
         homepage = "https://rust.extension.sh";
