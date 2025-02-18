@@ -457,10 +457,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.58.41";
+      version = "8.10.60.27";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4423534/1password_x_password_manager-8.10.58.41.xpi";
-      sha256 = "4d8547b716363321b95f2a1520c455d1e5ff4df9fbf81d3f523355bc2914a347";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4431277/1password_x_password_manager-8.10.60.27.xpi";
+      sha256 = "d28033a0d66b35f032e359621163f4a0d4c78d715fc656eb79a760eabdaf6403";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -681,10 +681,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "25.1.24";
+      version = "25.2.17";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4425578/refined_github-25.1.24.xpi";
-      sha256 = "afe82eb5d79db8b8964b5765dab7ddb56cc11b39c3a92884e917cc8059a54ae8";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4438510/refined_github-25.2.17.xpi";
+      sha256 = "4e14a52b3c80f8d78a09e75aa3f522352d9c05d4e02a7704cbfe6bdb46304065";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -979,10 +979,10 @@
     };
     "stylus" = buildFirefoxXpiAddon {
       pname = "stylus";
-      version = "2.3.10";
+      version = "2.3.12";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4427271/styl_us-2.3.10.xpi";
-      sha256 = "62528ccaf2eaf6db09645b255eb484d27947b35f69ab25739000769b34a0b107";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4433683/styl_us-2.3.12.xpi";
+      sha256 = "ad4b90a561164318e2ed79ac812d8c07ee683eff39677ff88d618fb5801874e3";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
