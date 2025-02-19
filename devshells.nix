@@ -18,6 +18,7 @@
         packages = [
           inputs'.mozilla-addons-to-nix.packages.default
 
+          pkgs.biome
           pkgs.fd
           pkgs.jq
           pkgs.nixfmt-rfc-style
