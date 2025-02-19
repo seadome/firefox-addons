@@ -3,8 +3,21 @@
 # SPDX-License-Identifier: GPL-3.0-or-later OR MIT
 #
 # https://gitlab.com/rycee/nur-expressions/-/blob/f3cd885477a561a8bdfd5814439e31c4882ab72d/pkgs/firefox-addons/default.nix
-{ fetchurl, lib, stdenv, }:
-lib.makeOverridable ({ pname, version, addonId, url, sha256, meta, ... }:
+{
+  fetchurl,
+  lib,
+  stdenv,
+}:
+lib.makeOverridable (
+  {
+    pname,
+    version,
+    addonId,
+    url,
+    sha256,
+    meta,
+    ...
+  }:
   stdenv.mkDerivation {
     name = "${pname}-${version}";
 
@@ -20,4 +33,5 @@ lib.makeOverridable ({ pname, version, addonId, url, sha256, meta, ... }:
       mkdir -p "$dst"
       install -v -m644 "$src" "$dst/${addonId}.xpi"
     '';
-  })
+  }
+)
