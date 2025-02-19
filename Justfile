@@ -10,15 +10,42 @@ default:
   @just --choose
 
 src-dir := join(prj-root, "src")
-idx-file := join(src-dir, "addons.json")
-idx-tmp := idx-file + ".tmp"
+manifest := join(src-dir, "addons.json")
+manifest-tmp := manifest + ".tmp"
 target-file := join(src-dir, "addons.generated.nix")
 
 _devshell-cmd COMMAND:
   nix develop -c {{ quote(COMMAND) }}
 
-update:
-  mozilla-addons-to-nix {{idx-file}} {{target-file}}
+fmt:
+  fd -t f -e nix --exclude '*.generated.*' -X nixfmt
+  biome format --write
+
+alias add := add-addon
+add-addon slug pname='': && update-addons
+  cp {{manifest}} {{manifest-tmp}}
+  cat {{manifest}} \
+  | jq --arg slug {{quote(slug)}} --arg pname {{quote(pname)}} \
+    '. + [({slug: $slug} + if ($pname != "") then {pname: $pname} else {} end)] | sort_by(.slug)' \
+  > {{manifest-tmp}}
+  mv {{manifest-tmp}} {{manifest}}
+
+alias remove := remove-addon
+remove-addon slug: && update-addons
+  cp {{manifest}} {{manifest-tmp}}
+  cat {{manifest}} \
+  | jq --arg slug {{quote(slug)}} \
+    'map(select(.slug != $slug))' \
+    {{manifest}} \
+  > {{manifest-tmp}}
+  mv {{manifest-tmp}} {{manifest}}
+
+update: && update-addons
+  git pull
+  nix flake update
+
+update-addons:
+  mozilla-addons-to-nix {{manifest}} {{target-file}}
 
 ###: LICENSING =====================================================================================
 
