@@ -236,6 +236,28 @@
         platforms = platforms.all;
       };
     };
+    "grasp" = buildFirefoxXpiAddon {
+      pname = "grasp";
+      version = "0.7.1";
+      addonId = "{37e42980-a7c9-473c-96d5-13f18e0efc74}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4049682/grasp-0.7.1.xpi";
+      sha256 = "a1cbebda55072e2c98242387d86fc51e9c9a9e9b7e72cac23be4757556acc370";
+      meta = with lib;
+      {
+        homepage = "https://github.com/karlicoss/grasp";
+        description = "A reliable way of capturing and tagging web pages and content";
+        license = licenses.mit;
+        mozPermissions = [
+          "storage"
+          "notifications"
+          "activeTab"
+          "scripting"
+          "http://localhost/capture"
+          "https://localhost/capture"
+        ];
+        platforms = platforms.all;
+      };
+    };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
       version = "4.8.7";
