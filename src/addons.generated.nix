@@ -478,10 +478,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.60.27";
+      version = "8.10.62.27";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4431277/1password_x_password_manager-8.10.60.27.xpi";
-      sha256 = "d28033a0d66b35f032e359621163f4a0d4c78d715fc656eb79a760eabdaf6403";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4439694/1password_x_password_manager-8.10.62.27.xpi";
+      sha256 = "5561a53d4af2bcbc8ba8f80ea4f6f712ed9f0f1e7cb839738774c346de22ff90";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -590,10 +590,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.29.2";
+      version = "1.29.3";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4433286/proton_pass-1.29.2.xpi";
-      sha256 = "6f0ba9fa263b65a393816b5fc47dc0df35a5ba9a9c08989c12df06ab4ae9f564";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4440138/proton_pass-1.29.3.xpi";
+      sha256 = "615d48326e5dee89e2ff0ab53c39ed22bc55795eac97482287a0a862c5bee7c7";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -791,10 +791,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.77";
+      version = "1.22.79";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4406357/single_file-1.22.77.xpi";
-      sha256 = "b19740e6703d213be7fcb481f6f4fe4fb41decdd0cf2a1068e857d9e28c20cbf";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4440643/single_file-1.22.79.xpi";
+      sha256 = "142f254c2013d92738d1e30ececf412ce854f2a73ab3ce55b2eed64d5fdcb71b";
       meta = with lib;
       {
         homepage = "https://github.com/gildas-lormeau/SingleFile";
