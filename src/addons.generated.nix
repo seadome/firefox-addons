@@ -9,7 +9,7 @@
       meta = with lib;
       {
         homepage = "https://ffoodd.github.io/a11y.css/";
-        description = "a11y.css provides warnings about possible risks and mistakes that exist in HTML code through a style sheet. This extension also provides several accessibility-related utilities.\n\nsee <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4c643171ccddfcfa3712d45a2b7b615f54195eb4507868ab6ef3fbf6694dc4c2/https%3A//github.com/ffoodd/a11y.css/tree/webextension\" rel=\"nofollow\">https://github.com/ffoodd/a11y.css/tree/webextension</a> for  details";
+        description = "a11y.css provides warnings about possible risks and mistakes that exist in HTML code through a style sheet. This extension also provides several accessibility-related utilities.\n\nsee https://github.com/ffoodd/a11y.css/tree/webextension for  details";
         license = licenses.mit;
         mozPermissions = [ "activeTab" "storage" "scripting" "tabs" "*://*/*" ];
         platforms = platforms.all;
@@ -195,7 +195,7 @@
       meta = with lib;
       {
         homepage = "https://gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/gnome-browser-integration.html";
-        description = "This extension provides integration with GNOME Shell and the corresponding extensions repository <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/b16ff805576d83628b80265636b483e6f56c58d6e812e04045626ff602eff739/https%3A//extensions.gnome.org\" rel=\"nofollow\">https://extensions.gnome.org</a>";
+        description = "This extension provides integration with GNOME Shell and the corresponding extensions repository https://extensions.gnome.org";
         license = licenses.gpl3;
         mozPermissions = [
           "alarms"
@@ -533,7 +533,7 @@
       meta = with lib;
       {
         homepage = "https://github.com/sprig/org-capture-extension";
-        description = "A helper for capturing things via org-protocol in emacs: First, set up: <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/04ad17418f8d35ee0f3edf4599aed951b2a5ef88d4bc7e0e3237f6d86135e4fb/http%3A//orgmode.org/worg/org-contrib/org-protocol.html\">http://orgmode.org/worg/org-contrib/org-protocol.html</a> or <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/fb401af8127ccf82bc948b0a7af0543eec48d58100c0c46404f81aabeda442e6/https%3A//github.com/sprig/org-capture-extension\">https://github.com/sprig/org-capture-extension</a>\n\nSee <a rel=\"nofollow\" href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/6aad51cc4e2f9476f9fff344e6554eade08347181aed05f8b61cda05073daecb/https%3A//youtu.be/zKDHto-4wsU\">https://youtu.be/zKDHto-4wsU</a> for example usage";
+        description = "A helper for capturing things via org-protocol in emacs: First, set up: http://orgmode.org/worg/org-contrib/org-protocol.html or https://github.com/sprig/org-capture-extension\n\nSee https://youtu.be/zKDHto-4wsU for example usage";
         license = licenses.mit;
         mozPermissions = [ "activeTab" "storage" ];
         platforms = platforms.all;
@@ -548,7 +548,7 @@
       meta = with lib;
       {
         homepage = "https://codeberg.org/PassFF/passff";
-        description = "Add-on that allows users of the unix password manager 'pass' (see <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/24f646fb865abe6edf9e3f626db62565bfdc2e7819ab33a5b4c30a9573787988/https%3A//www.passwordstore.org/\" rel=\"nofollow\">https://www.passwordstore.org/</a>) to access their password store from Firefox";
+        description = "Add-on that allows users of the unix password manager 'pass' (see https://www.passwordstore.org/) to access their password store from Firefox";
         license = licenses.gpl2;
         mozPermissions = [
           "<all_urls>"
@@ -732,7 +732,7 @@
       meta = with lib;
       {
         homepage = "https://rust.extension.sh";
-        description = "The ultimate search extension for Rust\n\nSearch std docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.\n<a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/4af48e3229ba03b454fb9b352a7e5a4c038e1bcc6721bf744b781a5e96b9e798/https%3A//rust.extension.sh\" rel=\"nofollow\">https://rust.extension.sh</a>";
+        description = "The ultimate search extension for Rust\n\nSearch std docs, crates, builtin attributes, official books, and error codes, etc in your address bar instantly.\nhttps://rust.extension.sh";
         license = licenses.mpl20;
         mozPermissions = [
           "storage"
