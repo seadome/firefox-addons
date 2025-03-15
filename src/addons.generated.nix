@@ -478,10 +478,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.62.27";
+      version = "8.10.64.7";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4439694/1password_x_password_manager-8.10.62.27.xpi";
-      sha256 = "5561a53d4af2bcbc8ba8f80ea4f6f712ed9f0f1e7cb839738774c346de22ff90";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4448043/1password_x_password_manager-8.10.64.7.xpi";
+      sha256 = "c67f4fa0b6cdfe7e5efea4f5a09a1c57fda0e0f55d999761f5b4e9e4180ba4ef";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -617,10 +617,10 @@
     };
     "raindropio" = buildFirefoxXpiAddon {
       pname = "raindropio";
-      version = "6.6.71";
+      version = "6.6.76";
       addonId = "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4420771/raindropio-6.6.71.xpi";
-      sha256 = "52fe5217981ca70ca8e2c25f7c86352a6d3eb15c8ae2183ee43d23bf2fa10794";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4448464/raindropio-6.6.76.xpi";
+      sha256 = "9169033cec8234373b8b7322fa1f259e0a50dd69d19407fee5d93361d8524625";
       meta = with lib;
       {
         homepage = "https://raindrop.io";
