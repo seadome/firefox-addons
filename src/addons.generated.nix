@@ -590,10 +590,10 @@
     };
     "proton-pass" = buildFirefoxXpiAddon {
       pname = "proton-pass";
-      version = "1.29.3";
+      version = "1.29.9";
       addonId = "78272b6fa58f4a1abaac99321d503a20@proton.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4440138/proton_pass-1.29.3.xpi";
-      sha256 = "615d48326e5dee89e2ff0ab53c39ed22bc55795eac97482287a0a862c5bee7c7";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4450700/proton_pass-1.29.9.xpi";
+      sha256 = "76b40e3d1522ce15b3adf02e4b8705c463cbd4af382e09b8cd7b5dae8237e694";
       meta = with lib;
       {
         homepage = "https://proton.me";
@@ -1176,10 +1176,10 @@
     };
     "ublock-origin" = buildFirefoxXpiAddon {
       pname = "ublock-origin";
-      version = "1.62.0";
+      version = "1.63.0";
       addonId = "uBlock0@raymondhill.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4412673/ublock_origin-1.62.0.xpi";
-      sha256 = "8a9e02aa838c302fb14e2b5bc88a6036d36358aadd6f95168a145af2018ef1a3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4456610/ublock_origin-1.63.0.xpi";
+      sha256 = "8a208284b53565957c878a93b717b46ea0d079cb097214062b76bb96dc18a0f4";
       meta = with lib;
       {
         homepage = "https://github.com/gorhill/uBlock#ublock-origin";
