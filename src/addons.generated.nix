@@ -797,7 +797,7 @@
       sha256 = "142f254c2013d92738d1e30ececf412ce854f2a73ab3ce55b2eed64d5fdcb71b";
       meta = with lib;
       {
-        homepage = "https://github.com/gildas-lormeau/SingleFile";
+        homepage = "https://www.getsinglefile.com";
         description = "Save an entire web page—including images and styling—as a single HTML file.";
         license = licenses.agpl3Plus;
         mozPermissions = [
