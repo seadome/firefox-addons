@@ -270,6 +270,28 @@
         platforms = platforms.all;
       };
     };
+    "imagus" = buildFirefoxXpiAddon {
+      pname = "imagus";
+      version = "0.9.8.74";
+      addonId = "{00000f2a-7cde-4f20-83ed-434fcb420d71}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/3547888/imagus-0.9.8.74.xpi";
+      sha256 = "2b754aa4fca1c99e86d7cdc6d8395e534efd84c394d5d62a1653f9ed519f384e";
+      meta = with lib;
+      {
+        homepage = "https://tiny.cc/Imagus";
+        description = "With a simple mouse-over you can enlarge images and display images/videos from links.";
+        mozPermissions = [
+          "*://*/*"
+          "downloads"
+          "history"
+          "storage"
+          "<all_urls>"
+          "https://*/search*"
+          "https://duckduckgo.com/*"
+        ];
+        platforms = platforms.all;
+      };
+    };
     "js-search-extension" = buildFirefoxXpiAddon {
       pname = "js-search-extension";
       version = "0.1";
