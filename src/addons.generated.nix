@@ -791,10 +791,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.79";
+      version = "1.22.80";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4440643/single_file-1.22.79.xpi";
-      sha256 = "142f254c2013d92738d1e30ececf412ce854f2a73ab3ce55b2eed64d5fdcb71b";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4453891/single_file-1.22.80.xpi";
+      sha256 = "c2572cb0066962bec1aac8f2ef8b487d35e777dde80c8e5b3198d9967feb4d16";
       meta = with lib;
       {
         homepage = "https://www.getsinglefile.com";
