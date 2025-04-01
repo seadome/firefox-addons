@@ -1240,10 +1240,10 @@
     };
     "vimium-ff" = buildFirefoxXpiAddon {
       pname = "vimium-ff";
-      version = "2.1.2";
+      version = "2.2.1";
       addonId = "{d7742d87-e61d-4b78-b8a1-b469842139fa}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4259790/vimium_ff-2.1.2.xpi";
-      sha256 = "3b9d43ee277ff374e3b1153f97dc20cb06e654116a833674c79b43b8887820e1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4458679/vimium_ff-2.2.1.xpi";
+      sha256 = "9061c7515114a78dcddadbbfde9e77120975140337d1b28695e303ceedaf6182";
       meta = with lib;
       {
         homepage = "https://github.com/philc/vimium";
@@ -1258,6 +1258,7 @@
           "notifications"
           "scripting"
           "webNavigation"
+          "search"
           "clipboardRead"
           "clipboardWrite"
           "<all_urls>"
