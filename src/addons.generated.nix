@@ -452,36 +452,28 @@
     };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.8.2";
+      version = "2.0.3";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4342347/old_reddit_redirect-1.8.2.xpi";
-      sha256 = "0b89437d21132be520fbdf8f55a81cc41dd5f6b50c2905b4c43b870718baddf1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4464217/old_reddit_redirect-2.0.3.xpi";
+      sha256 = "292a503ab80d7a2930de0cacd7e601fa4770cef98ee085b389585d1b1eb129c6";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
         description = "Ensure Reddit always loads the old design";
         license = licenses.mit;
         mozPermissions = [
-          "webRequest"
-          "webRequestBlocking"
-          "*://reddit.com/*"
-          "*://www.reddit.com/*"
-          "*://np.reddit.com/*"
-          "*://amp.reddit.com/*"
-          "*://i.reddit.com/*"
-          "*://i.redd.it/*"
-          "*://preview.redd.it/*"
-          "*://old.reddit.com/*"
+          "declarativeNetRequestWithHostAccess"
+          "https://old.reddit.com/*"
         ];
         platforms = platforms.all;
       };
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.68.14";
+      version = "8.10.70.27";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4457050/1password_x_password_manager-8.10.68.14.xpi";
-      sha256 = "6884ac6327e803863bc84d3ac4ffc35b0f6e9caf9f879123d09461ca19e396f3";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4466822/1password_x_password_manager-8.10.70.27.xpi";
+      sha256 = "30b41cf579ae9c0b5f4c691c1dc7dee178e38757d8e50a17233bff9b9b7a13e1";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -1351,10 +1343,10 @@
     };
     "zoom-scheduler" = buildFirefoxXpiAddon {
       pname = "zoom-scheduler";
-      version = "2.2.4";
+      version = "2.2.5";
       addonId = "{bf855ead-d7c3-4c7b-9f88-9a7e75c0efdf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4442732/zoom_new_scheduler-2.2.4.xpi";
-      sha256 = "a9705ad50cfeef44f938808a6908483907a9e8928c3240eb9d68182d693f88c2";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4460472/zoom_new_scheduler-2.2.5.xpi";
+      sha256 = "bbacd15cdc1177451c9d291b63525c42fbb68f4e8caf2a0a49ddcd117d76835a";
       meta = with lib;
       {
         homepage = "https://zoom.us/";
