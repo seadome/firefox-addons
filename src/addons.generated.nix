@@ -452,18 +452,26 @@
     };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "2.0.3";
+      version = "1.8.2";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4464217/old_reddit_redirect-2.0.3.xpi";
-      sha256 = "292a503ab80d7a2930de0cacd7e601fa4770cef98ee085b389585d1b1eb129c6";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4342347/old_reddit_redirect-1.8.2.xpi";
+      sha256 = "0b89437d21132be520fbdf8f55a81cc41dd5f6b50c2905b4c43b870718baddf1";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
         description = "Ensure Reddit always loads the old design";
         license = licenses.mit;
         mozPermissions = [
-          "declarativeNetRequestWithHostAccess"
-          "https://old.reddit.com/*"
+          "webRequest"
+          "webRequestBlocking"
+          "*://reddit.com/*"
+          "*://www.reddit.com/*"
+          "*://np.reddit.com/*"
+          "*://amp.reddit.com/*"
+          "*://i.reddit.com/*"
+          "*://i.redd.it/*"
+          "*://preview.redd.it/*"
+          "*://old.reddit.com/*"
         ];
         platforms = platforms.all;
       };
