@@ -259,10 +259,10 @@
     };
     "headingsmap" = buildFirefoxXpiAddon {
       pname = "headingsmap";
-      version = "4.9.6";
+      version = "4.9.7";
       addonId = "headings@niquelheadings.net";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4468641/headingsmap-4.9.6.xpi";
-      sha256 = "b2858f043aa9e79cd78f77ab5955d296d8a66e01ce0ab66af4ebc069668e4d29";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4469178/headingsmap-4.9.7.xpi";
+      sha256 = "64cddd0fcf6d1bf513f2e6b6257c0be2dfcfbcca0b0d5eeb0f9a46edb1bd2dcb";
       meta = with lib;
       {
         description = "The extension generates a document-map or index of any web document structured with headings and/or with sections in HTML 5. It shows the headings structure, the errors in the structure (ie. incorrect levels), and it works as HTML5 Outliner too.";
@@ -452,26 +452,18 @@
     };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "1.8.2";
+      version = "2.0.4";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4342347/old_reddit_redirect-1.8.2.xpi";
-      sha256 = "0b89437d21132be520fbdf8f55a81cc41dd5f6b50c2905b4c43b870718baddf1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4468297/old_reddit_redirect-2.0.4.xpi";
+      sha256 = "c60dd401c89348d5e2d95d39464716a22932681f2e07d2609011974e89b9fff9";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
         description = "Ensure Reddit always loads the old design";
         license = licenses.mit;
         mozPermissions = [
-          "webRequest"
-          "webRequestBlocking"
-          "*://reddit.com/*"
-          "*://www.reddit.com/*"
-          "*://np.reddit.com/*"
-          "*://amp.reddit.com/*"
-          "*://i.reddit.com/*"
-          "*://i.redd.it/*"
-          "*://preview.redd.it/*"
-          "*://old.reddit.com/*"
+          "declarativeNetRequestWithHostAccess"
+          "https://old.reddit.com/*"
         ];
         platforms = platforms.all;
       };
@@ -1026,10 +1018,10 @@
     };
     "tab-session-manager" = buildFirefoxXpiAddon {
       pname = "tab-session-manager";
-      version = "7.0.1";
+      version = "7.1.1";
       addonId = "Tab-Session-Manager@sienori";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4298614/tab_session_manager-7.0.1.xpi";
-      sha256 = "936499a7cf42fabb26a283125cc5ec8c0615407722f3c7e9fb9f6d3ee5916890";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4464091/tab_session_manager-7.1.1.xpi";
+      sha256 = "1cc20bfe2b38aa6c70101d296e6d57419713489cf0b4cde3480de40b2a7337e6";
       meta = with lib;
       {
         homepage = "https://tab-session-manager.sienori.com/";
