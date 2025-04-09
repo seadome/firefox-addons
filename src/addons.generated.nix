@@ -694,10 +694,10 @@
     };
     "refined-github" = buildFirefoxXpiAddon {
       pname = "refined-github";
-      version = "25.3.19";
+      version = "25.4.8";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4457405/refined_github-25.3.19.xpi";
-      sha256 = "91ee42ba05764e1e34087be2cce1b5d7b5456d6e4d508e7f3644f9cc508b41a1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4470107/refined_github-25.4.8.xpi";
+      sha256 = "4e07f83622497c5ea1e2fb39f94d910233cdf467a562df4b37dc39adea6fba47";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -783,10 +783,10 @@
     };
     "single-file" = buildFirefoxXpiAddon {
       pname = "single-file";
-      version = "1.22.80";
+      version = "1.22.81";
       addonId = "{531906d3-e22f-4a6c-a102-8057b88a1a63}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4453891/single_file-1.22.80.xpi";
-      sha256 = "c2572cb0066962bec1aac8f2ef8b487d35e777dde80c8e5b3198d9967feb4d16";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4465739/single_file-1.22.81.xpi";
+      sha256 = "acc27ee2319e66192a8081cab771ecd1e99a0ea04c29262e595a43ddc92e05a7";
       meta = with lib;
       {
         homepage = "https://www.getsinglefile.com";
