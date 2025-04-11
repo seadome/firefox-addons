@@ -669,10 +669,10 @@
     };
     "reduxdevtools" = buildFirefoxXpiAddon {
       pname = "reduxdevtools";
-      version = "3.1.6";
+      version = "3.2.10";
       addonId = "extension@redux.devtools";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4209147/reduxdevtools-3.1.6.xpi";
-      sha256 = "2149809b62c5524b241e89204ef271c665b9da46ceeaa0fd93132ed338aaaa26";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4467343/reduxdevtools-3.2.10.xpi";
+      sha256 = "ef2b10a2bc8b0d1a844d146e3eeaff407eaaa63cd0564db8eafd870c87a88956";
       meta = with lib;
       {
         homepage = "https://github.com/reduxjs/redux-devtools";
@@ -683,9 +683,6 @@
           "contextMenus"
           "tabs"
           "storage"
-          "file:///*"
-          "http://*/*"
-          "https://*/*"
           "devtools"
           "<all_urls>"
         ];
