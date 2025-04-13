@@ -235,6 +235,9 @@
     "slug": "violentmonkey"
   },
   {
+    "slug": "virtual-json-viewer"
+  },
+  {
     "slug": "wave-accessibility-tool",
     "pname": "wave",
     "license": {

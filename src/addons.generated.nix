@@ -1305,6 +1305,21 @@
         platforms = platforms.all;
       };
     };
+    "virtual-json-viewer" = buildFirefoxXpiAddon {
+      pname = "virtual-json-viewer";
+      version = "1.3.0";
+      addonId = "{bb475b2b-f49c-4f3c-ae36-0fe15a6017e9}";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4429696/virtual_json_viewer-1.3.0.xpi";
+      sha256 = "84c8513570068d4cc578e85f0c400afd90d728e52b424874a591e3959e01bc9d";
+      meta = with lib;
+      {
+        homepage = "https://github.com/paolosimone/virtual-json-viewer";
+        description = "JSON browser extension with virtual DOM, search and JQ filtering";
+        license = licenses.mit;
+        mozPermissions = [ "<all_urls>" "storage" ];
+        platforms = platforms.all;
+      };
+    };
     "wave" = buildFirefoxXpiAddon {
       pname = "wave";
       version = "3.2.7.1";
