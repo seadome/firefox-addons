@@ -22,6 +22,7 @@
           pkgs.fd
           pkgs.jq
           pkgs.nixfmt-rfc-style
+          pkgs.trurl
         ];
       };
     };

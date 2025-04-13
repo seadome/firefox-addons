@@ -47,6 +47,10 @@ update: && update-addons
 update-addons:
   mozilla-addons-to-nix {{manifest}} {{target-file}}
 
+slug-from-url url:
+  trurl --json {{url}} \
+  | jq -r '.[0].parts.path | split("/") | .[-2]'
+
 ###: LICENSING =====================================================================================
 
 # [reuse]:		Annotate all plaintext note files with the documentation license
