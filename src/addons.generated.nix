@@ -474,10 +474,10 @@
     };
     "old-reddit-redirect" = buildFirefoxXpiAddon {
       pname = "old-reddit-redirect";
-      version = "2.0.4";
+      version = "2.0.5";
       addonId = "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4468297/old_reddit_redirect-2.0.4.xpi";
-      sha256 = "c60dd401c89348d5e2d95d39464716a22932681f2e07d2609011974e89b9fff9";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4472856/old_reddit_redirect-2.0.5.xpi";
+      sha256 = "8b67dfe22d2a7dedddc362a0fb14f90176d7afdc7386e17131a17c831eecf3ed";
       meta = with lib;
       {
         homepage = "https://github.com/tom-james-watson/old-reddit-redirect";
@@ -1307,16 +1307,16 @@
     };
     "virtual-json-viewer" = buildFirefoxXpiAddon {
       pname = "virtual-json-viewer";
-      version = "1.3.0";
+      version = "1.3.1";
       addonId = "{bb475b2b-f49c-4f3c-ae36-0fe15a6017e9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4429696/virtual_json_viewer-1.3.0.xpi";
-      sha256 = "84c8513570068d4cc578e85f0c400afd90d728e52b424874a591e3959e01bc9d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4479983/virtual_json_viewer-1.3.1.xpi";
+      sha256 = "b5f236aff8c47a49a664b93a03a416bdd50f95c6f38338af72ac6430fa26e875";
       meta = with lib;
       {
         homepage = "https://github.com/paolosimone/virtual-json-viewer";
         description = "JSON browser extension with virtual DOM, search and JQ filtering";
         license = licenses.mit;
-        mozPermissions = [ "<all_urls>" "storage" ];
+        mozPermissions = [ "storage" "<all_urls>" ];
         platforms = platforms.all;
       };
     };
