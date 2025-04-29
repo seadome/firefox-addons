@@ -492,10 +492,10 @@
     };
     "onepassword-password-manager" = buildFirefoxXpiAddon {
       pname = "onepassword-password-manager";
-      version = "8.10.70.27";
+      version = "8.10.72.27";
       addonId = "{d634138d-c276-4fc8-924b-40a0ea21d284}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4466822/1password_x_password_manager-8.10.70.27.xpi";
-      sha256 = "30b41cf579ae9c0b5f4c691c1dc7dee178e38757d8e50a17233bff9b9b7a13e1";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4475018/1password_x_password_manager-8.10.72.27.xpi";
+      sha256 = "6a54d1963c91ba17a27011697065879e9773eee4252051924119f0e8ca00b015";
       meta = with lib;
       {
         homepage = "https://1password.com";
@@ -845,10 +845,10 @@
     };
     "steam-database" = buildFirefoxXpiAddon {
       pname = "steam-database";
-      version = "4.14";
+      version = "4.15";
       addonId = "firefox-extension@steamdb.info";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4452961/steam_database-4.14.xpi";
-      sha256 = "1d0698f3d215218c2c0783d72e381e4041ba6f482014f3c166f4a25dc03cfd10";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4475010/steam_database-4.15.xpi";
+      sha256 = "a06be7e4f9071855d4e98ee1468fff89b078f30b23688d2117591bb6f1e4c2ec";
       meta = with lib;
       {
         homepage = "https://steamdb.info/";
