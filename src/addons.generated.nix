@@ -1307,10 +1307,10 @@
     };
     "virtual-json-viewer" = buildFirefoxXpiAddon {
       pname = "virtual-json-viewer";
-      version = "1.3.1";
+      version = "1.3.2";
       addonId = "{bb475b2b-f49c-4f3c-ae36-0fe15a6017e9}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4479983/virtual_json_viewer-1.3.1.xpi";
-      sha256 = "b5f236aff8c47a49a664b93a03a416bdd50f95c6f38338af72ac6430fa26e875";
+      url = "https://addons.mozilla.org/firefox/downloads/file/4486457/virtual_json_viewer-1.3.2.xpi";
+      sha256 = "29207bacf8a80368585e9259d959cee5110d57fa0ac0db9bd2ec78ffe9153e2c";
       meta = with lib;
       {
         homepage = "https://github.com/paolosimone/virtual-json-viewer";
